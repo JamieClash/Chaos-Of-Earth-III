@@ -3241,9 +3241,48 @@ def caveVillage(player1):#used in multiple scenes. Formatted for NICO. Swap dial
     print("You usher Nico towards some sort of indent in the cave wall to hide, in case someone is approaching. However, your collective weight causes the weak rock underneath you to crumble, leaving you two to plummet to your death. YOU DIED! THE END!")
     die(player1)
   elif a =="3":
-    print("You continue walking, ig")
+    print("You continue walking, ignoring the sound. Suddenly, you hear a growl behind you, and you turn to find a massive hideous creature standing before you. It pounces directly onto the two of you, and the both of you are brutally eaten. YOU DIED! THE END!")
+    die(player1)
   else:
-    print("")
+    print("You decide to stand still and listen more intently.")
+    sleep(5)
+    print("You hear something heavy heading your way. It doesn't sound friendly.")
+    b=input("1.Stand. Still. 2.Make a run for it! 3.Find somewhere to hide. 4.Slowly sneak back the way you came.")
+    if b =="1":
+      print("The both of you stand completely still. You can hear the creature moving just around the corner.")
+      sleep(7)
+      print("After an excruicating amount of time, the creature walks away with heavy steps. You let out a sigh of relief.")
+      print("The two of you continue to journey through the caves, looking for a way out. Evenutally, you find a massive cave village, filled with Monsters.")
+      print("'Oh my god. There's so many of them-'")
+      sleep(3)
+      print("You stop yourself. In the center of the village you see something.")
+      print("A ladder that leads up into an icy section of the caves. That must be where the Summit is!")
+      print("But how will you make it there?")
+      c=input("1.Walk past the farms. 2.Walk through the market. 3.Walk past the hospital. 4.Walk through the armory.")#u
+    elif b =="2":
+      print("You decide to make a run for it, but the creature notices you and pounces, striking you right in the stomach. Your blood is everywhere. You close your eyes. YOU DIED! THE END!")
+      die(player1)
+    elif b =="3":
+      print("The two of you quickly find a place to hide, just as a creature walks over.")
+      sleep(5)
+      if player1.t3 == True:
+        print("The creature walks right by, and you hear it leaving the area.")
+        print("The both of you slowly emerge from your hiding spot, and continue to journey through the caves, looking for a way out. Evenutally, you find a massive cave village, filled with Monsters.")
+        print("'Oh my god. There's so many of them-'")
+        sleep(3)
+        print("You stop yourself. In the center of the village you see something.")
+        print("A ladder that leads up into an icy section of the caves. That must be where the Summit is!")
+        print("But how will you make it there?")
+        c=input("1.Walk past the farms. 2.Walk through the market. 3.Walk past the hospital. 4.Walk through the armory.")#u
+      else:
+        print("You failed to hide silently and the creature turns towards you. You have nowhere to run, and it opens its mouth. YOU DIED! THE END!")
+        die(player1)
+    else:
+      #dialogueN
+      print("You slowly sneak back the way you came, but you accidentally trip over a stalagmite and fall onto the ground.")
+      print("Nico tries to help you up, but it's too late. The creature appears in front of you and immediately slashes, taking out Nico. It jumps at you and you can see the inside of its mouth.")
+      print("YOU DIED! THE END!")
+      die(player1)
 
 def forestVillage(player1):
   pass
