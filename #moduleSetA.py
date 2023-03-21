@@ -46,7 +46,7 @@ def monsterCity(player1): #only used in 1 scene. Formatted.
                 print("The door closes behind you and you and Jess walk down a flight of stairs, opening to the cave. You take a deep breath. 'You ready to head to the mountains?'")
                 print("Jess nods. 'Let's go.'")
                 player1.newSkill()
-                nextChapter()#######################################################
+                nextChapter(player1)#####################
               elif f =="2":
                 print("You ignore the monster, but the monster forces themselves in front of you. They take off your caps and gasp. Nearby cops see you two and shoot you right where you stand. YOU DIED! THE END!")
                 die(player1)
@@ -72,7 +72,7 @@ def monsterCity(player1): #only used in 1 scene. Formatted.
                 sleep(3)
                 print("'Whew' Jess sighs in relief. She brandishes the cave to you. 'Let's head to the mountains.'")
                 player1.newSkill()
-                nextChapter()#######################################################
+                nextChapter(player1)############################
               else:
                 print("You missed a step in the stairs and got chopped up to pieces! THE END!")
                 die(player1)
@@ -92,7 +92,7 @@ def monsterCity(player1): #only used in 1 scene. Formatted.
                   print("The door closes behind you and you and Jess walk down a flight of stairs, opening to the cave. You take a deep breath. 'You ready to head to the mountains?'")
                   print("Jess nods. 'Let's go.'")
                   player1.newSkill()
-                  nextChapter()#######################################################
+                  nextChapter(player1)########################
                 elif f =="2":
                   print("You ignore the monster, but the monster forces themselves in front of you. They take off your caps and gasp. Nearby cops see you two and shoot you right where you stand. YOU DIED! THE END!")
                   die(player1)
@@ -118,7 +118,7 @@ def monsterCity(player1): #only used in 1 scene. Formatted.
                   sleep(3)
                   print("'Whew' Jess sighs in relief. She brandishes the cave to you. 'Let's head to the mountains.'")
                   player1.newSkill()
-                  nextChapter()#######################################################
+                  nextChapter(player1)#########################
                 else:
                   print("You missed a step in the stairs and got chopped up to pieces! THE END!")
                   die(player1)
@@ -170,7 +170,7 @@ def monsterCity(player1): #only used in 1 scene. Formatted.
                 print("The door closes behind you and you and Jess walk down a flight of stairs, opening to the cave. You take a deep breath. 'You ready to head to the mountains?'")
                 print("Jess nods. 'Let's go.'")
                 player1.newSkill()
-                nextChapter()#######################################################
+                nextChapter(player1)########################
               elif f =="2":
                 print("You ignore the monster, but the monster forces themselves in front of you. They take off your caps and gasp. Nearby cops see you two and shoot you right where you stand. YOU DIED! THE END!")
                 die(player1)
@@ -196,7 +196,7 @@ def monsterCity(player1): #only used in 1 scene. Formatted.
                   sleep(3)
                   print("'Whew' Jess sighs in relief. She brandishes the cave to you. 'Let's head to the mountains.'")
                   player1.newSkill()
-                  nextChapter()#######################################################
+                  nextChapter(player1)########################
                 else:
                   print("You missed a step in the stairs and got chopped up to pieces! THE END!")
                   die(player1)
@@ -216,7 +216,7 @@ def monsterCity(player1): #only used in 1 scene. Formatted.
                 print("The door closes behind you and you and Jess walk down a flight of stairs, opening to the cave. You take a deep breath. 'You ready to head to the mountains?'")
                 print("Jess nods. 'Let's go.'")
                 player1.newSkill()
-                nextChapter()#######################################################
+                nextChapter(player1)#############################
               elif f =="2":
                 print("You ignore the monster, but the monster forces themselves in front of you. They take off your caps and gasp. Nearby cops see you two and shoot you right where you stand. YOU DIED! THE END!")
                 die(player1)
@@ -242,7 +242,7 @@ def monsterCity(player1): #only used in 1 scene. Formatted.
                   sleep(3)
                   print("'Whew' Jess sighs in relief. She brandishes the cave to you. 'Let's head to the mountains.'")
                   player1.newSkill()
-                  nextChapter()#######################################################
+                  nextChapter(player1)####################
                 else:
                   print("You missed a step in the stairs and got chopped up to pieces! THE END!")
                   die(player1)
@@ -293,7 +293,7 @@ def monsterCity(player1): #only used in 1 scene. Formatted.
                 print("The door closes behind you and you and Jess walk down a flight of stairs, opening to the cave. You take a deep breath. 'You ready to head to the mountains?'")
                 print("Jess nods. 'Let's go.'")
                 player1.newSkill()
-                nextChapter()#######################################################
+                nextChapter(player1)#####################
               elif f =="2":
                 print("You ignore the monster, but the monster forces themselves in front of you. They take off your caps and gasp. Nearby cops see you two and shoot you right where you stand. YOU DIED! THE END!")
                 die(player1)
@@ -319,7 +319,7 @@ def monsterCity(player1): #only used in 1 scene. Formatted.
                   sleep(3)
                   print("'Whew' Jess sighs in relief. She brandishes the cave to you. 'Let's head to the mountains.'")
                   player1.newSkill()
-                  nextChapter()#######################################################
+                  nextChapter(player1)#####################
                 else:
                   print("You missed a step in the stairs and got chopped up to pieces! THE END!")
                   die(player1)
@@ -339,7 +339,7 @@ def monsterCity(player1): #only used in 1 scene. Formatted.
                 print("The door closes behind you and you and Jess walk down a flight of stairs, opening to the cave. You take a deep breath. 'You ready to head to the mountains?'")
                 print("Jess nods. 'Let's go.'")
                 player1.newSkill()
-                nextChapter()#######################################################
+                nextChapter(player1)######################
               elif f =="2":
                 print("You ignore the monster, but the monster forces themselves in front of you. They take off your caps and gasp. Nearby cops see you two and shoot you right where you stand. YOU DIED! THE END!")
                 die(player1)
@@ -365,7 +365,7 @@ def monsterCity(player1): #only used in 1 scene. Formatted.
                   sleep(3)
                   print("'Whew' Jess sighs in relief. She brandishes the cave to you. 'Let's head to the mountains.'")
                   player1.newSkill()
-                  nextChapter()#######################################################
+                  nextChapter(player1)####################
                 else:
                   print("You missed a step in the stairs and got chopped up to pieces! THE END!")
                   die(player1)
@@ -413,7 +413,7 @@ def monsterCity(player1): #only used in 1 scene. Formatted.
                 print("The door closes behind you and you and Jess walk down a flight of stairs, opening to the cave. You take a deep breath. 'You ready to head to the mountains?'")
                 print("Jess nods. 'Let's go.'")
                 player1.newSkill()
-                nextChapter()#######################################################
+                nextChapter(player1)#########################
               elif f =="2":
                 print("You ignore the monster, but the monster forces themselves in front of you. They take off your caps and gasp. Nearby cops see you two and shoot you right where you stand. YOU DIED! THE END!")
                 die(player1)
@@ -439,7 +439,7 @@ def monsterCity(player1): #only used in 1 scene. Formatted.
                   sleep(3)
                   print("'Whew' Jess sighs in relief. She brandishes the cave to you. 'Let's head to the mountains.'")
                   player1.newSkill()
-                  nextChapter()#######################################################
+                  nextChapter(player1)##################
                 else:
                   print("You missed a step in the stairs and got chopped up to pieces! THE END!")
                   die(player1)
@@ -466,7 +466,7 @@ def monsterCity(player1): #only used in 1 scene. Formatted.
                 print("The door closes behind you and you and Jess walk down a flight of stairs, opening to the cave. You take a deep breath. 'You ready to head to the mountains?'")
                 print("Jess nods. 'Let's go.'")
                 player1.newSkill()
-                nextChapter()#######################################################
+                nextChapter(player1)#########################
               elif f =="2":
                 print("You ignore the monster, but the monster forces themselves in front of you. They take off your caps and gasp. Nearby cops see you two and shoot you right where you stand. YOU DIED! THE END!")
                 die(player1)
@@ -492,7 +492,7 @@ def monsterCity(player1): #only used in 1 scene. Formatted.
                   sleep(3)
                   print("'Whew' Jess sighs in relief. She brandishes the cave to you. 'Let's head to the mountains.'")
                   player1.newSkill()
-                  nextChapter()#######################################################
+                  nextChapter(player1)#####################
                 else:
                   print("You missed a step in the stairs and got chopped up to pieces! THE END!")
                   die(player1)
@@ -524,7 +524,7 @@ def monsterCity(player1): #only used in 1 scene. Formatted.
                 print("The door closes behind you and you and Jess walk down a flight of stairs, opening to the cave. You take a deep breath. 'You ready to head to the mountains?'")
                 print("Jess nods. 'Let's go.'")
                 player1.newSkill()
-                nextChapter()#######################################################
+                nextChapter(player1)##################
               elif f =="2":
                 print("You ignore the monster, but the monster forces themselves in front of you. They take off your caps and gasp. Nearby cops see you two and shoot you right where you stand. YOU DIED! THE END!")
                 die(player1)
@@ -550,7 +550,7 @@ def monsterCity(player1): #only used in 1 scene. Formatted.
                   sleep(3)
                   print("'Whew' Jess sighs in relief. She brandishes the cave to you. 'Let's head to the mountains.'")
                   player1.newSkill()
-                  nextChapter()#######################################################
+                  nextChapter(player1)###################
                 else:
                   print("You missed a step in the stairs and got chopped up to pieces! THE END!")
                   die(player1)
@@ -577,7 +577,7 @@ def monsterCity(player1): #only used in 1 scene. Formatted.
                 print("The door closes behind you and you and Jess walk down a flight of stairs, opening to the cave. You take a deep breath. 'You ready to head to the mountains?'")
                 print("Jess nods. 'Let's go.'")
                 player1.newSkill()
-                nextChapter()#######################################################
+                nextChapter(player1)##################
               elif f =="2":
                 print("You ignore the monster, but the monster forces themselves in front of you. They take off your caps and gasp. Nearby cops see you two and shoot you right where you stand. YOU DIED! THE END!")
                 die(player1)
@@ -603,7 +603,7 @@ def monsterCity(player1): #only used in 1 scene. Formatted.
                   sleep(3)
                   print("'Whew' Jess sighs in relief. She brandishes the cave to you. 'Let's head to the mountains.'")
                   player1.newSkill()
-                  nextChapter()#######################################################
+                  nextChapter(player1)################
                 else:
                   print("You missed a step in the stairs and got chopped up to pieces! THE END!")
                   die(player1)
@@ -649,7 +649,7 @@ def monsterCity(player1): #only used in 1 scene. Formatted.
                 print("The door closes behind you and you and Jess walk down a flight of stairs, opening to the cave. You take a deep breath. 'You ready to head to the mountains?'")
                 print("Jess nods. 'Let's go.'")
                 player1.newSkill()
-                nextChapter()#######################################################
+                nextChapter(player1)###############
               elif f =="2":
                 print("You ignore the monster, but the monster forces themselves in front of you. They take off your caps and gasp. Nearby cops see you two and shoot you right where you stand. YOU DIED! THE END!")
                 die(player1)
@@ -675,7 +675,7 @@ def monsterCity(player1): #only used in 1 scene. Formatted.
                   sleep(3)
                   print("'Whew' Jess sighs in relief. She brandishes the cave to you. 'Let's head to the mountains.'")
                   player1.newSkill()
-                  nextChapter()#######################################################
+                  nextChapter(player1)##################
                 else:
                   print("You missed a step in the stairs and got chopped up to pieces! THE END!")
                   die(player1)
@@ -692,7 +692,7 @@ def monsterCity(player1): #only used in 1 scene. Formatted.
                 print("The door closes behind you and you and Jess walk down a flight of stairs, opening to the cave. You take a deep breath. 'You ready to head to the mountains?'")
                 print("Jess nods. 'Let's go.'")
                 player1.newSkill()
-                nextChapter()#######################################################
+                nextChapter(player1)###############
               elif f =="2":
                 print("You ignore the monster, but the monster forces themselves in front of you. They take off your caps and gasp. Nearby cops see you two and shoot you right where you stand. YOU DIED! THE END!")
                 die(player1)
@@ -718,7 +718,7 @@ def monsterCity(player1): #only used in 1 scene. Formatted.
                   sleep(3)
                   print("'Whew' Jess sighs in relief. She brandishes the cave to you. 'Let's head to the mountains.'")
                   player1.newSkill()
-                  nextChapter()#######################################################
+                  nextChapter(player1)####################
                 else:
                   print("You missed a step in the stairs and got chopped up to pieces! THE END!")
                   die(player1)
@@ -758,7 +758,7 @@ def monsterCity(player1): #only used in 1 scene. Formatted.
                 print("The door closes behind you and you and Jess walk down a flight of stairs, opening to the cave. You take a deep breath. 'You ready to head to the mountains?'")
                 print("Jess nods. 'Let's go.'")
                 player1.newSkill()
-                nextChapter()#######################################################
+                nextChapter(player1)##################
               elif f =="2":
                 print("You ignore the monster, but the monster forces themselves in front of you. They take off your caps and gasp. Nearby cops see you two and shoot you right where you stand. YOU DIED! THE END!")
                 die(player1)
@@ -784,7 +784,7 @@ def monsterCity(player1): #only used in 1 scene. Formatted.
                   sleep(3)
                   print("'Whew' Jess sighs in relief. She brandishes the cave to you. 'Let's head to the mountains.'")
                   player1.newSkill()
-                  nextChapter()#######################################################
+                  nextChapter(player1)##################
                 else:
                   print("You missed a step in the stairs and got chopped up to pieces! THE END!")
                   die(player1)
@@ -801,7 +801,7 @@ def monsterCity(player1): #only used in 1 scene. Formatted.
                 print("The door closes behind you and you and Jess walk down a flight of stairs, opening to the cave. You take a deep breath. 'You ready to head to the mountains?'")
                 print("Jess nods. 'Let's go.'")
                 player1.newSkill()
-                nextChapter()#######################################################
+                nextChapter(player1)#############
               elif f =="2":
                 print("You ignore the monster, but the monster forces themselves in front of you. They take off your caps and gasp. Nearby cops see you two and shoot you right where you stand. YOU DIED! THE END!")
                 die(player1)
@@ -827,7 +827,7 @@ def monsterCity(player1): #only used in 1 scene. Formatted.
                   sleep(3)
                   print("'Whew' Jess sighs in relief. She brandishes the cave to you. 'Let's head to the mountains.'")
                   player1.newSkill()
-                  nextChapter()#######################################################
+                  nextChapter(player1)#################
                 else:
                   print("You missed a step in the stairs and got chopped up to pieces! THE END!")
                   die(player1)
@@ -887,7 +887,7 @@ def plainsVillage(player1): #Is used in multiple scenes. Formatted for ALONE. Ad
                 print("You throw another box, which takes the sniper's full attention. You walk through the main exit silently and make it out.")
               print("You quickly head into a nearby forest to hide, and after a quick break you start heading up the mountains nearby.")
               player1.newSkill()
-              nextChapter()#######################################################
+              nextChapter(player1)########################
             else:
               print("You failed to take action in time, and the sniper saw you. They sniper you in the head and you fall to the ground. THE END!")
               die(player1)
@@ -910,7 +910,7 @@ def plainsVillage(player1): #Is used in multiple scenes. Formatted for ALONE. Ad
               if f =="D" and rt<2:
                 print("You dash towards and into the forest, which successfully cuts off the sniper's sightline on you. You take a quick break before heading up the mountains.")
                 player1.newSkill()
-                nextChapter()#######################################################
+                nextChapter(player1)###################
               else:
                 print("You failed to jump for the forest and you have been hit in the back. Monster guards are dispatched and you have nowhere to run. THE END!")
                 die(player1)
@@ -921,7 +921,7 @@ def plainsVillage(player1): #Is used in multiple scenes. Formatted for ALONE. Ad
             if bow == True and player1.t2 == True:
               print("You snipe down the sniper with a clean, silent arrow shot, which allows you to walk through the exit effortlessly and head towards the mountains.")
               player1.newSkill()
-              nextChapter()#######################################################
+              nextChapter(player1)###################
             else:
               print("You shoot the sniper with your rifle, but unfortunately the nearby monster guards heard you. They dispatch multiple vehicles to chase you, and since you are on foot, they eventually catch up and kill you. THE END!")
               die(player1)
@@ -960,7 +960,7 @@ def plainsVillage(player1): #Is used in multiple scenes. Formatted for ALONE. Ad
                 print("You throw another box, which takes the sniper's full attention. You walk through the main exit silently and make it out.")
               print("You quickly head into a nearby forest to hide, and after a quick break you start heading up the mountains nearby.")
               player1.newSkill()
-              nextChapter()#######################################################
+              nextChapter(player1)#####################
             else:
               print("You failed to take action in time, and the sniper saw you. They sniper you in the head and you fall to the ground. THE END!")
               die(player1)
@@ -983,7 +983,7 @@ def plainsVillage(player1): #Is used in multiple scenes. Formatted for ALONE. Ad
               if f =="D" and rt<2:
                 print("You dash towards and into the forest, which successfully cuts off the sniper's sightline on you. You take a quick break before heading up the mountains.")
                 player1.newSkill()
-                nextChapter()#######################################################
+                nextChapter(player1)##################
               else:
                 print("You failed to jump for the forest and you have been hit in the back. Monster guards are dispatched and you have nowhere to run. THE END!")
                 die(player1)
@@ -994,7 +994,7 @@ def plainsVillage(player1): #Is used in multiple scenes. Formatted for ALONE. Ad
             if bow == True and player1.t2 == True:
               print("You snipe down the sniper with a clean, silent arrow shot, which allows you to walk through the exit effortlessly and head towards the mountains.")
               player1.newSkill()
-              nextChapter()#######################################################
+              nextChapter(player1)##################
             else:
               print("You shoot the sniper with your rifle, but unfortunately the nearby monster guards heard you. They dispatch multiple vehicles to chase you, and since you are on foot, they eventually catch up and kill you. THE END!")
               die(player1)
@@ -1022,7 +1022,7 @@ def plainsVillage(player1): #Is used in multiple scenes. Formatted for ALONE. Ad
                 print("You throw another box, which takes the sniper's full attention. You walk through the main exit silently and make it out.")
               print("You quickly head into a nearby forest to hide, and after a quick break you start heading up the mountains nearby.")
               player1.newSkill()
-              nextChapter()#######################################################
+              nextChapter(player1)################
             else:
               print("You failed to take action in time, and the sniper saw you. They sniper you in the head and you fall to the ground. THE END!")
               die(player1)
@@ -1045,7 +1045,7 @@ def plainsVillage(player1): #Is used in multiple scenes. Formatted for ALONE. Ad
               if f =="D" and rt<2:
                 print("You dash towards and into the forest, which successfully cuts off the sniper's sightline on you. You take a quick break before heading up the mountains.")
                 player1.newSkill()
-                nextChapter()#######################################################
+                nextChapter(player1)################
               else:
                 print("You failed to jump for the forest and you have been hit in the back. Monster guards are dispatched and you have nowhere to run. THE END!")
                 die(player1)
@@ -1056,7 +1056,7 @@ def plainsVillage(player1): #Is used in multiple scenes. Formatted for ALONE. Ad
             if bow == True and player1.t2 == True:
               print("You snipe down the sniper with a clean, silent arrow shot, which allows you to walk through the exit effortlessly and head towards the mountains.")
               player1.newSkill()
-              nextChapter()#######################################################
+              nextChapter(player1)###################
             else:
               print("You shoot the sniper with your rifle, but unfortunately the nearby monster guards heard you. They dispatch multiple vehicles to chase you, and since you are on foot, they eventually catch up and kill you. THE END!")
               die(player1)
@@ -1092,7 +1092,7 @@ def plainsVillage(player1): #Is used in multiple scenes. Formatted for ALONE. Ad
                 print("You throw another box, which takes the sniper's full attention. You walk through the main exit silently and make it out.")
               print("You quickly head into a nearby forest to hide, and after a quick break you start heading up the mountains nearby.")
               player1.newSkill()
-              nextChapter()#######################################################
+              nextChapter(player1)###################
             else:
               print("You failed to take action in time, and the sniper saw you. They sniper you in the head and you fall to the ground. THE END!")
               die(player1)
@@ -1115,7 +1115,7 @@ def plainsVillage(player1): #Is used in multiple scenes. Formatted for ALONE. Ad
               if f =="D" and rt<2:
                 print("You dash towards and into the forest, which successfully cuts off the sniper's sightline on you. You take a quick break before heading up the mountains.")
                 player1.newSkill()
-                nextChapter()#######################################################
+                nextChapter(player1)#####################
               else:
                 print("You failed to jump for the forest and you have been hit in the back. Monster guards are dispatched and you have nowhere to run. THE END!")
                 die(player1)
@@ -1126,7 +1126,7 @@ def plainsVillage(player1): #Is used in multiple scenes. Formatted for ALONE. Ad
             if bow == True and player1.t2 == True:
               print("You snipe down the sniper with a clean, silent arrow shot, which allows you to walk through the exit effortlessly and head towards the mountains.")
               player1.newSkill()
-              nextChapter()#######################################################
+              nextChapter(player1)##################
             else:
               print("You shoot the sniper with your rifle, but unfortunately the nearby monster guards heard you. They dispatch multiple vehicles to chase you, and since you are on foot, they eventually catch up and kill you. THE END!")
               die(player1)
@@ -1169,7 +1169,7 @@ def plainsVillage(player1): #Is used in multiple scenes. Formatted for ALONE. Ad
                 print("You throw another box, which takes the sniper's full attention. You walk through the main exit silently and make it out.")
               print("You quickly head into a nearby forest to hide, and after a quick break you start heading up the mountains nearby.")
               player1.newSkill()
-              nextChapter()#######################################################
+              nextChapter(player1)##################
             else:
               print("You failed to take action in time, and the sniper saw you. They sniper you in the head and you fall to the ground. THE END!")
               die(player1)
@@ -1192,7 +1192,7 @@ def plainsVillage(player1): #Is used in multiple scenes. Formatted for ALONE. Ad
               if f =="D" and rt<2:
                 print("You dash towards and into the forest, which successfully cuts off the sniper's sightline on you. You take a quick break before heading up the mountains.")
                 player1.newSkill()
-                nextChapter()#######################################################
+                nextChapter(player1)####################
               else:
                 print("You failed to jump for the forest and you have been hit in the back. Monster guards are dispatched and you have nowhere to run. THE END!")
                 die(player1)
@@ -1203,7 +1203,7 @@ def plainsVillage(player1): #Is used in multiple scenes. Formatted for ALONE. Ad
             if bow == True and player1.t2 == True:
               print("You snipe down the sniper with a clean, silent arrow shot, which allows you to walk through the exit effortlessly and head towards the mountains.")
               player1.newSkill()
-              nextChapter()#######################################################
+              nextChapter(player1)###################
             else:
               print("You shoot the sniper with your rifle, but unfortunately the nearby monster guards heard you. They dispatch multiple vehicles to chase you, and since you are on foot, they eventually catch up and kill you. THE END!")
               die(player1)
@@ -1237,7 +1237,7 @@ def plainsVillage(player1): #Is used in multiple scenes. Formatted for ALONE. Ad
                 print("You throw another box, which takes the sniper's full attention. You walk through the main exit silently and make it out.")
               print("You quickly head into a nearby forest to hide, and after a quick break you start heading up the mountains nearby.")
               player1.newSkill()
-              nextChapter()#######################################################
+              nextChapter(player1)###################
             else:
               print("You failed to take action in time, and the sniper saw you. They sniper you in the head and you fall to the ground. THE END!")
               die(player1)
@@ -1260,7 +1260,7 @@ def plainsVillage(player1): #Is used in multiple scenes. Formatted for ALONE. Ad
               if f =="D" and rt<2:
                 print("You dash towards and into the forest, which successfully cuts off the sniper's sightline on you. You take a quick break before heading up the mountains.")
                 player1.newSkill()
-                nextChapter()#######################################################
+                nextChapter(player1)###################
               else:
                 print("You failed to jump for the forest and you have been hit in the back. Monster guards are dispatched and you have nowhere to run. THE END!")
                 die(player1)
@@ -1271,7 +1271,7 @@ def plainsVillage(player1): #Is used in multiple scenes. Formatted for ALONE. Ad
             if bow == True and player1.t2 == True:
               print("You snipe down the sniper with a clean, silent arrow shot, which allows you to walk through the exit effortlessly and head towards the mountains.")
               player1.newSkill()
-              nextChapter()#######################################################
+              nextChapter(player1)###################
             else:
               print("You shoot the sniper with your rifle, but unfortunately the nearby monster guards heard you. They dispatch multiple vehicles to chase you, and since you are on foot, they eventually catch up and kill you. THE END!")
               die(player1)
@@ -1324,7 +1324,7 @@ def plainsVillage(player1): #Is used in multiple scenes. Formatted for ALONE. Ad
                 print("You throw another box, which takes the sniper's full attention. You walk through the main exit silently and make it out.")
               print("You quickly head into a nearby forest to hide, and after a quick break you start heading up the mountains nearby.")
               player1.newSkill()
-              nextChapter()#######################################################
+              nextChapter(player1)###################
             else:
               print("You failed to take action in time, and the sniper saw you. They sniper you in the head and you fall to the ground. THE END!")
               die(player1)
@@ -1347,7 +1347,7 @@ def plainsVillage(player1): #Is used in multiple scenes. Formatted for ALONE. Ad
               if f =="D" and rt<2:
                 print("You dash towards and into the forest, which successfully cuts off the sniper's sightline on you. You take a quick break before heading up the mountains.")
                 player1.newSkill()
-                nextChapter()#######################################################
+                nextChapter(player1)#######################
               else:
                 print("You failed to jump for the forest and you have been hit in the back. Monster guards are dispatched and you have nowhere to run. THE END!")
                 die(player1)
@@ -1358,7 +1358,7 @@ def plainsVillage(player1): #Is used in multiple scenes. Formatted for ALONE. Ad
             if bow == True and player1.t2 == True:
               print("You snipe down the sniper with a clean, silent arrow shot, which allows you to walk through the exit effortlessly and head towards the mountains.")
               player1.newSkill()
-              nextChapter()#######################################################
+              nextChapter(player1)##################
             else:
               print("You shoot the sniper with your rifle, but unfortunately the nearby monster guards heard you. They dispatch multiple vehicles to chase you, and since you are on foot, they eventually catch up and kill you. THE END!")
               die(player1)
@@ -1397,7 +1397,7 @@ def plainsVillage(player1): #Is used in multiple scenes. Formatted for ALONE. Ad
                 print("You throw another box, which takes the sniper's full attention. You walk through the main exit silently and make it out.")
               print("You quickly head into a nearby forest to hide, and after a quick break you start heading up the mountains nearby.")
               player1.newSkill()
-              nextChapter()#######################################################
+              nextChapter(player1)###################
             else:
               print("You failed to take action in time, and the sniper saw you. They sniper you in the head and you fall to the ground. THE END!")
               die(player1)
@@ -1420,7 +1420,7 @@ def plainsVillage(player1): #Is used in multiple scenes. Formatted for ALONE. Ad
               if f =="D" and rt<2:
                 print("You dash towards and into the forest, which successfully cuts off the sniper's sightline on you. You take a quick break before heading up the mountains.")
                 player1.newSkill()
-                nextChapter()#######################################################
+                nextChapter(player1)#################
               else:
                 print("You failed to jump for the forest and you have been hit in the back. Monster guards are dispatched and you have nowhere to run. THE END!")
                 die(player1)
@@ -1431,7 +1431,7 @@ def plainsVillage(player1): #Is used in multiple scenes. Formatted for ALONE. Ad
             if bow == True and player1.t2 == True:
               print("You snipe down the sniper with a clean, silent arrow shot, which allows you to walk through the exit effortlessly and head towards the mountains.")
               player1.newSkill()
-              nextChapter()#######################################################
+              nextChapter(player1)##################
             else:
               print("You shoot the sniper with your rifle, but unfortunately the nearby monster guards heard you. They dispatch multiple vehicles to chase you, and since you are on foot, they eventually catch up and kill you. THE END!")
               die(player1)
@@ -1459,7 +1459,7 @@ def plainsVillage(player1): #Is used in multiple scenes. Formatted for ALONE. Ad
                 print("You throw another box, which takes the sniper's full attention. You walk through the main exit silently and make it out.")
               print("You quickly head into a nearby forest to hide, and after a quick break you start heading up the mountains nearby.")
               player1.newSkill()
-              nextChapter()#######################################################
+              nextChapter(player1)####################
             else:
               print("You failed to take action in time, and the sniper saw you. They sniper you in the head and you fall to the ground. THE END!")
               die(player1)
@@ -1482,7 +1482,7 @@ def plainsVillage(player1): #Is used in multiple scenes. Formatted for ALONE. Ad
               if f =="D" and rt<2:
                 print("You dash towards and into the forest, which successfully cuts off the sniper's sightline on you. You take a quick break before heading up the mountains.")
                 player1.newSkill()
-                nextChapter()#######################################################
+                nextChapter(player1)######################
               else:
                 print("You failed to jump for the forest and you have been hit in the back. Monster guards are dispatched and you have nowhere to run. THE END!")
                 die(player1)
@@ -1493,7 +1493,7 @@ def plainsVillage(player1): #Is used in multiple scenes. Formatted for ALONE. Ad
             if bow == True and player1.t2 == True:
               print("You snipe down the sniper with a clean, silent arrow shot, which allows you to walk through the exit effortlessly and head towards the mountains.")
               player1.newSkill()
-              nextChapter()#######################################################
+              nextChapter(player1)##################
             else:
               print("You shoot the sniper with your rifle, but unfortunately the nearby monster guards heard you. They dispatch multiple vehicles to chase you, and since you are on foot, they eventually catch up and kill you. THE END!")
               die(player1)
@@ -1529,7 +1529,7 @@ def plainsVillage(player1): #Is used in multiple scenes. Formatted for ALONE. Ad
                 print("You throw another box, which takes the sniper's full attention. You walk through the main exit silently and make it out.")
               print("You quickly head into a nearby forest to hide, and after a quick break you start heading up the mountains nearby.")
               player1.newSkill()
-              nextChapter()#######################################################
+              nextChapter(player1)##################
             else:
               print("You failed to take action in time, and the sniper saw you. They sniper you in the head and you fall to the ground. THE END!")
               die(player1)
@@ -1552,7 +1552,7 @@ def plainsVillage(player1): #Is used in multiple scenes. Formatted for ALONE. Ad
               if f =="D" and rt<2:
                 print("You dash towards and into the forest, which successfully cuts off the sniper's sightline on you. You take a quick break before heading up the mountains.")
                 player1.newSkill()
-                nextChapter()#######################################################
+                nextChapter(player1)#################
               else:
                 print("You failed to jump for the forest and you have been hit in the back. Monster guards are dispatched and you have nowhere to run. THE END!")
                 die(player1)
@@ -1563,7 +1563,7 @@ def plainsVillage(player1): #Is used in multiple scenes. Formatted for ALONE. Ad
             if bow == True and player1.t2 == True:
               print("You snipe down the sniper with a clean, silent arrow shot, which allows you to walk through the exit effortlessly and head towards the mountains.")
               player1.newSkill()
-              nextChapter()#######################################################
+              nextChapter(player1)###################
             else:
               print("You shoot the sniper with your rifle, but unfortunately the nearby monster guards heard you. They dispatch multiple vehicles to chase you, and since you are on foot, they eventually catch up and kill you. THE END!")
               die(player1)
@@ -1606,7 +1606,7 @@ def plainsVillage(player1): #Is used in multiple scenes. Formatted for ALONE. Ad
                 print("You throw another box, which takes the sniper's full attention. You walk through the main exit silently and make it out.")
               print("You quickly head into a nearby forest to hide, and after a quick break you start heading up the mountains nearby.")
               player1.newSkill()
-              nextChapter()#######################################################
+              nextChapter(player1)#####################
             else:
               print("You failed to take action in time, and the sniper saw you. They sniper you in the head and you fall to the ground. THE END!")
               die(player1)
@@ -1629,7 +1629,7 @@ def plainsVillage(player1): #Is used in multiple scenes. Formatted for ALONE. Ad
               if f =="D" and rt<2:
                 print("You dash towards and into the forest, which successfully cuts off the sniper's sightline on you. You take a quick break before heading up the mountains.")
                 player1.newSkill()
-                nextChapter()#######################################################
+                nextChapter(player1)################
               else:
                 print("You failed to jump for the forest and you have been hit in the back. Monster guards are dispatched and you have nowhere to run. THE END!")
                 die(player1)
@@ -1640,7 +1640,7 @@ def plainsVillage(player1): #Is used in multiple scenes. Formatted for ALONE. Ad
             if bow == True and player1.t2 == True:
               print("You snipe down the sniper with a clean, silent arrow shot, which allows you to walk through the exit effortlessly and head towards the mountains.")
               player1.newSkill()
-              nextChapter()#######################################################
+              nextChapter(player1)#################
             else:
               print("You shoot the sniper with your rifle, but unfortunately the nearby monster guards heard you. They dispatch multiple vehicles to chase you, and since you are on foot, they eventually catch up and kill you. THE END!")
               die(player1)
@@ -1674,7 +1674,7 @@ def plainsVillage(player1): #Is used in multiple scenes. Formatted for ALONE. Ad
                 print("You throw another box, which takes the sniper's full attention. You walk through the main exit silently and make it out.")
               print("You quickly head into a nearby forest to hide, and after a quick break you start heading up the mountains nearby.")
               player1.newSkill()
-              nextChapter()#######################################################
+              nextChapter(player1)#############
             else:
               print("You failed to take action in time, and the sniper saw you. They sniper you in the head and you fall to the ground. THE END!")
               die(player1)
@@ -1697,7 +1697,7 @@ def plainsVillage(player1): #Is used in multiple scenes. Formatted for ALONE. Ad
               if f =="D" and rt<2:
                 print("You dash towards and into the forest, which successfully cuts off the sniper's sightline on you. You take a quick break before heading up the mountains.")
                 player1.newSkill()
-                nextChapter()#######################################################
+                nextChapter(player1)####################
               else:
                 print("You failed to jump for the forest and you have been hit in the back. Monster guards are dispatched and you have nowhere to run. THE END!")
                 die(player1)
@@ -1708,7 +1708,7 @@ def plainsVillage(player1): #Is used in multiple scenes. Formatted for ALONE. Ad
             if bow == True and player1.t2 == True:
               print("You snipe down the sniper with a clean, silent arrow shot, which allows you to walk through the exit effortlessly and head towards the mountains.")
               player1.newSkill()
-              nextChapter()#######################################################
+              nextChapter(player1)######################
             else:
               print("You shoot the sniper with your rifle, but unfortunately the nearby monster guards heard you. They dispatch multiple vehicles to chase you, and since you are on foot, they eventually catch up and kill you. THE END!")
               die(player1)
@@ -1780,7 +1780,7 @@ def desertVillage(player1):#only used in 1 scene. Formatted.
                 sleep(3)
                 print("You continue to walk past them and make it to the path. You smile.")
                 player1.newSkill()
-                nextChapter()#######################################################
+                nextChapter(player1)###################
               else:
                 print("The guard notices you trying to sneak past and quickdraws his pistol, shooting you right in the head. YOU DIED! THE END!")
                 die(player1)
@@ -1820,11 +1820,11 @@ def desertVillage(player1):#only used in 1 scene. Formatted.
                 print("You start crying and head towards the path. Since the guards have no idea what to do with you, they just levae you be.")
                 print("You keep crying and walking until you make it far enough up the path. You smile and keep going.")
                 player1.newSkill()
-                nextChapter()#######################################################
+                nextChapter(player1)##################
               else:
                 print("You head over to the guards and start screaming, pointing at something in the village. All the guards come over to you and head towards the direction you are pointing at, leaving the path completely empty. You smile to yourself and walk right through, heading up the path.")
                 player1.newSkill()
-                nextChapter()#######################################################
+                nextChapter(player1)#####################
             elif e =="2":
               print("You decide to dress as a soldier. You head over to the guards in your attire, and as you approach, one of the monsters say something that you (obviously) don't understand.")
               sleep(3)
@@ -1839,7 +1839,7 @@ def desertVillage(player1):#only used in 1 scene. Formatted.
               if f =="C" and rt<2:
                 print("You cover your face just as a guard turns over, and you keep walking past. You reach the path and smirk.")
                 player1.newSkill()
-                nextChapter()#######################################################
+                nextChapter(player1)######################
               else:
                 print("You fail to cover your face, and a guard glances at you and sees that you are human. They shoot you in the head. YOU DIED! THE END!")
                 die(player1)
@@ -1882,7 +1882,7 @@ def desertVillage(player1):#only used in 1 scene. Formatted.
                   sleep(3)
                   print("You continue to walk past them and make it to the path. You smile.")
                   player1.newSkill()
-                  nextChapter()#######################################################
+                  nextChapter(player1)#####################
                 else:
                   print("The guard notices you trying to sneak past and quickdraws his pistol, shooting you right in the head. YOU DIED! THE END!")
                   die(player1)
@@ -1922,11 +1922,11 @@ def desertVillage(player1):#only used in 1 scene. Formatted.
                   print("You start crying and head towards the path. Since the guards have no idea what to do with you, they just levae you be.")
                   print("You keep crying and walking until you make it far enough up the path. You smile and keep going.")
                   player1.newSkill()
-                  nextChapter()#######################################################
+                  nextChapter(player1)################
                 else:
                   print("You head over to the guards and start screaming, pointing at something in the village. All the guards come over to you and head towards the direction you are pointing at, leaving the path completely empty. You smile to yourself and walk right through, heading up the path.")
                   player1.newSkill()
-                  nextChapter()#######################################################
+                  nextChapter(player1)#######################
               elif e =="2":
                 print("You decide to dress as a soldier. You head over to the guards in your attire, and as you approach, one of the monsters say something that you (obviously) don't understand.")
                 sleep(3)
@@ -1941,7 +1941,7 @@ def desertVillage(player1):#only used in 1 scene. Formatted.
                 if f =="C" and rt<2:
                   print("You cover your face just as a guard turns over, and you keep walking past. You reach the path and smirk.")
                   player1.newSkill()
-                  nextChapter()#######################################################
+                  nextChapter(player1)###############
                 else:
                   print("You fail to cover your face, and a guard glances at you and sees that you are human. They shoot you in the head. YOU DIED! THE END!")
                   die(player1)
@@ -1999,7 +1999,7 @@ def desertVillage(player1):#only used in 1 scene. Formatted.
               sleep(3)
               print("You continue to walk past them and make it to the path. You smile.")
               player1.newSkill()
-              nextChapter()#######################################################
+              nextChapter(player1)###################
             else:
               print("The guard notices you trying to sneak past and quickdraws his pistol, shooting you right in the head. YOU DIED! THE END!")
               die(player1)
@@ -2039,11 +2039,11 @@ def desertVillage(player1):#only used in 1 scene. Formatted.
               print("You start crying and head towards the path. Since the guards have no idea what to do with you, they just levae you be.")
               print("You keep crying and walking until you make it far enough up the path. You smile and keep going.")
               player1.newSkill()
-              nextChapter()#######################################################
+              nextChapter(player1)###################
             else:
               print("You head over to the guards and start screaming, pointing at something in the village. All the guards come over to you and head towards the direction you are pointing at, leaving the path completely empty. You smile to yourself and walk right through, heading up the path.")
               player1.newSkill()
-              nextChapter()#######################################################
+              nextChapter(player1)###################
           elif e =="2":
             print("You decide to dress as a soldier. You head over to the guards in your attire, and as you approach, one of the monsters say something that you (obviously) don't understand.")
             sleep(3)
@@ -2058,7 +2058,7 @@ def desertVillage(player1):#only used in 1 scene. Formatted.
             if f =="C" and rt<2:
               print("You cover your face just as a guard turns over, and you keep walking past. You reach the path and smirk.")
               player1.newSkill()
-              nextChapter()#######################################################
+              nextChapter(player1)####################
             else:
               print("You fail to cover your face, and a guard glances at you and sees that you are human. They shoot you in the head. YOU DIED! THE END!")
               die(player1)
@@ -2101,7 +2101,7 @@ def desertVillage(player1):#only used in 1 scene. Formatted.
                 sleep(3)
                 print("You continue to walk past them and make it to the path. You smile.")
                 player1.newSkill()
-                nextChapter()#######################################################
+                nextChapter(player1)#################
               else:
                 print("The guard notices you trying to sneak past and quickdraws his pistol, shooting you right in the head. YOU DIED! THE END!")
                 die(player1)
@@ -2141,11 +2141,11 @@ def desertVillage(player1):#only used in 1 scene. Formatted.
                 print("You start crying and head towards the path. Since the guards have no idea what to do with you, they just levae you be.")
                 print("You keep crying and walking until you make it far enough up the path. You smile and keep going.")
                 player1.newSkill()
-                nextChapter()#######################################################
+                nextChapter(player1)##################
               else:
                 print("You head over to the guards and start screaming, pointing at something in the village. All the guards come over to you and head towards the direction you are pointing at, leaving the path completely empty. You smile to yourself and walk right through, heading up the path.")
                 player1.newSkill()
-                nextChapter()#######################################################
+                nextChapter(player1)#################
             elif e =="2":
               print("You decide to dress as a soldier. You head over to the guards in your attire, and as you approach, one of the monsters say something that you (obviously) don't understand.")
               sleep(3)
@@ -2160,7 +2160,7 @@ def desertVillage(player1):#only used in 1 scene. Formatted.
               if f =="C" and rt<2:
                 print("You cover your face just as a guard turns over, and you keep walking past. You reach the path and smirk.")
                 player1.newSkill()
-                nextChapter()#######################################################
+                nextChapter(player1)##################
               else:
                 print("You fail to cover your face, and a guard glances at you and sees that you are human. They shoot you in the head. YOU DIED! THE END!")
                 die(player1)
@@ -2226,7 +2226,7 @@ def desertVillage(player1):#only used in 1 scene. Formatted.
               sleep(3)
               print("You continue to walk past them and make it to the path. You smile.")
               player1.newSkill()
-              nextChapter()#######################################################
+              nextChapter(player1)#################
             else:
               print("The guard notices you trying to sneak past and quickdraws his pistol, shooting you right in the head. YOU DIED! THE END!")
               die(player1)
@@ -2266,11 +2266,11 @@ def desertVillage(player1):#only used in 1 scene. Formatted.
               print("You start crying and head towards the path. Since the guards have no idea what to do with you, they just levae you be.")
               print("You keep crying and walking until you make it far enough up the path. You smile and keep going.")
               player1.newSkill()
-              nextChapter()#######################################################
+              nextChapter(player1)#####################
             else:
               print("You head over to the guards and start screaming, pointing at something in the village. All the guards come over to you and head towards the direction you are pointing at, leaving the path completely empty. You smile to yourself and walk right through, heading up the path.")
               player1.newSkill()
-              nextChapter()#######################################################
+              nextChapter(player1)########################
           elif e =="2":
             print("You decide to dress as a soldier. You head over to the guards in your attire, and as you approach, one of the monsters say something that you (obviously) don't understand.")
             sleep(3)
@@ -2285,7 +2285,7 @@ def desertVillage(player1):#only used in 1 scene. Formatted.
             if f =="C" and rt<2:
               print("You cover your face just as a guard turns over, and you keep walking past. You reach the path and smirk.")
               player1.newSkill()
-              nextChapter()#######################################################
+              nextChapter(player1)##################
             else:
               print("You fail to cover your face, and a guard glances at you and sees that you are human. They shoot you in the head. YOU DIED! THE END!")
               die(player1)
@@ -2351,7 +2351,7 @@ def desertVillage(player1):#only used in 1 scene. Formatted.
               sleep(3)
               print("You continue to walk past them and make it to the path. You smile.")
               player1.newSkill()
-              nextChapter()#######################################################
+              nextChapter(player1)###################
             else:
               print("The guard notices you trying to sneak past and quickdraws his pistol, shooting you right in the head. YOU DIED! THE END!")
               die(player1)
@@ -2391,11 +2391,11 @@ def desertVillage(player1):#only used in 1 scene. Formatted.
               print("You start crying and head towards the path. Since the guards have no idea what to do with you, they just levae you be.")
               print("You keep crying and walking until you make it far enough up the path. You smile and keep going.")
               player1.newSkill()
-              nextChapter()#######################################################
+              nextChapter(player1)#################
             else:
               print("You head over to the guards and start screaming, pointing at something in the village. All the guards come over to you and head towards the direction you are pointing at, leaving the path completely empty. You smile to yourself and walk right through, heading up the path.")
               player1.newSkill()
-              nextChapter()#######################################################
+              nextChapter(player1)######################
           elif e =="2":
             print("You decide to dress as a soldier. You head over to the guards in your attire, and as you approach, one of the monsters say something that you (obviously) don't understand.")
             sleep(3)
@@ -2410,7 +2410,7 @@ def desertVillage(player1):#only used in 1 scene. Formatted.
             if f =="C" and rt<2:
               print("You cover your face just as a guard turns over, and you keep walking past. You reach the path and smirk.")
               player1.newSkill()
-              nextChapter()#######################################################
+              nextChapter(player1)#################
             else:
               print("You fail to cover your face, and a guard glances at you and sees that you are human. They shoot you in the head. YOU DIED! THE END!")
               die(player1)
@@ -2453,7 +2453,7 @@ def desertVillage(player1):#only used in 1 scene. Formatted.
                 sleep(3)
                 print("You continue to walk past them and make it to the path. You smile.")
                 player1.newSkill()
-                nextChapter()#######################################################
+                nextChapter(player1)##################
               else:
                 print("The guard notices you trying to sneak past and quickdraws his pistol, shooting you right in the head. YOU DIED! THE END!")
                 die(player1)
@@ -2493,11 +2493,11 @@ def desertVillage(player1):#only used in 1 scene. Formatted.
                 print("You start crying and head towards the path. Since the guards have no idea what to do with you, they just levae you be.")
                 print("You keep crying and walking until you make it far enough up the path. You smile and keep going.")
                 player1.newSkill()
-                nextChapter()#######################################################
+                nextChapter(player1)##################
               else:
                 print("You head over to the guards and start screaming, pointing at something in the village. All the guards come over to you and head towards the direction you are pointing at, leaving the path completely empty. You smile to yourself and walk right through, heading up the path.")
                 player1.newSkill()
-                nextChapter()#######################################################
+                nextChapter(player1)#################
             elif e =="2":
               print("You decide to dress as a soldier. You head over to the guards in your attire, and as you approach, one of the monsters say something that you (obviously) don't understand.")
               sleep(3)
@@ -2512,7 +2512,7 @@ def desertVillage(player1):#only used in 1 scene. Formatted.
               if f =="C" and rt<2:
                 print("You cover your face just as a guard turns over, and you keep walking past. You reach the path and smirk.")
                 player1.newSkill()
-                nextChapter()#######################################################
+                nextChapter(player1)##############
               else:
                 print("You fail to cover your face, and a guard glances at you and sees that you are human. They shoot you in the head. YOU DIED! THE END!")
                 die(player1)
@@ -2571,7 +2571,7 @@ def desertVillage(player1):#only used in 1 scene. Formatted.
               sleep(3)
               print("You continue to walk past them and make it to the path. You smile.")
               player1.newSkill()
-              nextChapter()#######################################################
+              nextChapter(player1)###################
             else:
               print("The guard notices you trying to sneak past and quickdraws his pistol, shooting you right in the head. YOU DIED! THE END!")
               die(player1)
@@ -2611,11 +2611,11 @@ def desertVillage(player1):#only used in 1 scene. Formatted.
               print("You start crying and head towards the path. Since the guards have no idea what to do with you, they just levae you be.")
               print("You keep crying and walking until you make it far enough up the path. You smile and keep going.")
               player1.newSkill()
-              nextChapter()#######################################################
+              nextChapter(player1)#######################
             else:
               print("You head over to the guards and start screaming, pointing at something in the village. All the guards come over to you and head towards the direction you are pointing at, leaving the path completely empty. You smile to yourself and walk right through, heading up the path.")
               player1.newSkill()
-              nextChapter()#######################################################
+              nextChapter(player1)##################
           elif e =="2":
             print("You decide to dress as a soldier. You head over to the guards in your attire, and as you approach, one of the monsters say something that you (obviously) don't understand.")
             sleep(3)
@@ -2630,7 +2630,7 @@ def desertVillage(player1):#only used in 1 scene. Formatted.
             if f =="C" and rt<2:
               print("You cover your face just as a guard turns over, and you keep walking past. You reach the path and smirk.")
               player1.newSkill()
-              nextChapter()#######################################################
+              nextChapter(player1)##################
             else:
               print("You fail to cover your face, and a guard glances at you and sees that you are human. They shoot you in the head. YOU DIED! THE END!")
               die(player1)
@@ -2673,7 +2673,7 @@ def desertVillage(player1):#only used in 1 scene. Formatted.
                 sleep(3)
                 print("You continue to walk past them and make it to the path. You smile.")
                 player1.newSkill()
-                nextChapter()#######################################################
+                nextChapter(player1)###################
               else:
                 print("The guard notices you trying to sneak past and quickdraws his pistol, shooting you right in the head. YOU DIED! THE END!")
                 die(player1)
@@ -2713,11 +2713,11 @@ def desertVillage(player1):#only used in 1 scene. Formatted.
                 print("You start crying and head towards the path. Since the guards have no idea what to do with you, they just levae you be.")
                 print("You keep crying and walking until you make it far enough up the path. You smile and keep going.")
                 player1.newSkill()
-                nextChapter()#######################################################
+                nextChapter(player1)#################
               else:
                 print("You head over to the guards and start screaming, pointing at something in the village. All the guards come over to you and head towards the direction you are pointing at, leaving the path completely empty. You smile to yourself and walk right through, heading up the path.")
                 player1.newSkill()
-                nextChapter()#######################################################
+                nextChapter(player1)################
             elif e =="2":
               print("You decide to dress as a soldier. You head over to the guards in your attire, and as you approach, one of the monsters say something that you (obviously) don't understand.")
               sleep(3)
@@ -2732,7 +2732,7 @@ def desertVillage(player1):#only used in 1 scene. Formatted.
               if f =="C" and rt<2:
                 print("You cover your face just as a guard turns over, and you keep walking past. You reach the path and smirk.")
                 player1.newSkill()
-                nextChapter()#######################################################
+                nextChapter(player1)###################
               else:
                 print("You fail to cover your face, and a guard glances at you and sees that you are human. They shoot you in the head. YOU DIED! THE END!")
                 die(player1)
@@ -2818,7 +2818,7 @@ def hillsVillage(player1):#used in 1 scene only. Formatted.
                 sleep(5)
                 print("You and Cara make it down the tower and walk peacefully towards the mountains, uninterrupted.")
                 player1.newSkill()
-                nextChapter()#######################################################
+                nextChapter(player1)#################
               else:
                 print("You opened the trapdoor at an inopportune time, and you both got shot in the head by the guards. YOU DIED! THE END!")
                 die(player1)
@@ -2842,7 +2842,7 @@ def hillsVillage(player1):#used in 1 scene only. Formatted.
                 print("Cara pants. 'Nice one. Hopefully these mountains will be a bit calmer.'")
                 print("You calm your breathing, and look up the mountains ahead of you. 'Hopefully.'")
                 player1.newSkill()
-                nextChapter()#######################################################
+                nextChapter(player1)#################
               else:
                 print("You failed to make a run for it in time, and the guards see you when they stopped looking for what cause the sound.")
                 print("YOU DIED! THE END!")
@@ -2863,7 +2863,7 @@ def hillsVillage(player1):#used in 1 scene only. Formatted.
               print("The guards turn away once more, and you and Cara quickly sneak back onto the path, and make it out of the watch tower's sight.")
               print("'Let's see what these mountains have to offer.' You say, slowly looking up the side of the mountains.")
               player1.newSkill()
-              nextChapter()#######################################################
+              nextChapter(player1)##################
             else:
               print("You tried to hide behind a tree, but you were too slow. The guards turned and saw you down on the path, and grenades rained from the sky, killing the both of you. YOU DIED! THE END!")
               die(player1)
@@ -2913,7 +2913,7 @@ def hillsVillage(player1):#used in 1 scene only. Formatted.
                   sleep(5)
                   print("You and Cara make it down the tower and walk peacefully towards the mountains, uninterrupted.")
                   player1.newSkill()
-                  nextChapter()#######################################################
+                  nextChapter(player1)#################
                 else:
                   print("You opened the trapdoor at an inopportune time, and you both got shot in the head by the guards. YOU DIED! THE END!")
                   die(player1)
@@ -2937,7 +2937,7 @@ def hillsVillage(player1):#used in 1 scene only. Formatted.
                   print("Cara pants. 'Nice one. Hopefully these mountains will be a bit calmer.'")
                   print("You calm your breathing, and look up the mountains ahead of you. 'Hopefully.'")
                   player1.newSkill()
-                  nextChapter()#######################################################
+                  nextChapter(player1)###################
                 else:
                   print("You failed to make a run for it in time, and the guards see you when they stopped looking for what cause the sound.")
                   print("YOU DIED! THE END!")
@@ -2958,7 +2958,7 @@ def hillsVillage(player1):#used in 1 scene only. Formatted.
                 print("The guards turn away once more, and you and Cara quickly sneak back onto the path, and make it out of the watch tower's sight.")
                 print("'Let's see what these mountains have to offer.' You say, slowly looking up the side of the mountains.")
                 player1.newSkill()
-                nextChapter()#######################################################
+                nextChapter(player1)###################
               else:
                 print("You tried to hide behind a tree, but you were too slow. The guards turned and saw you down on the path, and grenades rained from the sky, killing the both of you. YOU DIED! THE END!")
                 die(player1)
@@ -3038,7 +3038,7 @@ def hillsVillage(player1):#used in 1 scene only. Formatted.
                 sleep(5)
                 print("You and Cara make it down the tower and walk peacefully towards the mountains, uninterrupted.")
                 player1.newSkill()
-                nextChapter()#######################################################
+                nextChapter(player1)#################
               else:
                 print("You opened the trapdoor at an inopportune time, and you both got shot in the head by the guards. YOU DIED! THE END!")
                 die(player1)
@@ -3062,7 +3062,7 @@ def hillsVillage(player1):#used in 1 scene only. Formatted.
                 print("Cara pants. 'Nice one. Hopefully these mountains will be a bit calmer.'")
                 print("You calm your breathing, and look up the mountains ahead of you. 'Hopefully.'")
                 player1.newSkill()
-                nextChapter()#######################################################
+                nextChapter(player1)##################
               else:
                 print("You failed to make a run for it in time, and the guards see you when they stopped looking for what cause the sound.")
                 print("YOU DIED! THE END!")
@@ -3083,7 +3083,7 @@ def hillsVillage(player1):#used in 1 scene only. Formatted.
               print("The guards turn away once more, and you and Cara quickly sneak back onto the path, and make it out of the watch tower's sight.")
               print("'Let's see what these mountains have to offer.' You say, slowly looking up the side of the mountains.")
               player1.newSkill()
-              nextChapter()#######################################################
+              nextChapter(player1)###################
             else:
               print("You tried to hide behind a tree, but you were too slow. The guards turned and saw you down on the path, and grenades rained from the sky, killing the both of you. YOU DIED! THE END!")
               die(player1)
@@ -3133,7 +3133,7 @@ def hillsVillage(player1):#used in 1 scene only. Formatted.
                   sleep(5)
                   print("You and Cara make it down the tower and walk peacefully towards the mountains, uninterrupted.")
                   player1.newSkill()
-                  nextChapter()#######################################################
+                  nextChapter(player1)##################
                 else:
                   print("You opened the trapdoor at an inopportune time, and you both got shot in the head by the guards. YOU DIED! THE END!")
                   die(player1)
@@ -3157,7 +3157,7 @@ def hillsVillage(player1):#used in 1 scene only. Formatted.
                   print("Cara pants. 'Nice one. Hopefully these mountains will be a bit calmer.'")
                   print("You calm your breathing, and look up the mountains ahead of you. 'Hopefully.'")
                   player1.newSkill()
-                  nextChapter()#######################################################
+                  nextChapter(player1)################
                 else:
                   print("You failed to make a run for it in time, and the guards see you when they stopped looking for what cause the sound.")
                   print("YOU DIED! THE END!")
@@ -3178,7 +3178,7 @@ def hillsVillage(player1):#used in 1 scene only. Formatted.
                 print("The guards turn away once more, and you and Cara quickly sneak back onto the path, and make it out of the watch tower's sight.")
                 print("'Let's see what these mountains have to offer.' You say, slowly looking up the side of the mountains.")
                 player1.newSkill()
-                nextChapter()#######################################################
+                nextChapter(player1)##################
               else:
                 print("You tried to hide behind a tree, but you were too slow. The guards turned and saw you down on the path, and grenades rained from the sky, killing the both of you. YOU DIED! THE END!")
                 die(player1)
@@ -3231,7 +3231,339 @@ def caveVillage(player1):#used in multiple scenes. Formatted for NICO. Swap dial
       #dialogueN
       print("Nico tugs at you and points to the center of the village: a ladder that leads up to an icy section of the caves. That must lead to the Summit.")
       print("But where do you enter the village?")
-      c=input("1.Main entrance. 2.East entrance. 3.West entrance. 4.Sneak in through the piping system.")#u
+      c=input("1.Main entrance. 2.East entrance. 3.West entrance. 4.Sneak in through the piping system.")
+      if c =="1":
+        print("The two of you decide to go through the main entrance.")
+        sleep(3)
+        #dialogueN
+        print("You make it into the village without a hitch. You glance at the ladder at the central section of the village. 'How are we gonna reach it?' You ask. Nico shrugs.")
+        print("You avert your eyes to something else that has caught your interest in the village. Some sort of armoury near the heart of the village. It could have some... tools you could use to reach that ladder.")
+        d=input("1.Go to the armoury. 2.Go straight to the ladder. 3.Look for disguises. 4.Scout out the area around the ladder.")
+        if d =="1":
+          #dialogueN
+          print("You and Nico decide to enter the armory to see if you can get anything good for your ambush on the ladder.")
+          sleep(4)
+          print("You look all over the place, and you've managed to find quite a few tools that might be of use. But which one do you pick? You only have enough space for one.")
+          e=input("1.C4. 2.Sonic bomb. 3.Jetpacks. 4.Heavy Duty Armor.")
+          if e =="1":
+            print("You decide to use C4, and head towards the central section of the village.")
+            sleep(3)
+            #dialogueN
+            print("You and Nico successfully deploy the charges, and it should take out the entire section of the center, paving a clear path for you to the ladder.")
+            print("'Here goes.'")
+            sleep(4)
+            print("A chain of explosions completely annihilate the central part of the village, and the falling buildings and debris crash right into the ladder, removing your escape strategy.")
+            print("'Oh.'")
+            print("You look around you, and find yourself surrounded by monster guards. YOU DIED! THE END!")
+            die(player1)
+          elif e =="2":
+            print("You grab yourselves a sonic bomb, and head into the central section of the village. You plant the bomb, and head back to the edge of the district.")
+            print("'Here goes.'")
+            sleep(5)
+            print("A sonic explosion bursts out from the core of the village and knocks down the base of every building in the center, other than the ladder (since it is hanging from the top)")
+            #dialogueN
+            print("You and Nico smile at your handiwork. The two of you head over to the ladder while everyone is panicking, but some have caught on and are heading towards the two of you.")
+            sleep(5)
+            #dialogueN
+            f=input("1.Go first. 2.Let Nico go first.")
+            if f =="1":
+              #dialogueN this whole section
+              print("You decide to climb first, and as the bullets fly by, one narrowly misses your head by an inch.")
+              sleep(3)
+              print("You and Nico keep climbing, and after an excruciating about of anxiety and ladder climbing, you make it to the top of the ladder and shuffle onto the cold rocky surface you have emerged onto.")
+              print("You bring out your knife and cut down the ladder.")
+              print("'Whew.' You take a sigh of relief and take a look at your new environment.")
+              sleep(3)
+              print("Blue ice and crystals litter the cave sytstems ahead of you.")
+              print("'Here we go.'")
+              player1.newSkill()
+              nextChapter(player1)###################
+            else:
+              #dialogueN this whole section
+              print("You let Nico go first, and you climb on after.")
+              print("Nico climbs much more quickly than you as the bullets fly by.")
+              sleep(5)
+              print("You traverse the ladder as quickly as possible, but one of the guards managed to shoot Nico in the head.")
+              print("Their body pauses on the ladder, preventing you to climb up any further.")
+              print("Because of this, the guards manage to get shots on you since you are a stationary target. You feel bullets everywhere. YOU DIED! THE END!")
+              die(player1)
+          elif e =="3":
+            print("You and Nico equip some jetpacks, and are able to fly straight towards the ladder. However, the monsters have caught sight of your antics, and have started shooting at you.")
+            sleep(7)
+            st=time.time()
+            f=input("PRESS [D] to dodge a bullet!").title()
+            rt =time.time()-st
+            if f == "D" and rt<2:
+              #dialogueN this whole section
+              print("You successfully dodged an incoming bullet, and together you and Nico manage to out maneuver the guards' bullets and make it to the hole in the top of the whole cave village.")
+              sleep(4)
+              print("The two of you quickly take off the jetpacks, and since the fuel has almost run out, and throw them down the hole and also cut down the ladder for good measure.")
+              print("'Whew.' You take a sigh of relief and take a look at your new environment.")
+              sleep(3)
+              print("Blue ice and crystals litter the cave sytstems ahead of you.")
+              print("'Here we go.'")
+              player1.newSkill()
+              nextChapter(player1)#################
+            else:
+              #dialogueN this whole section
+              print("You failed to dodge a bullet, and it goes straight into your jetpack. The jetpack heats up dramatically and explodes, taking out both you and Nico from the air.")
+              print("Your bodies crash right into a warehouse in the village. YOU DIED! THE END!")
+              die(player1)
+
+          else:
+            print("You decide to equip some heavy duty armor, only to realise once you put it on...")
+            print("'It's made for monsters that are much bigger and stronger than us!' You exclaim, unable to move.")
+            sleep(3)
+            print("A monster walks in and finds the two of you in the armor. Since you can't really fight back, you became that monster's dinner. You were quite delicious.")
+            print("YOU DIED! THE END!")
+            die(player1)
+        elif d =="2":
+          print("You decide to head straight for the ladder, but unfortunately you were spotted by some monsters passing by. They shot you in the head, and feasted upon your flesh. YOU DIED! THE END!")
+          die(player1)
+        elif d =="3":
+          print("You scan through the nearby area, and manage to find some good disguises that will enable you to reach the core of the village.")
+          sleep(3)
+          print("'Wait... what is this?' You frown.")
+          print("There are guard towers by the tower, and they are all armed.")
+          print("There are monsters who will search you before you reach the ladder.")
+          sleep(3)
+          print("'How are we going to get past?'")
+          e=input("1.Hope for the best and get searched. 2.Cause a distraction. 3.Run straight past the guards.")
+          if e=="1":
+            print("You decide to brave it, and head straight towards the guards.")
+            print("They simply searched your pockets and let you through.")
+            sleep(3)
+            print("'Huh. That was easy.'")
+            print("Suddenly, a massive spider drops on your hat, which prompts you to throw it off your head.")
+            print("'Oh no.' You look back at the guards, who have noticed that you are not a monster after all.")
+            #dialogueN
+            f=input("1.Go up the ladder first. 2.Let Nico go up the ladder first.")
+            if f =="1":
+              #dialogueN this whole section
+              print("You decide to climb first, and as the bullets fly by, one narrowly misses your head by an inch.")
+              sleep(3)
+              print("You and Nico keep climbing, and after an excruciating about of anxiety and ladder climbing, you make it to the top of the ladder and shuffle onto the cold rocky surface you have emerged onto.")
+              print("You bring out your knife and cut down the ladder.")
+              print("'Whew.' You take a sigh of relief and take a look at your new environment.")
+              sleep(3)
+              print("Blue ice and crystals litter the cave systems ahead of you.")
+              print("'Here we go.'")
+              player1.newSkill()
+              nextChapter(player1)#################
+            else:
+              #dialogueN this whole section
+              print("You let Nico go first, and you climb on after.")
+              print("Nico climbs much more quickly than you as the bullets fly by.")
+              sleep(5)
+              print("You traverse the ladder as quickly as possible, but one of the guards managed to shoot Nico in the head.")
+              print("Their body pauses on the ladder, preventing you to climb up any further.")
+              print("Because of this, the guards manage to get shots on you since you are a stationary target. You feel bullets everywhere. YOU DIED! THE END!")
+              die(player1)
+          elif e =="2":
+            print("You head over to a nearby market, and light a match.")
+            print("You accidentally drop a match on a truckload of wood, and the thing sets ablaze almost immediately.")
+            sleep(3)
+            print("You run up to the guards in front of the ladder, and point towards the inferno at the market. They immediately understand and run towards it, with no regard to the two of you.")
+            print("You smile, and walk right in.")
+            sleep(3)
+            #dialogueN
+            print("'Uh oh. It looks like they noticed us!' Nico exclaims.")
+            #dialogueN
+            f=input("1.Go up the ladder first. 2.Let Nico go up first.")
+            if f =="1":
+              #dialogueN this whole section
+              print("You decide to climb first, and as the bullets fly by, one narrowly misses your head by an inch.")
+              sleep(3)
+              print("You and Nico keep climbing, and after an excruciating about of anxiety and ladder climbing, you make it to the top of the ladder and shuffle onto the cold rocky surface you have emerged onto.")
+              print("You bring out your knife and cut down the ladder.")
+              print("'Whew.' You take a sigh of relief and take a look at your new environment.")
+              sleep(3)
+              print("Blue ice and crystals litter the cave systems ahead of you.")
+              print("'Here we go.'")
+              player1.newSkill()
+              nextChapter(player1)###################
+            else:
+              #dialogueN this whole section
+              print("You let Nico go first, and you climb on after.")
+              print("Nico climbs much more quickly than you as the bullets fly by.")
+              sleep(5)
+              print("You traverse the ladder as quickly as possible, but one of the guards managed to shoot Nico in the head.")
+              print("Their body pauses on the ladder, preventing you to climb up any further.")
+              print("Because of this, the guards manage to get shots on you since you are a stationary target. You feel bullets everywhere. YOU DIED! THE END!")
+              die(player1)
+          else:
+            print("You decide to run straight past the guards, but somehow they stopped you. With a bullet to the back of the head. YOU DIED! THE END!")
+            die(player1)
+        else:
+          print("You decide to take a loop around the central area to identify the best entry points.")
+          sleep(3)
+          print("Suddenly, you feel that something's... off.")
+          print("You turn around, and find that you are alone. 'Where did...'")
+          sleep(3)
+          print("You look down to find your hand covered in blisters. You frown, but your vision is getting blurry.")
+          print("You collapse, and your eyes close.")
+          print("Forever.")
+          print("YOU DIED! THE END!")
+          die(player1)
+      elif c =="2":
+        print("You decide to go through the east entrance, only to find out that security cameras are watching that particular entrance. You have been spotted and shot in place.")
+        print("YOU DIED! THE END!")
+        die(player1)
+      elif c =="3":
+        print("You decide to go through the west entrance.")
+        sleep(3)
+        print("You managed to make it through just fine. You wonder if you could be more prepared for approaching the ladder.")
+        d=input("1.Look for disguises. 2.Head to the ladder. 3.Scout out the region around the ladder. 4.Have a more thorough look through the village.")
+        if d =="1":
+          print("You walk around the place, looking for disguises. Eventually you find some, and the two of you approach the guards who are searching all who walk through the gate that leads to the ladder.")
+          #dialogueN
+          print("'I dunno about this...' Nico shifts around. 'They might expose us when they search us.'")
+          e=input("1.Hope for the best and get searched. 2.Cause a distraction. 3.Run straight past the guards.")
+          if e=="1":
+            print("You decide to brave it, and head straight towards the guards.")
+            print("They simply searched your pockets and let you through.")
+            sleep(3)
+            print("'Huh. That was easy.'")
+            print("Suddenly, a massive spider drops on your hat, which prompts you to throw it off your head.")
+            print("'Oh no.' You look back at the guards, who have noticed that you are not a monster after all.")
+            #dialogueN
+            f=input("1.Go up the ladder first. 2.Let Nico go up the ladder first.")
+            if f =="1":
+              #dialogueN this whole section
+              print("You decide to climb first, and as the bullets fly by, one narrowly misses your head by an inch.")
+              sleep(3)
+              print("You and Nico keep climbing, and after an excruciating about of anxiety and ladder climbing, you make it to the top of the ladder and shuffle onto the cold rocky surface you have emerged onto.")
+              print("You bring out your knife and cut down the ladder.")
+              print("'Whew.' You take a sigh of relief and take a look at your new environment.")
+              sleep(3)
+              print("Blue ice and crystals litter the cave systems ahead of you.")
+              print("'Here we go.'")
+              player1.newSkill()
+              nextChapter(player1)#################
+            else:
+              #dialogueN this whole section
+              print("You let Nico go first, and you climb on after.")
+              print("Nico climbs much more quickly than you as the bullets fly by.")
+              sleep(5)
+              print("You traverse the ladder as quickly as possible, but one of the guards managed to shoot Nico in the head.")
+              print("Their body pauses on the ladder, preventing you to climb up any further.")
+              print("Because of this, the guards manage to get shots on you since you are a stationary target. You feel bullets everywhere. YOU DIED! THE END!")
+              die(player1)
+          elif e =="2":
+            print("You head over to a nearby market, and light a match.")
+            print("You accidentally drop a match on a truckload of wood, and the thing sets ablaze almost immediately.")
+            sleep(3)
+            print("You run up to the guards in front of the ladder, and point towards the inferno at the market. They immediately understand and run towards it, with no regard to the two of you.")
+            print("You smile, and walk right in.")
+            sleep(3)
+            #dialogueN
+            print("'Uh oh. It looks like they noticed us!' Nico exclaims.")
+            #dialogueN
+            f=input("1.Go up the ladder first. 2.Let Nico go up first.")
+            if f =="1":
+              #dialogueN this whole section
+              print("You decide to climb first, and as the bullets fly by, one narrowly misses your head by an inch.")
+              sleep(3)
+              print("You and Nico keep climbing, and after an excruciating about of anxiety and ladder climbing, you make it to the top of the ladder and shuffle onto the cold rocky surface you have emerged onto.")
+              print("You bring out your knife and cut down the ladder.")
+              print("'Whew.' You take a sigh of relief and take a look at your new environment.")
+              sleep(3)
+              print("Blue ice and crystals litter the cave systems ahead of you.")
+              print("'Here we go.'")
+              player1.newSkill()
+              nextChapter(player1)#################
+            else:
+              #dialogueN this whole section
+              print("You let Nico go first, and you climb on after.")
+              print("Nico climbs much more quickly than you as the bullets fly by.")
+              sleep(5)
+              print("You traverse the ladder as quickly as possible, but one of the guards managed to shoot Nico in the head.")
+              print("Their body pauses on the ladder, preventing you to climb up any further.")
+              print("Because of this, the guards manage to get shots on you since you are a stationary target. You feel bullets everywhere. YOU DIED! THE END!")
+              die(player1)
+          else:
+            print("You decide to run straight past the guards, but somehow they stopped you. With a bullet to the back of the head. YOU DIED! THE END!")
+            die(player1)
+        elif d =="2":
+          print("You decide to go straight for the ladder, but some guards around the area noticed you and immediately shot you in the head. YOU DIED! THE END!")
+          die(player1)
+        elif d =="3":
+          print("You decide to scout around the ladder, but it was heavily fortified and you tripped a silent alarm.")
+          print("A toxic agent was released into the air and the two of you immediately dropped dead. YOU DIED! THE END!")
+          die(player1)
+        else:
+          print("You decide to have a more thorough look through the village, but a random monster child saw you and reported you to their parents.")
+          print("Moments later, you are shot in the back of the head and your bodies are feasted upon by many monsters. YOU DIED! THE END!")
+          die(player1)
+      else:
+        #dialogueN
+        print("You and Nico decide to go through the sewage pipes. It stinks, but you manage to make it into the village safely.")
+        sleep(4)
+        print("You are at a crossroads. Since you made so many turns on the way down, you don't know which way leads to the center anymore. You'll have to guess.")
+        d=input("1.Go left. 2.Go right. 3.Go straight ahead.")
+        if d =="1":
+          #dialogueN
+          print("You decide to go left, which leads you down a set of stairs. Suddenly, you trip, pushing yourself and Nico down the stairs in a painful way.")
+          print("You try to move after you crash at the bottom, but you can't. Lots of things are broken.")
+          #dialogueN
+          print("'Can you move?' You ask Nico.")
+          print("Nico isn't replying. You frown. Your vision is getting blurry.")
+          print("Your eyelids feel heavy. You should close them.")
+          sleep(5)
+          print("You closed them. Forever.")
+          print("YOU DIED! THE END!")
+          die(player1)
+        elif d =="2":
+          print("You have a hunch that it's on the right, so you decide to go in that direction.")
+          sleep(5)
+          print("After traversing through the pipes for what seems like forever, the two of you make it back at the surface.")
+          print("'Perfect!' You exclaim. The ladder is just over a massive fence.")
+          print("How do you traverse this fence?")
+          e=input("1.Climb it. 2.Find something to cut through it. 3.Literally walk around it.")
+          if e =="1":
+            print("You head over to the fence to climb it, only to find out the hard way that it is an electric fence. A lethal voltage enters through your arms and stops your heart. YOU DIED! THE END!")
+            die(player1)
+          elif e =="2":
+            print("You look around the place to find something to cut through it, but you hear a bunch of guards leaving the fenced area, probably for food or something.")
+            sleep(3)
+            print("You use this chance to sneak in through the main gate.")
+            #dialogueN
+            print("'Uh oh.' Nico says, pointing at the guards, who have realized you snuck through.")
+            #dialogueN
+            f=input("1.Climb the ladder first. 2.Let Nico climb the ladder.")
+            if f =="1":
+              #dialogueN this whole section
+              print("You decide to climb first, and as the bullets fly by, one narrowly misses your head by an inch.")
+              sleep(3)
+              print("You and Nico keep climbing, and after an excruciating about of anxiety and ladder climbing, you make it to the top of the ladder and shuffle onto the cold rocky surface you have emerged onto.")
+              print("You bring out your knife and cut down the ladder.")
+              print("'Whew.' You take a sigh of relief and take a look at your new environment.")
+              sleep(3)
+              print("Blue ice and crystals litter the cave systems ahead of you.")
+              print("'Here we go.'")
+              player1.newSkill()
+              nextChapter(player1)################
+            else:
+              #dialogueN this whole section
+              print("You let Nico go first, and you climb on after.")
+              print("Nico climbs much more quickly than you as the bullets fly by.")
+              sleep(5)
+              print("You traverse the ladder as quickly as possible, but one of the guards managed to shoot Nico in the head.")
+              print("Their body pauses on the ladder, preventing you to climb up any further.")
+              print("Because of this, the guards manage to get shots on you since you are a stationary target. You feel bullets everywhere. YOU DIED! THE END!")
+              die(player1)
+          else:
+            print("You decide to walk around the fence, only to be seen by the guards working around the fenced area. They shoot you on sight. YOU DIED! THE END!")
+        else:
+          print("You decide to go straight ahead. However, a strange smell presents itself in the air. You try to breathe, but you can't. You look down at your hand. It's full of blisters.")
+          print("The world is spinning around you. Why is that?")
+          sleep(3)
+          print("You feel a strong urge to close your eyes. You should.")
+          sleep(3)
+          print("You close your eyes.")
+          print("And they never opened again.")
+          print("YOU DIED! THE END!")
+          die(player1)
     else:
       print("You decide to leave the monster alone and find the way yourself, only to hear something growl behind you.")
       print("Something pounces on the two of you and the creature crunches straight onto your necks. YOU DIED! THE END!")
@@ -3258,7 +3590,328 @@ def caveVillage(player1):#used in multiple scenes. Formatted for NICO. Swap dial
       print("You stop yourself. In the center of the village you see something.")
       print("A ladder that leads up into an icy section of the caves. That must be where the Summit is!")
       print("But how will you make it there?")
-      c=input("1.Walk past the farms. 2.Walk through the market. 3.Walk past the hospital. 4.Walk through the armory.")#u
+      c=input("1.Walk past the farms. 2.Walk through the market. 3.Walk past the hospital. 4.Walk through the armory.")
+      if c =="1":
+        print("You decide to take a walk past the farms, away from the rest of the action. It serves you well, as you do not run into any monsters.")
+        sleep(4)
+        print("You arrive at the central section of the village, and you are able to identify the central building where the ladder emerges from.")
+        d=input("1.Enter the building. 2.Enter the building to the left. 3.Enter the building to the right. 4.Enter the building behind it.")
+        if d =="1":
+          print("You head right in to the building, only to be seen by the security cameras at the front door. The guards inside are ready to ambush you, and they do.")
+          print("You were killed in a second from the firing squad.")
+          print("YOU DIED! THE END!")
+        elif d =="2":
+          print("You head in through the building to the left, and see a path that connects right to the sector with the ladder. However, how would you be able to reach it?")
+          e=input("1.Look for some disguises. 2.Sneak in. 3.Cause a distraction. 4.Kill the guards at the entrance to the ladder area.")
+          if e =="1":
+            print("You sneak around the area, looking for disguises, but the moment you open a door, you find a bunch of monsters on the other side. They all pounce on you and feast upon your bodies. YOU DIED! THE END!")
+            die(player1)
+          elif e =="2":
+            print("You sneak towards the entrance, and after waiting for about half an hour, the guards yawn and start walking away from the entrance, probably to get food.")
+            sleep(3)
+            print("You use this chance to walk right into the ladder sector, and are about to start climbing when-")
+            #dialogueN
+            print("'Uh oh. They saw us!' Nico exclaims, looking behind you.")
+            #dialogueN
+            f=input("1.Go up the ladder first. 2.Let Nico go up first.")
+            if f =="1":
+              #dialogueN this whole section
+              print("You decide to climb first, and as the bullets fly by, one narrowly misses your head by an inch.")
+              sleep(3)
+              print("You and Nico keep climbing, and after an excruciating about of anxiety and ladder climbing, you make it to the top of the ladder and shuffle onto the cold rocky surface you have emerged onto.")
+              print("You bring out your knife and cut down the ladder.")
+              print("'Whew.' You take a sigh of relief and take a look at your new environment.")
+              sleep(3)
+              print("Blue ice and crystals litter the cave systems ahead of you.")
+              print("'Here we go.'")
+              player1.newSkill()
+              nextChapter(player1)##################
+            else:
+              #dialogueN this whole section
+              print("You let Nico go first, and you climb on after.")
+              print("Nico climbs much more quickly than you as the bullets fly by.")
+              sleep(5)
+              print("You traverse the ladder as quickly as possible, but one of the guards managed to shoot Nico in the head.")
+              print("Their body pauses on the ladder, preventing you to climb up any further.")
+              print("Because of this, the guards manage to get shots on you since you are a stationary target. You feel bullets everywhere. YOU DIED! THE END!")
+              die(player1)
+          elif e =="3":
+            print("You walk over to the other side of the building, and brandish a match from your pocket.")
+            #dialogueN
+            print("'Are you sure this is a good idea?' Nico asks.")
+            print("You grin. 'It's an excellent idea.'")
+            print("You light the match, and drop it in a room full of wooden furniture.")
+            sleep(4)
+            print("The fire alarms go off, and as you expected, the guards in front of the gate to the ladder have left to deal with the situation, and amongst the chaos, you make it into the sector with the ladder.")
+            sleep(3)
+            print("'Uh oh.' You look back and discover that the guards have noticed you sneaking in to the area.")
+            #dialogueN
+            f=input("1.Go up the ladder first. 2.Let Nico go up first.")
+            if f =="1":
+              #dialogueN this whole section
+              print("You decide to climb first, and as the bullets fly by, one narrowly misses your head by an inch.")
+              sleep(3)
+              print("You and Nico keep climbing, and after an excruciating about of anxiety and ladder climbing, you make it to the top of the ladder and shuffle onto the cold rocky surface you have emerged onto.")
+              print("You bring out your knife and cut down the ladder.")
+              print("'Whew.' You take a sigh of relief and take a look at your new environment.")
+              sleep(3)
+              print("Blue ice and crystals litter the cave systems ahead of you.")
+              print("'Here we go.'")
+              player1.newSkill()
+              nextChapter(player1)###################
+            else:
+              #dialogueN this whole section
+              print("You let Nico go first, and you climb on after.")
+              print("Nico climbs much more quickly than you as the bullets fly by.")
+              sleep(5)
+              print("You traverse the ladder as quickly as possible, but one of the guards managed to shoot Nico in the head.")
+              print("Their body pauses on the ladder, preventing you to climb up any further.")
+              print("Because of this, the guards manage to get shots on you since you are a stationary target. You feel bullets everywhere. YOU DIED! THE END!")
+              die(player1)
+          else:
+            print("You sneak up on the guards, planning on killing them, only to trip a silent alarm near the entrance, alerting the guards of your presence.")
+            print("Eventually, they find you and bury a bullet into your head. YOU DIED! THE END!")
+        elif d =="3":
+          print("You decide to enter the building on the right. There seems to be a path that connects right towards the sector with the ladder. However, it is guarded.")
+          e=input("1.Look for some disguises. 2.Sneak in. 3.Cause a distraction. 4.Kill the guards at the entrance to the ladder area.")
+          if e =="1":
+            print("You sneak around the area, looking for disguises, but the moment you open a door, you find a bunch of monsters on the other side. They all pounce on you and feast upon your bodies. YOU DIED! THE END!")
+            die(player1)
+          elif e =="2":
+            print("You sneak towards the entrance, and after waiting for about half an hour, the guards yawn and start walking away from the entrance, probably to get food.")
+            sleep(3)
+            print("You use this chance to walk right into the ladder sector, and are about to start climbing when-")
+            #dialogueN
+            print("'Uh oh. They saw us!' Nico exclaims, looking behind you.")
+            #dialogueN
+            f=input("1.Go up the ladder first. 2.Let Nico go up first.")
+            if f =="1":
+              #dialogueN this whole section
+              print("You decide to climb first, and as the bullets fly by, one narrowly misses your head by an inch.")
+              sleep(3)
+              print("You and Nico keep climbing, and after an excruciating about of anxiety and ladder climbing, you make it to the top of the ladder and shuffle onto the cold rocky surface you have emerged onto.")
+              print("You bring out your knife and cut down the ladder.")
+              print("'Whew.' You take a sigh of relief and take a look at your new environment.")
+              sleep(3)
+              print("Blue ice and crystals litter the cave systems ahead of you.")
+              print("'Here we go.'")
+              player1.newSkill()
+              nextChapter(player1)#####################
+            else:
+              #dialogueN this whole section
+              print("You let Nico go first, and you climb on after.")
+              print("Nico climbs much more quickly than you as the bullets fly by.")
+              sleep(5)
+              print("You traverse the ladder as quickly as possible, but one of the guards managed to shoot Nico in the head.")
+              print("Their body pauses on the ladder, preventing you to climb up any further.")
+              print("Because of this, the guards manage to get shots on you since you are a stationary target. You feel bullets everywhere. YOU DIED! THE END!")
+              die(player1)
+          elif e =="3":
+            print("You walk over to the other side of the building, and brandish a match from your pocket.")
+            #dialogueN
+            print("'Are you sure this is a good idea?' Nico asks.")
+            print("You grin. 'It's an excellent idea.'")
+            print("You light the match, and drop it in a room full of wooden furniture.")
+            sleep(4)
+            print("The fire alarms go off, and as you expected, the guards in front of the gate to the ladder have left to deal with the situation, and amongst the chaos, you make it into the sector with the ladder.")
+            sleep(3)
+            print("'Uh oh.' You look back and discover that the guards have noticed you sneaking in to the area.")
+            #dialogueN
+            f=input("1.Go up the ladder first. 2.Let Nico go up first.")
+            if f =="1":
+              #dialogueN this whole section
+              print("You decide to climb first, and as the bullets fly by, one narrowly misses your head by an inch.")
+              sleep(3)
+              print("You and Nico keep climbing, and after an excruciating about of anxiety and ladder climbing, you make it to the top of the ladder and shuffle onto the cold rocky surface you have emerged onto.")
+              print("You bring out your knife and cut down the ladder.")
+              print("'Whew.' You take a sigh of relief and take a look at your new environment.")
+              sleep(3)
+              print("Blue ice and crystals litter the cave systems ahead of you.")
+              print("'Here we go.'")
+              player1.newSkill()
+              nextChapter(player1)##################
+            else:
+              #dialogueN this whole section
+              print("You let Nico go first, and you climb on after.")
+              print("Nico climbs much more quickly than you as the bullets fly by.")
+              sleep(5)
+              print("You traverse the ladder as quickly as possible, but one of the guards managed to shoot Nico in the head.")
+              print("Their body pauses on the ladder, preventing you to climb up any further.")
+              print("Because of this, the guards manage to get shots on you since you are a stationary target. You feel bullets everywhere. YOU DIED! THE END!")
+              die(player1)
+          else:
+            print("You sneak up on the guards, planning on killing them, only to trip a silent alarm near the entrance, alerting the guards of your presence.")
+            print("Eventually, they find you and bury a bullet into your head. YOU DIED! THE END!")
+        else:
+          print("You decide to head into the building behind it, only to find yourself in a gym full of training monsters.")
+          print("You stood no chance. They ripped your body apart with their bare hands.")
+          print("YOU DIED! THE END!")
+      elif c =="2":
+        #dialogueN
+        print("You decide to walk straight through the market. Due to the large amount of traffic going through these markets, you and Nico manage to pass through to the other side unseen.")
+        sleep(4)
+        print("You successfully identify the building from which the ladder emerges.")
+        d=input("1.Enter the building. 2.Enter the building to the left. 3.Enter the building to the right. 4.Enter the building behind it.")
+        if d =="1":
+          print("You head right in to the building, only to be seen by the security cameras at the front door. The guards inside are ready to ambush you, and they do.")
+          print("You were killed in a second from the firing squad.")
+          print("YOU DIED! THE END!")
+        elif d =="2":
+          print("You head in through the building to the left, and see a path that connects right to the sector with the ladder. However, how would you be able to reach it?")
+          e=input("1.Look for some disguises. 2.Sneak in. 3.Cause a distraction. 4.Kill the guards at the entrance to the ladder area.")
+          if e =="1":
+            print("You sneak around the area, looking for disguises, but the moment you open a door, you find a bunch of monsters on the other side. They all pounce on you and feast upon your bodies. YOU DIED! THE END!")
+            die(player1)
+          elif e =="2":
+            print("You sneak towards the entrance, and after waiting for about half an hour, the guards yawn and start walking away from the entrance, probably to get food.")
+            sleep(3)
+            print("You use this chance to walk right into the ladder sector, and are about to start climbing when-")
+            #dialogueN
+            print("'Uh oh. They saw us!' Nico exclaims, looking behind you.")
+            #dialogueN
+            f=input("1.Go up the ladder first. 2.Let Nico go up first.")
+            if f =="1":
+              #dialogueN this whole section
+              print("You decide to climb first, and as the bullets fly by, one narrowly misses your head by an inch.")
+              sleep(3)
+              print("You and Nico keep climbing, and after an excruciating about of anxiety and ladder climbing, you make it to the top of the ladder and shuffle onto the cold rocky surface you have emerged onto.")
+              print("You bring out your knife and cut down the ladder.")
+              print("'Whew.' You take a sigh of relief and take a look at your new environment.")
+              sleep(3)
+              print("Blue ice and crystals litter the cave systems ahead of you.")
+              print("'Here we go.'")
+              player1.newSkill()
+              nextChapter(player1)####################
+            else:
+              #dialogueN this whole section
+              print("You let Nico go first, and you climb on after.")
+              print("Nico climbs much more quickly than you as the bullets fly by.")
+              sleep(5)
+              print("You traverse the ladder as quickly as possible, but one of the guards managed to shoot Nico in the head.")
+              print("Their body pauses on the ladder, preventing you to climb up any further.")
+              print("Because of this, the guards manage to get shots on you since you are a stationary target. You feel bullets everywhere. YOU DIED! THE END!")
+              die(player1)
+          elif e =="3":
+            print("You walk over to the other side of the building, and brandish a match from your pocket.")
+            #dialogueN
+            print("'Are you sure this is a good idea?' Nico asks.")
+            print("You grin. 'It's an excellent idea.'")
+            print("You light the match, and drop it in a room full of wooden furniture.")
+            sleep(4)
+            print("The fire alarms go off, and as you expected, the guards in front of the gate to the ladder have left to deal with the situation, and amongst the chaos, you make it into the sector with the ladder.")
+            sleep(3)
+            print("'Uh oh.' You look back and discover that the guards have noticed you sneaking in to the area.")
+            #dialogueN
+            f=input("1.Go up the ladder first. 2.Let Nico go up first.")
+            if f =="1":
+              #dialogueN this whole section
+              print("You decide to climb first, and as the bullets fly by, one narrowly misses your head by an inch.")
+              sleep(3)
+              print("You and Nico keep climbing, and after an excruciating about of anxiety and ladder climbing, you make it to the top of the ladder and shuffle onto the cold rocky surface you have emerged onto.")
+              print("You bring out your knife and cut down the ladder.")
+              print("'Whew.' You take a sigh of relief and take a look at your new environment.")
+              sleep(3)
+              print("Blue ice and crystals litter the cave systems ahead of you.")
+              print("'Here we go.'")
+              player1.newSkill()
+              nextChapter(player1)###################
+            else:
+              #dialogueN this whole section
+              print("You let Nico go first, and you climb on after.")
+              print("Nico climbs much more quickly than you as the bullets fly by.")
+              sleep(5)
+              print("You traverse the ladder as quickly as possible, but one of the guards managed to shoot Nico in the head.")
+              print("Their body pauses on the ladder, preventing you to climb up any further.")
+              print("Because of this, the guards manage to get shots on you since you are a stationary target. You feel bullets everywhere. YOU DIED! THE END!")
+              die(player1)
+          else:
+            print("You sneak up on the guards, planning on killing them, only to trip a silent alarm near the entrance, alerting the guards of your presence.")
+            print("Eventually, they find you and bury a bullet into your head. YOU DIED! THE END!")
+        elif d =="3":
+          print("You decide to enter the building on the right. There seems to be a path that connects right towards the sector with the ladder. However, it is guarded.")
+          e=input("1.Look for some disguises. 2.Sneak in. 3.Cause a distraction. 4.Kill the guards at the entrance to the ladder area.")
+          if e =="1":
+            print("You sneak around the area, looking for disguises, but the moment you open a door, you find a bunch of monsters on the other side. They all pounce on you and feast upon your bodies. YOU DIED! THE END!")
+            die(player1)
+          elif e =="2":
+            print("You sneak towards the entrance, and after waiting for about half an hour, the guards yawn and start walking away from the entrance, probably to get food.")
+            sleep(3)
+            print("You use this chance to walk right into the ladder sector, and are about to start climbing when-")
+            #dialogueN
+            print("'Uh oh. They saw us!' Nico exclaims, looking behind you.")
+            #dialogueN
+            f=input("1.Go up the ladder first. 2.Let Nico go up first.")
+            if f =="1":
+              #dialogueN this whole section
+              print("You decide to climb first, and as the bullets fly by, one narrowly misses your head by an inch.")
+              sleep(3)
+              print("You and Nico keep climbing, and after an excruciating about of anxiety and ladder climbing, you make it to the top of the ladder and shuffle onto the cold rocky surface you have emerged onto.")
+              print("You bring out your knife and cut down the ladder.")
+              print("'Whew.' You take a sigh of relief and take a look at your new environment.")
+              sleep(3)
+              print("Blue ice and crystals litter the cave systems ahead of you.")
+              print("'Here we go.'")
+              player1.newSkill()
+              nextChapter(player1)####################
+            else:
+              #dialogueN this whole section
+              print("You let Nico go first, and you climb on after.")
+              print("Nico climbs much more quickly than you as the bullets fly by.")
+              sleep(5)
+              print("You traverse the ladder as quickly as possible, but one of the guards managed to shoot Nico in the head.")
+              print("Their body pauses on the ladder, preventing you to climb up any further.")
+              print("Because of this, the guards manage to get shots on you since you are a stationary target. You feel bullets everywhere. YOU DIED! THE END!")
+              die(player1)
+          elif e =="3":
+            print("You walk over to the other side of the building, and brandish a match from your pocket.")
+            #dialogueN
+            print("'Are you sure this is a good idea?' Nico asks.")
+            print("You grin. 'It's an excellent idea.'")
+            print("You light the match, and drop it in a room full of wooden furniture.")
+            sleep(4)
+            print("The fire alarms go off, and as you expected, the guards in front of the gate to the ladder have left to deal with the situation, and amongst the chaos, you make it into the sector with the ladder.")
+            sleep(3)
+            print("'Uh oh.' You look back and discover that the guards have noticed you sneaking in to the area.")
+            #dialogueN
+            f=input("1.Go up the ladder first. 2.Let Nico go up first.")
+            if f =="1":
+              #dialogueN this whole section
+              print("You decide to climb first, and as the bullets fly by, one narrowly misses your head by an inch.")
+              sleep(3)
+              print("You and Nico keep climbing, and after an excruciating about of anxiety and ladder climbing, you make it to the top of the ladder and shuffle onto the cold rocky surface you have emerged onto.")
+              print("You bring out your knife and cut down the ladder.")
+              print("'Whew.' You take a sigh of relief and take a look at your new environment.")
+              sleep(3)
+              print("Blue ice and crystals litter the cave systems ahead of you.")
+              print("'Here we go.'")
+              player1.newSkill()
+              nextChapter(player1)####################
+            else:
+              #dialogueN this whole section
+              print("You let Nico go first, and you climb on after.")
+              print("Nico climbs much more quickly than you as the bullets fly by.")
+              sleep(5)
+              print("You traverse the ladder as quickly as possible, but one of the guards managed to shoot Nico in the head.")
+              print("Their body pauses on the ladder, preventing you to climb up any further.")
+              print("Because of this, the guards manage to get shots on you since you are a stationary target. You feel bullets everywhere. YOU DIED! THE END!")
+              die(player1)
+          else:
+            print("You sneak up on the guards, planning on killing them, only to trip a silent alarm near the entrance, alerting the guards of your presence.")
+            print("Eventually, they find you and bury a bullet into your head. YOU DIED! THE END!")
+        else:
+          print("You decide to head into the building behind it, only to find yourself in a gym full of training monsters.")
+          print("You stood no chance. They ripped your body apart with their bare hands.")
+          print("YOU DIED! THE END!")
+      elif c =="3":
+        print("You decide to take a walk past the hospital.")
+        print("Unfortunately, there are guards around the hospital, who have seen you and already called the snipers.")
+        print("You were sniped right in the middle of the road. YOU DIED! THE END!")
+        die(player1)
+      else:
+        #dialogueN
+        print("You decide to walk through the armory. Unbeknownst to you, you and Nico triggered a silent alarm when you didn't enter the code to enter the door.")
+        print("You were swarmed in seconds. THE END!")
+        die(player1)
     elif b =="2":
       print("You decide to make a run for it, but the creature notices you and pounces, striking you right in the stomach. Your blood is everywhere. You close your eyes. YOU DIED! THE END!")
       die(player1)
@@ -3273,7 +3926,328 @@ def caveVillage(player1):#used in multiple scenes. Formatted for NICO. Swap dial
         print("You stop yourself. In the center of the village you see something.")
         print("A ladder that leads up into an icy section of the caves. That must be where the Summit is!")
         print("But how will you make it there?")
-        c=input("1.Walk past the farms. 2.Walk through the market. 3.Walk past the hospital. 4.Walk through the armory.")#u
+        c=input("1.Walk past the farms. 2.Walk through the market. 3.Walk past the hospital. 4.Walk through the armory.")
+        if c =="1":
+          print("You decide to take a walk past the farms, away from the rest of the action. It serves you well, as you do not run into any monsters.")
+          sleep(4)
+          print("You arrive at the central section of the village, and you are able to identify the central building where the ladder emerges from.")
+          d=input("1.Enter the building. 2.Enter the building to the left. 3.Enter the building to the right. 4.Enter the building behind it.")
+          if d =="1":
+            print("You head right in to the building, only to be seen by the security cameras at the front door. The guards inside are ready to ambush you, and they do.")
+            print("You were killed in a second from the firing squad.")
+            print("YOU DIED! THE END!")
+          elif d =="2":
+            print("You head in through the building to the left, and see a path that connects right to the sector with the ladder. However, how would you be able to reach it?")
+            e=input("1.Look for some disguises. 2.Sneak in. 3.Cause a distraction. 4.Kill the guards at the entrance to the ladder area.")
+            if e =="1":
+              print("You sneak around the area, looking for disguises, but the moment you open a door, you find a bunch of monsters on the other side. They all pounce on you and feast upon your bodies. YOU DIED! THE END!")
+              die(player1)
+            elif e =="2":
+              print("You sneak towards the entrance, and after waiting for about half an hour, the guards yawn and start walking away from the entrance, probably to get food.")
+              sleep(3)
+              print("You use this chance to walk right into the ladder sector, and are about to start climbing when-")
+              #dialogueN
+              print("'Uh oh. They saw us!' Nico exclaims, looking behind you.")
+              #dialogueN
+              f=input("1.Go up the ladder first. 2.Let Nico go up first.")
+              if f =="1":
+                #dialogueN this whole section
+                print("You decide to climb first, and as the bullets fly by, one narrowly misses your head by an inch.")
+                sleep(3)
+                print("You and Nico keep climbing, and after an excruciating about of anxiety and ladder climbing, you make it to the top of the ladder and shuffle onto the cold rocky surface you have emerged onto.")
+                print("You bring out your knife and cut down the ladder.")
+                print("'Whew.' You take a sigh of relief and take a look at your new environment.")
+                sleep(3)
+                print("Blue ice and crystals litter the cave systems ahead of you.")
+                print("'Here we go.'")
+                player1.newSkill()
+                nextChapter(player1)###################
+              else:
+                #dialogueN this whole section
+                print("You let Nico go first, and you climb on after.")
+                print("Nico climbs much more quickly than you as the bullets fly by.")
+                sleep(5)
+                print("You traverse the ladder as quickly as possible, but one of the guards managed to shoot Nico in the head.")
+                print("Their body pauses on the ladder, preventing you to climb up any further.")
+                print("Because of this, the guards manage to get shots on you since you are a stationary target. You feel bullets everywhere. YOU DIED! THE END!")
+                die(player1)
+            elif e =="3":
+              print("You walk over to the other side of the building, and brandish a match from your pocket.")
+              #dialogueN
+              print("'Are you sure this is a good idea?' Nico asks.")
+              print("You grin. 'It's an excellent idea.'")
+              print("You light the match, and drop it in a room full of wooden furniture.")
+              sleep(4)
+              print("The fire alarms go off, and as you expected, the guards in front of the gate to the ladder have left to deal with the situation, and amongst the chaos, you make it into the sector with the ladder.")
+              sleep(3)
+              print("'Uh oh.' You look back and discover that the guards have noticed you sneaking in to the area.")
+              #dialogueN
+              f=input("1.Go up the ladder first. 2.Let Nico go up first.")
+              if f =="1":
+                #dialogueN this whole section
+                print("You decide to climb first, and as the bullets fly by, one narrowly misses your head by an inch.")
+                sleep(3)
+                print("You and Nico keep climbing, and after an excruciating about of anxiety and ladder climbing, you make it to the top of the ladder and shuffle onto the cold rocky surface you have emerged onto.")
+                print("You bring out your knife and cut down the ladder.")
+                print("'Whew.' You take a sigh of relief and take a look at your new environment.")
+                sleep(3)
+                print("Blue ice and crystals litter the cave systems ahead of you.")
+                print("'Here we go.'")
+                player1.newSkill()
+                nextChapter(player1)####################
+              else:
+                #dialogueN this whole section
+                print("You let Nico go first, and you climb on after.")
+                print("Nico climbs much more quickly than you as the bullets fly by.")
+                sleep(5)
+                print("You traverse the ladder as quickly as possible, but one of the guards managed to shoot Nico in the head.")
+                print("Their body pauses on the ladder, preventing you to climb up any further.")
+                print("Because of this, the guards manage to get shots on you since you are a stationary target. You feel bullets everywhere. YOU DIED! THE END!")
+                die(player1)
+            else:
+              print("You sneak up on the guards, planning on killing them, only to trip a silent alarm near the entrance, alerting the guards of your presence.")
+              print("Eventually, they find you and bury a bullet into your head. YOU DIED! THE END!")
+          elif d =="3":
+            print("You decide to enter the building on the right. There seems to be a path that connects right towards the sector with the ladder. However, it is guarded.")
+            e=input("1.Look for some disguises. 2.Sneak in. 3.Cause a distraction. 4.Kill the guards at the entrance to the ladder area.")
+            if e =="1":
+              print("You sneak around the area, looking for disguises, but the moment you open a door, you find a bunch of monsters on the other side. They all pounce on you and feast upon your bodies. YOU DIED! THE END!")
+              die(player1)
+            elif e =="2":
+              print("You sneak towards the entrance, and after waiting for about half an hour, the guards yawn and start walking away from the entrance, probably to get food.")
+              sleep(3)
+              print("You use this chance to walk right into the ladder sector, and are about to start climbing when-")
+              #dialogueN
+              print("'Uh oh. They saw us!' Nico exclaims, looking behind you.")
+              #dialogueN
+              f=input("1.Go up the ladder first. 2.Let Nico go up first.")
+              if f =="1":
+                #dialogueN this whole section
+                print("You decide to climb first, and as the bullets fly by, one narrowly misses your head by an inch.")
+                sleep(3)
+                print("You and Nico keep climbing, and after an excruciating about of anxiety and ladder climbing, you make it to the top of the ladder and shuffle onto the cold rocky surface you have emerged onto.")
+                print("You bring out your knife and cut down the ladder.")
+                print("'Whew.' You take a sigh of relief and take a look at your new environment.")
+                sleep(3)
+                print("Blue ice and crystals litter the cave systems ahead of you.")
+                print("'Here we go.'")
+                player1.newSkill()
+                nextChapter(player1)####################
+              else:
+                #dialogueN this whole section
+                print("You let Nico go first, and you climb on after.")
+                print("Nico climbs much more quickly than you as the bullets fly by.")
+                sleep(5)
+                print("You traverse the ladder as quickly as possible, but one of the guards managed to shoot Nico in the head.")
+                print("Their body pauses on the ladder, preventing you to climb up any further.")
+                print("Because of this, the guards manage to get shots on you since you are a stationary target. You feel bullets everywhere. YOU DIED! THE END!")
+                die(player1)
+            elif e =="3":
+              print("You walk over to the other side of the building, and brandish a match from your pocket.")
+              #dialogueN
+              print("'Are you sure this is a good idea?' Nico asks.")
+              print("You grin. 'It's an excellent idea.'")
+              print("You light the match, and drop it in a room full of wooden furniture.")
+              sleep(4)
+              print("The fire alarms go off, and as you expected, the guards in front of the gate to the ladder have left to deal with the situation, and amongst the chaos, you make it into the sector with the ladder.")
+              sleep(3)
+              print("'Uh oh.' You look back and discover that the guards have noticed you sneaking in to the area.")
+              #dialogueN
+              f=input("1.Go up the ladder first. 2.Let Nico go up first.")
+              if f =="1":
+                #dialogueN this whole section
+                print("You decide to climb first, and as the bullets fly by, one narrowly misses your head by an inch.")
+                sleep(3)
+                print("You and Nico keep climbing, and after an excruciating about of anxiety and ladder climbing, you make it to the top of the ladder and shuffle onto the cold rocky surface you have emerged onto.")
+                print("You bring out your knife and cut down the ladder.")
+                print("'Whew.' You take a sigh of relief and take a look at your new environment.")
+                sleep(3)
+                print("Blue ice and crystals litter the cave systems ahead of you.")
+                print("'Here we go.'")
+                player1.newSkill()
+                nextChapter(player1)###################
+              else:
+                #dialogueN this whole section
+                print("You let Nico go first, and you climb on after.")
+                print("Nico climbs much more quickly than you as the bullets fly by.")
+                sleep(5)
+                print("You traverse the ladder as quickly as possible, but one of the guards managed to shoot Nico in the head.")
+                print("Their body pauses on the ladder, preventing you to climb up any further.")
+                print("Because of this, the guards manage to get shots on you since you are a stationary target. You feel bullets everywhere. YOU DIED! THE END!")
+                die(player1)
+            else:
+              print("You sneak up on the guards, planning on killing them, only to trip a silent alarm near the entrance, alerting the guards of your presence.")
+              print("Eventually, they find you and bury a bullet into your head. YOU DIED! THE END!")
+          else:
+            print("You decide to head into the building behind it, only to find yourself in a gym full of training monsters.")
+            print("You stood no chance. They ripped your body apart with their bare hands.")
+            print("YOU DIED! THE END!")
+        elif c =="2":
+          #dialogueN
+          print("You decide to walk straight through the market. Due to the large amount of traffic going through these markets, you and Nico manage to pass through to the other side unseen.")
+          sleep(4)
+          print("You successfully identify the building from which the ladder emerges.")
+          d=input("1.Enter the building. 2.Enter the building to the left. 3.Enter the building to the right. 4.Enter the building behind it.")
+          if d =="1":
+            print("You head right in to the building, only to be seen by the security cameras at the front door. The guards inside are ready to ambush you, and they do.")
+            print("You were killed in a second from the firing squad.")
+            print("YOU DIED! THE END!")
+          elif d =="2":
+            print("You head in through the building to the left, and see a path that connects right to the sector with the ladder. However, how would you be able to reach it?")
+            e=input("1.Look for some disguises. 2.Sneak in. 3.Cause a distraction. 4.Kill the guards at the entrance to the ladder area.")
+            if e =="1":
+              print("You sneak around the area, looking for disguises, but the moment you open a door, you find a bunch of monsters on the other side. They all pounce on you and feast upon your bodies. YOU DIED! THE END!")
+              die(player1)
+            elif e =="2":
+              print("You sneak towards the entrance, and after waiting for about half an hour, the guards yawn and start walking away from the entrance, probably to get food.")
+              sleep(3)
+              print("You use this chance to walk right into the ladder sector, and are about to start climbing when-")
+              #dialogueN
+              print("'Uh oh. They saw us!' Nico exclaims, looking behind you.")
+              #dialogueN
+              f=input("1.Go up the ladder first. 2.Let Nico go up first.")
+              if f =="1":
+                #dialogueN this whole section
+                print("You decide to climb first, and as the bullets fly by, one narrowly misses your head by an inch.")
+                sleep(3)
+                print("You and Nico keep climbing, and after an excruciating about of anxiety and ladder climbing, you make it to the top of the ladder and shuffle onto the cold rocky surface you have emerged onto.")
+                print("You bring out your knife and cut down the ladder.")
+                print("'Whew.' You take a sigh of relief and take a look at your new environment.")
+                sleep(3)
+                print("Blue ice and crystals litter the cave systems ahead of you.")
+                print("'Here we go.'")
+                player1.newSkill()
+                nextChapter(player1)###################
+              else:
+                #dialogueN this whole section
+                print("You let Nico go first, and you climb on after.")
+                print("Nico climbs much more quickly than you as the bullets fly by.")
+                sleep(5)
+                print("You traverse the ladder as quickly as possible, but one of the guards managed to shoot Nico in the head.")
+                print("Their body pauses on the ladder, preventing you to climb up any further.")
+                print("Because of this, the guards manage to get shots on you since you are a stationary target. You feel bullets everywhere. YOU DIED! THE END!")
+                die(player1)
+            elif e =="3":
+              print("You walk over to the other side of the building, and brandish a match from your pocket.")
+              #dialogueN
+              print("'Are you sure this is a good idea?' Nico asks.")
+              print("You grin. 'It's an excellent idea.'")
+              print("You light the match, and drop it in a room full of wooden furniture.")
+              sleep(4)
+              print("The fire alarms go off, and as you expected, the guards in front of the gate to the ladder have left to deal with the situation, and amongst the chaos, you make it into the sector with the ladder.")
+              sleep(3)
+              print("'Uh oh.' You look back and discover that the guards have noticed you sneaking in to the area.")
+              #dialogueN
+              f=input("1.Go up the ladder first. 2.Let Nico go up first.")
+              if f =="1":
+                #dialogueN this whole section
+                print("You decide to climb first, and as the bullets fly by, one narrowly misses your head by an inch.")
+                sleep(3)
+                print("You and Nico keep climbing, and after an excruciating about of anxiety and ladder climbing, you make it to the top of the ladder and shuffle onto the cold rocky surface you have emerged onto.")
+                print("You bring out your knife and cut down the ladder.")
+                print("'Whew.' You take a sigh of relief and take a look at your new environment.")
+                sleep(3)
+                print("Blue ice and crystals litter the cave systems ahead of you.")
+                print("'Here we go.'")
+                player1.newSkill()
+                nextChapter(player1)################
+              else:
+                #dialogueN this whole section
+                print("You let Nico go first, and you climb on after.")
+                print("Nico climbs much more quickly than you as the bullets fly by.")
+                sleep(5)
+                print("You traverse the ladder as quickly as possible, but one of the guards managed to shoot Nico in the head.")
+                print("Their body pauses on the ladder, preventing you to climb up any further.")
+                print("Because of this, the guards manage to get shots on you since you are a stationary target. You feel bullets everywhere. YOU DIED! THE END!")
+                die(player1)
+            else:
+              print("You sneak up on the guards, planning on killing them, only to trip a silent alarm near the entrance, alerting the guards of your presence.")
+              print("Eventually, they find you and bury a bullet into your head. YOU DIED! THE END!")
+          elif d =="3":
+            print("You decide to enter the building on the right. There seems to be a path that connects right towards the sector with the ladder. However, it is guarded.")
+            e=input("1.Look for some disguises. 2.Sneak in. 3.Cause a distraction. 4.Kill the guards at the entrance to the ladder area.")
+            if e =="1":
+              print("You sneak around the area, looking for disguises, but the moment you open a door, you find a bunch of monsters on the other side. They all pounce on you and feast upon your bodies. YOU DIED! THE END!")
+              die(player1)
+            elif e =="2":
+              print("You sneak towards the entrance, and after waiting for about half an hour, the guards yawn and start walking away from the entrance, probably to get food.")
+              sleep(3)
+              print("You use this chance to walk right into the ladder sector, and are about to start climbing when-")
+              #dialogueN
+              print("'Uh oh. They saw us!' Nico exclaims, looking behind you.")
+              #dialogueN
+              f=input("1.Go up the ladder first. 2.Let Nico go up first.")
+              if f =="1":
+                #dialogueN this whole section
+                print("You decide to climb first, and as the bullets fly by, one narrowly misses your head by an inch.")
+                sleep(3)
+                print("You and Nico keep climbing, and after an excruciating about of anxiety and ladder climbing, you make it to the top of the ladder and shuffle onto the cold rocky surface you have emerged onto.")
+                print("You bring out your knife and cut down the ladder.")
+                print("'Whew.' You take a sigh of relief and take a look at your new environment.")
+                sleep(3)
+                print("Blue ice and crystals litter the cave systems ahead of you.")
+                print("'Here we go.'")
+                player1.newSkill()
+                nextChapter(player1)#####################
+              else:
+                #dialogueN this whole section
+                print("You let Nico go first, and you climb on after.")
+                print("Nico climbs much more quickly than you as the bullets fly by.")
+                sleep(5)
+                print("You traverse the ladder as quickly as possible, but one of the guards managed to shoot Nico in the head.")
+                print("Their body pauses on the ladder, preventing you to climb up any further.")
+                print("Because of this, the guards manage to get shots on you since you are a stationary target. You feel bullets everywhere. YOU DIED! THE END!")
+                die(player1)
+            elif e =="3":
+              print("You walk over to the other side of the building, and brandish a match from your pocket.")
+              #dialogueN
+              print("'Are you sure this is a good idea?' Nico asks.")
+              print("You grin. 'It's an excellent idea.'")
+              print("You light the match, and drop it in a room full of wooden furniture.")
+              sleep(4)
+              print("The fire alarms go off, and as you expected, the guards in front of the gate to the ladder have left to deal with the situation, and amongst the chaos, you make it into the sector with the ladder.")
+              sleep(3)
+              print("'Uh oh.' You look back and discover that the guards have noticed you sneaking in to the area.")
+              #dialogueN
+              f=input("1.Go up the ladder first. 2.Let Nico go up first.")
+              if f =="1":
+                #dialogueN this whole section
+                print("You decide to climb first, and as the bullets fly by, one narrowly misses your head by an inch.")
+                sleep(3)
+                print("You and Nico keep climbing, and after an excruciating about of anxiety and ladder climbing, you make it to the top of the ladder and shuffle onto the cold rocky surface you have emerged onto.")
+                print("You bring out your knife and cut down the ladder.")
+                print("'Whew.' You take a sigh of relief and take a look at your new environment.")
+                sleep(3)
+                print("Blue ice and crystals litter the cave systems ahead of you.")
+                print("'Here we go.'")
+                player1.newSkill()
+                nextChapter(player1)###############
+              else:
+                #dialogueN this whole section
+                print("You let Nico go first, and you climb on after.")
+                print("Nico climbs much more quickly than you as the bullets fly by.")
+                sleep(5)
+                print("You traverse the ladder as quickly as possible, but one of the guards managed to shoot Nico in the head.")
+                print("Their body pauses on the ladder, preventing you to climb up any further.")
+                print("Because of this, the guards manage to get shots on you since you are a stationary target. You feel bullets everywhere. YOU DIED! THE END!")
+                die(player1)
+            else:
+              print("You sneak up on the guards, planning on killing them, only to trip a silent alarm near the entrance, alerting the guards of your presence.")
+              print("Eventually, they find you and bury a bullet into your head. YOU DIED! THE END!")
+          else:
+            print("You decide to head into the building behind it, only to find yourself in a gym full of training monsters.")
+            print("You stood no chance. They ripped your body apart with their bare hands.")
+            print("YOU DIED! THE END!")
+        elif c =="3":
+          print("You decide to take a walk past the hospital.")
+          print("Unfortunately, there are guards around the hospital, who have seen you and already called the snipers.")
+          print("You were sniped right in the middle of the road. YOU DIED! THE END!")
+          die(player1)
+        else:
+          #dialogueN
+          print("You decide to walk through the armory. Unbeknownst to you, you and Nico triggered a silent alarm when you didn't enter the code to enter the door.")
+          print("You were swarmed in seconds. THE END!")
+          die(player1)
       else:
         print("You failed to hide silently and the creature turns towards you. You have nowhere to run, and it opens its mouth. YOU DIED! THE END!")
         die(player1)
@@ -3284,8 +4258,1946 @@ def caveVillage(player1):#used in multiple scenes. Formatted for NICO. Swap dial
       print("YOU DIED! THE END!")
       die(player1)
 
-def forestVillage(player1):
-  pass
-
-def abandonedVillage(player1):
-  pass
+def abandonedVillage(player1):#Used in Alone, DreamTeam and Ranger. formatted for ALONE. add dialogue if need be. (For RANGER this is stage 2)
+  #leads to mountains (or snowy mountains if RANGER)
+  print("You make your way to the abandoned village. It's much bigger than you anticipated. It's the size of a small city, at least.")
+  print("You walk down the Main Street, wondering at the derelict and abandoned buildings on both sides. You briefly enter a few of the buildings, which make you reminiscent of earth. Before the...")
+  sleep(4)
+  print("You shake your head. You've reached the end of the Main Street.")
+  print("You're unsure which way would lead you closer to the mountains.")
+  a=input("1.Go through the tall, big building. 2.Go throguh a tunnel through the hill in front of you. 3.Climb the ladder over the hill. 4.Go through the underground tunnel.")
+  if a =="1":
+    print("You decide to walk into the big, tall, important looking building. You push open the door, and step forwards, only to realize that you made no step. The floor is missing. You fall through the massive hole and eventually crash into the rocks below. YOU DIED! THE END!")
+    die(player1)
+  elif a =="2":
+    print("You decide to go through the tunnel in the side of the hill, hoping that the mountains you need to reach are behind this hill.")
+    sleep(5)
+    print("Suddenly, you hear one of the tunnel's supports snap behind you.")
+    sleep(5)
+    st = time.time()
+    b=input("PRESS [R] to run faster!").title()
+    rt=time.time()-st
+    if b == "R" and rt<2:
+      print("You accelerate just enough to avoid the collapsing tunnel. You pant heavily and take a look around you. You've made it to the other side of the hill, only to realize that you are inside a massive building. You will have to traverse to the top of this building to reach the mountains, as there seems to be a zipline leading right to the base of them at the top.")
+      c=input("1.Try the elevator. 2.Climb the ladder. 3.Take the stairs. 4.Climb up using ledges on the inner side of the building.")
+      if c=="1":
+        print("You approach the elevator, expecting it to confirm that the electricity has run out.")
+        sleep(3)
+        print("You click the button, and the elevator dings. Surprised, you head into the elevator, and press the button to the roof.")
+        sleep(5)
+        print("Nothing happens.")
+        print("You press the button again.")
+        sleep(3)
+        print("The elevator suddenly makes a whirring sound, and explodes, smothering you in its endless flame. YOU DIED! THE END!")
+        die(player1)
+      elif c =="2":
+        print("You decide to climb the ladder.")
+        sleep(3)
+        print("The ladder shakes.")
+        sleep(5)
+        print("The ladder stops shaking and you continue your way up.")
+        sleep(3)
+        print("Eventually, you make it to the top of the building. The zipline is in a room behind a locked door.")
+        d=input("1.Shoot the lock. 2.Kick down the door. 3.Pick the lock. 4.Throw a grenade at the door.")
+        if d =="1":
+          print("You shoot the lock, and it drops to the ground. You place your hand on the handle and it electrocutes you. YOU DIED! THE END!")
+          die(player1)
+        elif d =="2":
+          print("You decide to kick down the door, and you successfully kick it open. You walk straight through and the zipline is now before you.")
+          sleep(3)
+          print("You look around. There doesn't seem to be anything to go down the zipline with.")
+          e=input("1.Use your hands. 2.Use your rifle. 3.Use your pistol. 4.Look around again.")
+          if e =="1":
+            print("You had the great idea of using your hands down the zipline. Unfortunately, you couldn't hold on. YOU DIED! THE END!")
+            die(player1)
+          elif e =="2":
+            print("You decide to use your rifle to traverse the zipline. You managed to hold on the entire journey and ended up at the base of the mountains ahead.")
+            sleep(3)
+            print("You look at the towering mountains ahead of you.")
+            print("Better keep moving.")
+            player1.newSkill()
+            nextChapter(player1)###########################
+          elif e=="3":
+            print("You decide to use your pistol to go down the zipline. Unfortunately, you lost your grip and fell into the hills below you. YOU DIED! THE END!")
+            die(player1)
+          else:
+            print("You decide to look around again.")
+            sleep(3)
+            print("You find a suitable thing to go down the zipline with. Excellent.")
+            sleep(3)
+            print("You place the thing on the zipline and take a deep breath.")
+            sleep(5)
+            st = time.time()
+            f=input("PRESS [H] to hold on!").title()
+            rt = time.time() - st
+            if f =="H" and rt < 2:
+              print("You manage to keep your grip across the journey and end up at the base of the mountains.")
+              sleep(3)
+              print("You look at the towering mountains ahead of you.")
+              print("Better keep moving.")
+              player1.newSkill()
+              nextChapter(player1)########################
+            else:
+              print("You lose grip and you fall into the hills underneath you.")
+              print("YOU DIED! THE END!")
+              die(player1)
+        elif d =="3":
+          print("You manage to pick the lock and you kick it open.")
+          print("You see the zipline before you.")
+          sleep(3)
+          print("You look around. There doesn't seem to be anything to go down the zipline with.")
+          e=input("1.Use your hands. 2.Use your rifle. 3.Use your pistol. 4.Look around again.")
+          if e =="1":
+            print("You had the great idea of using your hands down the zipline. Unfortunately, you couldn't hold on. YOU DIED! THE END!")
+            die(player1)
+          elif e =="2":
+            print("You decide to use your rifle to traverse the zipline. You managed to hold on the entire journey and ended up at the base of the mountains ahead.")
+            sleep(3)
+            print("You look at the towering mountains ahead of you.")
+            print("Better keep moving.")
+            player1.newSkill()
+            nextChapter(player1)###########################
+          elif e=="3":
+            print("You decide to use your pistol to go down the zipline. Unfortunately, you lost your grip and fell into the hills below you. YOU DIED! THE END!")
+            die(player1)
+          else:
+            print("You decide to look around again.")
+            sleep(3)
+            print("You find a suitable thing to go down the zipline with. Excellent.")
+            sleep(3)
+            print("You place the thing on the zipline and take a deep breath.")
+            sleep(5)
+            st = time.time()
+            f=input("PRESS [H] to hold on!").title()
+            rt = time.time() - st
+            if f =="H" and rt < 2:
+              print("You manage to keep your grip across the journey and end up at the base of the mountains.")
+              sleep(3)
+              print("You look at the towering mountains ahead of you.")
+              print("Better keep moving.")
+              player1.newSkill()
+              nextChapter(player1)########################
+            else:
+              print("You lose grip and you fall into the hills underneath you.")
+              print("YOU DIED! THE END!")
+              die(player1)
+        else:
+          print("You throw a grenade at the door, but it rebounds off the door and lands at your feet.")
+          sleep(3)
+          print("You coudln't run away fast enough. YOU DIED! THE END")
+          die(player1)
+      elif c =="3":
+        print("You decide to take the good old stars. Nothing can go wrong from stairs, right?")
+        sleep(5)
+        print("You open the door to the stairwell and fall down a very, very deep pit.")
+        print("Your legs break upon landing and you are stuck at the bottom.")
+        sleep(3)
+        print("You realize that you've got nowhere to go. YOU DIED! THE END!")
+        die(player1)
+      else:
+        print("You decide to climb up the building using the ledges on the inner side.")
+        sleep(4)
+        print("You almost slipped a few times, but you've managed to make it to the top.")
+        print("The zipline is in a room behind a locked door.")
+        d=input("1.Shoot the lock. 2.Kick down the door. 3.Pick the lock. 4.Throw a grenade at the door.")
+        if d =="1":
+          print("You shoot the lock, and it drops to the ground. You place your hand on the handle and it electrocutes you. YOU DIED! THE END!")
+          die(player1)
+        elif d =="2":
+          print("You decide to kick down the door, and you successfully kick it open. You walk straight through and the zipline is now before you.")
+          sleep(3)
+          print("You look around. There doesn't seem to be anything to go down the zipline with.")
+          e=input("1.Use your hands. 2.Use your rifle. 3.Use your pistol. 4.Look around again.")
+          if e =="1":
+            print("You had the great idea of using your hands down the zipline. Unfortunately, you couldn't hold on. YOU DIED! THE END!")
+            die(player1)
+          elif e =="2":
+            print("You decide to use your rifle to traverse the zipline. You managed to hold on the entire journey and ended up at the base of the mountains ahead.")
+            sleep(3)
+            print("You look at the towering mountains ahead of you.")
+            print("Better keep moving.")
+            player1.newSkill()
+            nextChapter(player1)###########################
+          elif e=="3":
+            print("You decide to use your pistol to go down the zipline. Unfortunately, you lost your grip and fell into the hills below you. YOU DIED! THE END!")
+            die(player1)
+          else:
+            print("You decide to look around again.")
+            sleep(3)
+            print("You find a suitable thing to go down the zipline with. Excellent.")
+            sleep(3)
+            print("You place the thing on the zipline and take a deep breath.")
+            sleep(5)
+            st = time.time()
+            f=input("PRESS [H] to hold on!").title()
+            rt = time.time() - st
+            if f =="H" and rt < 2:
+              print("You manage to keep your grip across the journey and end up at the base of the mountains.")
+              sleep(3)
+              print("You look at the towering mountains ahead of you.")
+              print("Better keep moving.")
+              player1.newSkill()
+              nextChapter(player1)########################
+            else:
+              print("You lose grip and you fall into the hills underneath you.")
+              print("YOU DIED! THE END!")
+              die(player1)
+        elif d =="3":
+          print("You manage to pick the lock and you kick it open.")
+          print("You see the zipline before you.")
+          sleep(3)
+          print("You look around. There doesn't seem to be anything to go down the zipline with.")
+          e=input("1.Use your hands. 2.Use your rifle. 3.Use your pistol. 4.Look around again.")
+          if e =="1":
+            print("You had the great idea of using your hands down the zipline. Unfortunately, you couldn't hold on. YOU DIED! THE END!")
+            die(player1)
+          elif e =="2":
+            print("You decide to use your rifle to traverse the zipline. You managed to hold on the entire journey and ended up at the base of the mountains ahead.")
+            sleep(3)
+            print("You look at the towering mountains ahead of you.")
+            print("Better keep moving.")
+            player1.newSkill()
+            nextChapter(player1)###########################
+          elif e=="3":
+            print("You decide to use your pistol to go down the zipline. Unfortunately, you lost your grip and fell into the hills below you. YOU DIED! THE END!")
+            die(player1)
+          else:
+            print("You decide to look around again.")
+            sleep(3)
+            print("You find a suitable thing to go down the zipline with. Excellent.")
+            sleep(3)
+            print("You place the thing on the zipline and take a deep breath.")
+            sleep(5)
+            st = time.time()
+            f=input("PRESS [H] to hold on!").title()
+            rt = time.time() - st
+            if f =="H" and rt < 2:
+              print("You manage to keep your grip across the journey and end up at the base of the mountains.")
+              sleep(3)
+              print("You look at the towering mountains ahead of you.")
+              print("Better keep moving.")
+              player1.newSkill()
+              nextChapter(player1)########################
+            else:
+              print("You lose grip and you fall into the hills underneath you.")
+              print("YOU DIED! THE END!")
+              die(player1)
+        else:
+          print("You throw a grenade at the door, but it rebounds off the door and lands at your feet.")
+          sleep(3)
+          print("You coudln't run away fast enough. YOU DIED! THE END")
+          die(player1)
+    else:
+      print("You weren't fast enough and was crushed by the rocks and tunnel collapsing onto you. YOU DIED! THE END!")
+      die(player1)
+  elif a =="3":
+    print("You climbed to the top of the hill using the ladder, and discover that a massive building is on the other side. There seems to be a zipline leading straight to the mountains on the roof. But how will you get there?")
+    b=input("1.Climb up the building. 2.Use the ladder you just used up to the roof. 3.Go inside the building to see if there are other options.")
+    if b =="1":
+      print("You decide to simply climb up the side of the building, using the bars and ledges. You slowly make your way up the building.")
+      sleep(6)
+      st=time.time()
+      c=input("PRESS [J] to jump across the gap in time!").title()
+      rt=time.time()-st
+      if c =="J" and rt < 2:
+        print("You jump towards another ledge just as the one you were holding started to break.")
+        sleep(3)
+        print("Eventually, you managed to climb to the roof of the building.")
+        print("The zipline is in a room behind a locked door.")
+        d=input("1.Shoot the lock. 2.Kick down the door. 3.Pick the lock. 4.Throw a grenade at the door.")
+        if d =="1":
+          print("You shoot the lock, and it drops to the ground. You place your hand on the handle and it electrocutes you. YOU DIED! THE END!")
+          die(player1)
+        elif d =="2":
+          print("You decide to kick down the door, and you successfully kick it open. You walk straight through and the zipline is now before you.")
+          sleep(3)
+          print("You look around. There doesn't seem to be anything to go down the zipline with.")
+          e=input("1.Use your hands. 2.Use your rifle. 3.Use your pistol. 4.Look around again.")
+          if e =="1":
+            print("You had the great idea of using your hands down the zipline. Unfortunately, you couldn't hold on. YOU DIED! THE END!")
+            die(player1)
+          elif e =="2":
+            print("You decide to use your rifle to traverse the zipline. You managed to hold on the entire journey and ended up at the base of the mountains ahead.")
+            sleep(3)
+            print("You look at the towering mountains ahead of you.")
+            print("Better keep moving.")
+            player1.newSkill()
+            nextChapter(player1)###########################
+          elif e=="3":
+            print("You decide to use your pistol to go down the zipline. Unfortunately, you lost your grip and fell into the hills below you. YOU DIED! THE END!")
+            die(player1)
+          else:
+            print("You decide to look around again.")
+            sleep(3)
+            print("You find a suitable thing to go down the zipline with. Excellent.")
+            sleep(3)
+            print("You place the thing on the zipline and take a deep breath.")
+            sleep(5)
+            st = time.time()
+            f=input("PRESS [H] to hold on!").title()
+            rt = time.time() - st
+            if f =="H" and rt < 2:
+              print("You manage to keep your grip across the journey and end up at the base of the mountains.")
+              sleep(3)
+              print("You look at the towering mountains ahead of you.")
+              print("Better keep moving.")
+              player1.newSkill()
+              nextChapter(player1)########################
+            else:
+              print("You lose grip and you fall into the hills underneath you.")
+              print("YOU DIED! THE END!")
+              die(player1)
+        elif d =="3":
+          print("You manage to pick the lock and you kick it open.")
+          print("You see the zipline before you.")
+          sleep(3)
+          print("You look around. There doesn't seem to be anything to go down the zipline with.")
+          e=input("1.Use your hands. 2.Use your rifle. 3.Use your pistol. 4.Look around again.")
+          if e =="1":
+            print("You had the great idea of using your hands down the zipline. Unfortunately, you couldn't hold on. YOU DIED! THE END!")
+            die(player1)
+          elif e =="2":
+            print("You decide to use your rifle to traverse the zipline. You managed to hold on the entire journey and ended up at the base of the mountains ahead.")
+            sleep(3)
+            print("You look at the towering mountains ahead of you.")
+            print("Better keep moving.")
+            player1.newSkill()
+            nextChapter(player1)###########################
+          elif e=="3":
+            print("You decide to use your pistol to go down the zipline. Unfortunately, you lost your grip and fell into the hills below you. YOU DIED! THE END!")
+            die(player1)
+          else:
+            print("You decide to look around again.")
+            sleep(3)
+            print("You find a suitable thing to go down the zipline with. Excellent.")
+            sleep(3)
+            print("You place the thing on the zipline and take a deep breath.")
+            sleep(5)
+            st = time.time()
+            f=input("PRESS [H] to hold on!").title()
+            rt = time.time() - st
+            if f =="H" and rt < 2:
+              print("You manage to keep your grip across the journey and end up at the base of the mountains.")
+              sleep(3)
+              print("You look at the towering mountains ahead of you.")
+              print("Better keep moving.")
+              player1.newSkill()
+              nextChapter(player1)########################
+            else:
+              print("You lose grip and you fall into the hills underneath you.")
+              print("YOU DIED! THE END!")
+              die(player1)
+        else:
+          print("You throw a grenade at the door, but it rebounds off the door and lands at your feet.")
+          sleep(3)
+          print("You coudln't run away fast enough. YOU DIED! THE END")
+          die(player1)
+      else:
+        print("The ledge under your hand broke under your weight and you fell, plummeting to your demise. YOU DIED! THE END!")
+    elif b =="2":
+      print("You slowly pick up the ladder from the hill, and replace it against the building's side.")
+      print("You start climbing up the ladder, but halfway up you hear something in the walls crack. 'That's not good.' The wall underneath the ladder crumbles, and you fall through the wall with the ladder. Your head got crushed in the landing in the bottom of the building.")
+      print("YOU DIED! THE END!")
+      die(player1)
+    else:
+      print("You go inside the building, and see a few ways to traverse to the top of the building.")
+      c=input("1.Try the elevator. 2.Climb the ladder. 3.Take the stairs. 4.Climb up using ledges on the inner side of the building.")
+      if c=="1":
+        print("You approach the elevator, expecting it to confirm that the electricity has run out.")
+        sleep(3)
+        print("You click the button, and the elevator dings. Surprised, you head into the elevator, and press the button to the roof.")
+        sleep(5)
+        print("Nothing happens.")
+        print("You press the button again.")
+        sleep(3)
+        print("The elevator suddenly makes a whirring sound, and explodes, smothering you in its endless flame. YOU DIED! THE END!")
+        die(player1)
+      elif c =="2":
+        print("You decide to climb the ladder.")
+        sleep(3)
+        print("The ladder shakes.")
+        sleep(5)
+        print("The ladder stops shaking and you continue your way up.")
+        sleep(3)
+        print("Eventually, you make it to the top of the building. The zipline is in a room behind a locked door.")
+        d=input("1.Shoot the lock. 2.Kick down the door. 3.Pick the lock. 4.Throw a grenade at the door.")
+        if d =="1":
+          print("You shoot the lock, and it drops to the ground. You place your hand on the handle and it electrocutes you. YOU DIED! THE END!")
+          die(player1)
+        elif d =="2":
+          print("You decide to kick down the door, and you successfully kick it open. You walk straight through and the zipline is now before you.")
+          sleep(3)
+          print("You look around. There doesn't seem to be anything to go down the zipline with.")
+          e=input("1.Use your hands. 2.Use your rifle. 3.Use your pistol. 4.Look around again.")
+          if e =="1":
+            print("You had the great idea of using your hands down the zipline. Unfortunately, you couldn't hold on. YOU DIED! THE END!")
+            die(player1)
+          elif e =="2":
+            print("You decide to use your rifle to traverse the zipline. You managed to hold on the entire journey and ended up at the base of the mountains ahead.")
+            sleep(3)
+            print("You look at the towering mountains ahead of you.")
+            print("Better keep moving.")
+            player1.newSkill()
+            nextChapter(player1)###########################
+          elif e=="3":
+            print("You decide to use your pistol to go down the zipline. Unfortunately, you lost your grip and fell into the hills below you. YOU DIED! THE END!")
+            die(player1)
+          else:
+            print("You decide to look around again.")
+            sleep(3)
+            print("You find a suitable thing to go down the zipline with. Excellent.")
+            sleep(3)
+            print("You place the thing on the zipline and take a deep breath.")
+            sleep(5)
+            st = time.time()
+            f=input("PRESS [H] to hold on!").title()
+            rt = time.time() - st
+            if f =="H" and rt < 2:
+              print("You manage to keep your grip across the journey and end up at the base of the mountains.")
+              sleep(3)
+              print("You look at the towering mountains ahead of you.")
+              print("Better keep moving.")
+              player1.newSkill()
+              nextChapter(player1)########################
+            else:
+              print("You lose grip and you fall into the hills underneath you.")
+              print("YOU DIED! THE END!")
+              die(player1)
+        elif d =="3":
+          print("You manage to pick the lock and you kick it open.")
+          print("You see the zipline before you.")
+          sleep(3)
+          print("You look around. There doesn't seem to be anything to go down the zipline with.")
+          e=input("1.Use your hands. 2.Use your rifle. 3.Use your pistol. 4.Look around again.")
+          if e =="1":
+            print("You had the great idea of using your hands down the zipline. Unfortunately, you couldn't hold on. YOU DIED! THE END!")
+            die(player1)
+          elif e =="2":
+            print("You decide to use your rifle to traverse the zipline. You managed to hold on the entire journey and ended up at the base of the mountains ahead.")
+            sleep(3)
+            print("You look at the towering mountains ahead of you.")
+            print("Better keep moving.")
+            player1.newSkill()
+            nextChapter(player1)###########################
+          elif e=="3":
+            print("You decide to use your pistol to go down the zipline. Unfortunately, you lost your grip and fell into the hills below you. YOU DIED! THE END!")
+            die(player1)
+          else:
+            print("You decide to look around again.")
+            sleep(3)
+            print("You find a suitable thing to go down the zipline with. Excellent.")
+            sleep(3)
+            print("You place the thing on the zipline and take a deep breath.")
+            sleep(5)
+            st = time.time()
+            f=input("PRESS [H] to hold on!").title()
+            rt = time.time() - st
+            if f =="H" and rt < 2:
+              print("You manage to keep your grip across the journey and end up at the base of the mountains.")
+              sleep(3)
+              print("You look at the towering mountains ahead of you.")
+              print("Better keep moving.")
+              player1.newSkill()
+              nextChapter(player1)########################
+            else:
+              print("You lose grip and you fall into the hills underneath you.")
+              print("YOU DIED! THE END!")
+              die(player1)
+        else:
+          print("You throw a grenade at the door, but it rebounds off the door and lands at your feet.")
+          sleep(3)
+          print("You coudln't run away fast enough. YOU DIED! THE END")
+          die(player1)
+      elif c =="3":
+        print("You decide to take the good old stars. Nothing can go wrong from stairs, right?")
+        sleep(5)
+        print("You open the door to the stairwell and fall down a very, very deep pit.")
+        print("Your legs break upon landing and you are stuck at the bottom.")
+        sleep(3)
+        print("You realize that you've got nowhere to go. YOU DIED! THE END!")
+        die(player1)
+      else:
+        print("You decide to climb up the building using the ledges on the inner side.")
+        sleep(4)
+        print("You almost slipped a few times, but you've managed to make it to the top.")
+        print("The zipline is in a room behind a locked door.")
+        d=input("1.Shoot the lock. 2.Kick down the door. 3.Pick the lock. 4.Throw a grenade at the door.")
+        if d =="1":
+          print("You shoot the lock, and it drops to the ground. You place your hand on the handle and it electrocutes you. YOU DIED! THE END!")
+          die(player1)
+        elif d =="2":
+          print("You decide to kick down the door, and you successfully kick it open. You walk straight through and the zipline is now before you.")
+          sleep(3)
+          print("You look around. There doesn't seem to be anything to go down the zipline with.")
+          e=input("1.Use your hands. 2.Use your rifle. 3.Use your pistol. 4.Look around again.")
+          if e =="1":
+            print("You had the great idea of using your hands down the zipline. Unfortunately, you couldn't hold on. YOU DIED! THE END!")
+            die(player1)
+          elif e =="2":
+            print("You decide to use your rifle to traverse the zipline. You managed to hold on the entire journey and ended up at the base of the mountains ahead.")
+            sleep(3)
+            print("You look at the towering mountains ahead of you.")
+            print("Better keep moving.")
+            player1.newSkill()
+            nextChapter(player1)###########################
+          elif e=="3":
+            print("You decide to use your pistol to go down the zipline. Unfortunately, you lost your grip and fell into the hills below you. YOU DIED! THE END!")
+            die(player1)
+          else:
+            print("You decide to look around again.")
+            sleep(3)
+            print("You find a suitable thing to go down the zipline with. Excellent.")
+            sleep(3)
+            print("You place the thing on the zipline and take a deep breath.")
+            sleep(5)
+            st = time.time()
+            f=input("PRESS [H] to hold on!").title()
+            rt = time.time() - st
+            if f =="H" and rt < 2:
+              print("You manage to keep your grip across the journey and end up at the base of the mountains.")
+              sleep(3)
+              print("You look at the towering mountains ahead of you.")
+              print("Better keep moving.")
+              player1.newSkill()
+              nextChapter(player1)########################
+            else:
+              print("You lose grip and you fall into the hills underneath you.")
+              print("YOU DIED! THE END!")
+              die(player1)
+        elif d =="3":
+          print("You manage to pick the lock and you kick it open.")
+          print("You see the zipline before you.")
+          sleep(3)
+          print("You look around. There doesn't seem to be anything to go down the zipline with.")
+          e=input("1.Use your hands. 2.Use your rifle. 3.Use your pistol. 4.Look around again.")
+          if e =="1":
+            print("You had the great idea of using your hands down the zipline. Unfortunately, you couldn't hold on. YOU DIED! THE END!")
+            die(player1)
+          elif e =="2":
+            print("You decide to use your rifle to traverse the zipline. You managed to hold on the entire journey and ended up at the base of the mountains ahead.")
+            sleep(3)
+            print("You look at the towering mountains ahead of you.")
+            print("Better keep moving.")
+            player1.newSkill()
+            nextChapter(player1)###########################
+          elif e=="3":
+            print("You decide to use your pistol to go down the zipline. Unfortunately, you lost your grip and fell into the hills below you. YOU DIED! THE END!")
+            die(player1)
+          else:
+            print("You decide to look around again.")
+            sleep(3)
+            print("You find a suitable thing to go down the zipline with. Excellent.")
+            sleep(3)
+            print("You place the thing on the zipline and take a deep breath.")
+            sleep(5)
+            st = time.time()
+            f=input("PRESS [H] to hold on!").title()
+            rt = time.time() - st
+            if f =="H" and rt < 2:
+              print("You manage to keep your grip across the journey and end up at the base of the mountains.")
+              sleep(3)
+              print("You look at the towering mountains ahead of you.")
+              print("Better keep moving.")
+              player1.newSkill()
+              nextChapter(player1)########################
+            else:
+              print("You lose grip and you fall into the hills underneath you.")
+              print("YOU DIED! THE END!")
+              die(player1)
+        else:
+          print("You throw a grenade at the door, but it rebounds off the door and lands at your feet.")
+          sleep(3)
+          print("You coudln't run away fast enough. YOU DIED! THE END")
+          die(player1)
+  else:
+    print("You decide to go down the underground tunnel, but once you are well inside the tunnel, the tunnel's supports start to break.")
+    print("You immediately start running down the length of the tunnel, as it collapses behind you.")
+    sleep(4)
+    print("You made it to the bottom of the tunnel. The whole tunnel is blocked by the debris and rock that collapsed on it. You turn around to discover that the tunnel leads nowehere. You are trapped.")
+    print("YOU DIED! THE END!")
+    die(player1)
+  
+def forestVillage(player1):#only used in one scene. Formatted.
+  print("You've been travelling through the forest for the past hour or so, and the mountains are steadily getting closer.")
+  print("Nico holds his hand out in front of you, and points to the distance, where a monster village stands.")
+  print("You totally would've missed it if he didn't point it out. It was well camoflauged between the dense trees.")
+  sleep(4)
+  print("The two of you quickly do a quick scout of the village ahead, and you have discovered that the village has a path leading straight into the mountains. It's a safe path as well.")
+  print("However, you will have to traverse through the whole length of the village.")
+  sleep(3)
+  print("'Well, how do we enter the village?' Nico asks.")
+  a=input("1.Sneak through main entrance. 2.Run through main entrance. 3.Sneak through side entrance. 4.Run through side entrance.")
+  if a =="1":
+    print("You decide to sneak through the main entrance. You barely avoid the gaze of a security camera, and manage to make it into the village.")
+    print("You scan the scene before you, and see lots of monsters all over the place. You need to get through them unseen.")
+    b=input("1.Find disguises. 2.Go through the stadium. 3.Go by the farm. 4.Go through the pet store.")
+    if b =="1":
+      print("You decide to head towards the dumpster to find some disguises.")
+      sleep(7)
+      st=time.time()
+      c=input("PRESS [D] to dodge the monster's vision!").title()
+      rt=time.time()-st
+      if c =="D" and rt<2:
+        print("You dodge a nearby monster's vision and remain hidden until they pass by. 'Whew' You sigh.")
+        print("You and Nico quickly retrieve some diguises from the dumpster and put them on.")
+        sleep(4)
+        print("You manage to get through most of the monsters with your disguises, but you see some sort of checking station up ahead. They would expose you from your diguises.")
+        d=input("1.You're not afraid of them. 2.Look for a way around them. 3.Find a distraction. 4.Look for some explosives.")
+        if d =="1":
+          print("You decide to brave it and go right for it.")
+          sleep(3)
+          print("You have been spotted by a security camera and within seconds you are drenched in your own blood.")
+          print("YOU DIED! THE END!")
+          die(player1)
+        elif d=="2":
+          print("You decide to loook for a way to go around them.")
+          sleep(4)
+          print("You see a few ways around the checking center, but you don't know which way is the best.")
+          e=input("1.Jump the wall. 2.Swim through the lake. 3.Sneak by the river. 4.Travel through the forest.")
+          if e =="1":
+            print("You decide to jump the wall.")
+            sleep(5)
+            print("You and Nico manage to jump over the wall without being seen.")
+            print("You start to celebrate, but you hear a single monster nearby.")
+            f=input("1.Shoot it. 2.Stealth attack. 3.Sneak away. 4.Stand completely still.")
+            if f =="1":
+              print("You shoot the monster dead, but the gunfire alerts all the monsters nearby. They surround you within seconds and you have nowhere to run. YOU DIED! THE END!")
+              die(player1)
+            elif f =="2":
+              print("You decide to do a stealth attack.")
+              sleep(3)
+              print("You slit the monster's throat. They died.")
+              sleep(4)
+              print("You see the mountains up ahead.")
+              print("Nico takes a deep breath and gestures to the path ahead of you. 'Let's go.'")
+              player1.newSkill()
+              nextChapter(player1)###########################
+            elif f =="3":
+              print("You decide to sneak away, but the monster sees you sneaking away. They shot you in the back of the head.")
+              print("YOU DIED! THE END!")
+              die(player1)
+            else:
+              print("You stand completely still.")
+              sleep(5)
+              print("The monster looks around and leaves, allowing you and Nico to escape towards the path to the mountains.")
+              print("'Here we go.'")
+              player1.newSkill()
+              nextChapter(player1)###########################
+          elif e == "2":
+            print("You decide to swim through the lake.")
+            sleep(3)
+            print("Something just brushed past your leg.")
+            sleep(2)
+            print("You frown. 'Nico, is that you?'")
+            print("'What's what?'")
+            print("You reach down. Something grabs your arm and pulls you under.")
+            sleep(3)
+            print("Something else pulls Nico under too.")
+            print("You never came back up.")
+            print("YOU DIED! THE END!")
+            die(player1)
+          elif e =="3":
+            print("You decide to sneak by the river.")
+            print("A security camera saw you and makes a beeping sound.")
+            sleep(4)
+            print("Grenades rain from the sky and you are blown into bits.")
+            print("YOU DIED! THE END!")
+            die(player1)
+          else:
+            print("You decide to travel through the forest.")
+            sleep(3)
+            print("You reach the forest safely, and start sneaking to the path to the mountains.")
+            print("Nico gestures fo you to stop.")
+            print("You hear a monster walking nearby.")
+            f=input("1.Shoot it. 2.Stealth attack. 3.Sneak away. 4.Stand completely still.")
+            if f =="1":
+              print("You try to shoot the monster, but you missed your shot. They quickly turn around and shoot you back.")
+              print("YOU DIED! THE END!")
+              die(player1)
+            elif f =="2":
+              print("You decide to do a stealth attack.")
+              sleep(3)
+              print("You slit the monster's throat. They died.")
+              sleep(4)
+              print("You see the mountains up ahead.")
+              print("Nico takes a deep breath and gestures to the path ahead of you. 'Let's go.'")
+              player1.newSkill()
+              nextChapter(player1)###########################
+            elif f =="3":
+              print("You decide to sneak away, but the monster sees you sneaking away. They shot you in the back of the head.")
+              print("YOU DIED! THE END!")
+              die(player1)
+            else:
+              print("You stand completely still.")
+              sleep(5)
+              print("The monster looks around and leaves, allowing you and Nico to escape towards the path to the mountains.")
+              print("'Here we go.' You say.")
+              player1.newSkill()
+              nextChapter(player1)###########################
+        elif d =="3":
+          print("You decide to look for something to distract the center's guards with.")
+          sleep(4)
+          e=input("1.Use an apple. 2.Use a molotov. 3.Use a smoke grenade. 4.Trigger the fire alarm.")
+          if e=="1":
+            print("You decide to throw an apple out onto the field. One of the guards come out to investigate it. There are still two guards at the center.")
+            f=input("1.Throw another apple. 2.Attack the guard. 3.Sneak around the guard. 4.Stand still.")
+            if f =="1":
+              print("You throw another apple, but this time the guard sees you and lunges at you. He shoots you in the foot, and the other guards shoot Nico, too.")
+              print("You are unable to fight back. YOU DIED! THE END!")
+              die(player1)
+            elif f =="2":
+              print("You decide to attack the guard, but he was prepared and shot you in the head.")
+              print("YOU DIED! THE END!")
+              die(player1)
+            elif f =="3":
+              print("You decide to sneak around the guard. However, they detected your movement, and shot you in the back of the head. YOU DIED! THE END!")
+              die(player1)
+            else:
+              print("You stand completely still, and the guard goes deeper into the village. The other two guards are worried about him, so they, too, leave the center and follow him into the village.")
+              sleep(4)
+              print("You and Nico sneak right by and make it through the center unscathed.")
+              print("You see the path to the mountains up ahead. 'Here we go.'")
+              player1.newSkill()
+              nextChapter(player1)###########################
+          elif e =="2":
+            print("You decide to throw a molotov out as a distraction. Unfortunately, someone saw where the molotov emerged from and headed straight towards your location with a gun.")
+            sleep(3)
+            print("You didn't expect a surprise attack. YOU DIED! THE END!")
+            die(player1)
+          elif e =="3":
+            print("You decide to throw a smoke grenade. The guards at the checking center seem to be confused by it and two guards emerge form the center to check on it. There is one guard left at the center.")
+            f=input("1.Sneak past both guards. 2.Take out both guards in the smoke. 3.Throw another smoke grenade. 4.Do nothing.")
+            if f =="1":
+              print("You sneak right past the two guards, and you and Nico reach the center. You take out the single guard before they could hit the alarms, and you make it through the center unscathed.")
+              print("You smile at the mountains that lie ahead.")
+              player1.newSkill()
+              nextChapter(player1)###########################
+            elif f =="2":
+              print("You and Nico each tackle a guard in the smoke, and you choke both of them to sleep.")
+              sleep(3)
+              print("You head towards the center and take out the final guard before they could activate the alarms.")
+              print("You smile at the mountains ahead.")
+              player1.newSkill()
+              nextChapter(player1)###########################
+            elif f =="3":
+              print("You try to throw another smoke grenade, but the guards saw the trajectory of where it came from and blindly shot into the smoke, connecting their bullets into you and Nico's bodies. You drop to the ground, and the last thing you remember are the guards' faces hovering over you.")
+              print("YOU DIED! THE END!")
+              die(player1)
+            else:
+              print("You stay still in the smoke, and you fail to realize that the guards have wrapped around the smoke and arrived behind you. You were both shot in the back of the head.")
+              print("YOU DIED! THE END!")
+              die(player1)
+          else:
+            print("You decide to trigger the fire alarm, but it causes a mass panic to all the inhabitants of the village. A panicking monster saw you and raised a shotgun.")
+            print("YOU DIED! THE END!")
+            die(player1)
+        else:
+          print("You decide to visit the nearby buildings for some strong explosives.")
+          sleep(7)
+          print("You come across an armory, but the monsters will be back soon. You have to make a quick choice.")
+          st=time.time()
+          e=input("1.Grab grenades. 2.Grab C4. 3.Grab the steel box. 4.Grab the black wooden box.")
+          rt = time.time()-st
+          if rt<6:
+            if e =="1":
+              print("You grab the grenades and make a run for it. You were not seen.")
+            elif e =="2":
+              print("You quickly grab a load of C4 and make a run for it. No one saw you.")
+            elif e =="3":
+              print("You take the steel box and make a run for it. No one saw you running away.")
+              print("You realize that grenades are inside.")
+            else:
+              print("You grab the black wooden box and make a run for the door. You managed to escape before anyone saw you.")
+              print("You discover that it's just C4 inside.")
+            sleep(5)
+            print("You and Nico arrive at a safe distance away from the checking center.")
+            print("But the question is, where do you throw the explosives?")
+            f=input("1.At the front door. 2.Above the center. 3.In the core of the village. 4.At the farmhouse.")
+            if f =="1":
+              print("You lob your explosives at the front door, and blow the whole place up.")
+              print("Amongst the chaos, the police are deployed and they spotted you and Nico trying to escape.")
+              sleep(3)
+              print("You were sniped in the back of the head.")
+              print("YOU DIED! THE END!")
+              die(player1)
+            elif f =="2":
+              print("You decide to bomb the roof of the center, causing it to collapse on the guards inside.")
+              print("You and Nico capitalize on the chaos and make it through to the other side unseen.")
+              sleep(4)
+              print("You see the path striaght to the mountains up ahead.")
+              player1.newSkill()
+              nextChapter(player1)###########################
+            elif f =="3":
+              print("You decide to bomb the core of the village.")
+              print("The guards tracked where the explosives came from, and found your hiding spot.")
+              print("You were shot before you could react.")
+              print("YOU DIED! THE END!")
+              die(player1)
+            else:
+              print("You decide to bomb the farmhouse.")
+              sleep(3)
+              print("The farmhouse bursts into flames, causing the citizens to panic.")
+              print("Amongst the chaos, the guards are distracted, allowing you and Nico to pass right through the center without them realizing.")
+              sleep(4)
+              print("You reached the path to the mountains unseen. You take a deep breath.")
+              player1.newSkill()
+              nextChapter(player1)###########################
+          else:
+            print("You were caught by the monsters! You had nowhere to run.")
+            print("YOU DIED! THE END!")
+            die(player1)
+      else:
+        print("You were seen by a monster and they shot you on the spot. YOU DIED! THE END!")
+        die(player1)
+    elif b =="2":
+      print("You decide to head through the stadium. The monsters are unaware of your presence, since there seems to be a game going on.")
+      sleep(4)
+      print("You accidentally stepped on a monster's foot. They yelp, and turn to find you and Nico.")
+      sleep(3)
+      print("They pounce onto you and the other monsters join in. Your body is torn to shreds. YOU DIED! THE END!")
+      die(player1)
+    elif b =="3":
+      print("You decide to go by the farm.")
+      sleep(3)
+      print("You and Nico walk down by the farm, though it seems to be too silent...")
+      c=input("1.It's probably nothing. 2.Hide behind some hay. 3.Hide in the lake. 4.Guns out.")
+      if c =="1":
+        print("You decide to enjoy this momentary peace and continue walking.")
+        sleep(5)
+        print("A monster turns around the corner and spots you. They yell out, alerting all nearby monsters, and they swarm over you in seconds.")
+        print("YOU DIED! THE END!")
+        die(player1)
+      elif c =="2":
+        print("You decide to hide behind some hay.")
+        sleep(3)
+        print("Moments later, you hear a monster heading down your path.")
+        sleep(4)
+        print("They stop. What are they doing? They seem to be sniffing.")
+        if player1.t3 == True:
+          print("You remain still and the monster sniffles and leaves. After the sound of their steps disappear, you and Nico emerge from the hay and continue your journey.")
+          sleep(4)
+          print("There is a checking station up ahead. It is guarded.")
+          d=input("1.You're not afraid of them. 2.Look for a way around them. 3.Find a distraction. 4.Look for some explosives.")
+          if d =="1":
+            print("You decide to brave it and go right for it.")
+            sleep(3)
+            print("You have been spotted by a security camera and within seconds you are drenched in your own blood.")
+            print("YOU DIED! THE END!")
+            die(player1)
+          elif d=="2":
+            print("You decide to loook for a way to go around them.")
+            sleep(4)
+            print("You see a few ways around the checking center, but you don't know which way is the best.")
+            e=input("1.Jump the wall. 2.Swim through the lake. 3.Sneak by the river. 4.Travel through the forest.")
+            if e =="1":
+              print("You decide to jump the wall.")
+              sleep(5)
+              print("You and Nico manage to jump over the wall without being seen.")
+              print("You start to celebrate, but you hear a single monster nearby.")
+              f=input("1.Shoot it. 2.Stealth attack. 3.Sneak away. 4.Stand completely still.")
+              if f =="1":
+                print("You shoot the monster dead, but the gunfire alerts all the monsters nearby. They surround you within seconds and you have nowhere to run. YOU DIED! THE END!")
+                die(player1)
+              elif f =="2":
+                print("You decide to do a stealth attack.")
+                sleep(3)
+                print("You slit the monster's throat. They died.")
+                sleep(4)
+                print("You see the mountains up ahead.")
+                print("Nico takes a deep breath and gestures to the path ahead of you. 'Let's go.'")
+                player1.newSkill()
+                nextChapter(player1)###########################
+              elif f =="3":
+                print("You decide to sneak away, but the monster sees you sneaking away. They shot you in the back of the head.")
+                print("YOU DIED! THE END!")
+                die(player1)
+              else:
+                print("You stand completely still.")
+                sleep(5)
+                print("The monster looks around and leaves, allowing you and Nico to escape towards the path to the mountains.")
+                print("'Here we go.'")
+                player1.newSkill()
+                nextChapter(player1)###########################
+            elif e == "2":
+              print("You decide to swim through the lake.")
+              sleep(3)
+              print("Something just brushed past your leg.")
+              sleep(2)
+              print("You frown. 'Nico, is that you?'")
+              print("'What's what?'")
+              print("You reach down. Something grabs your arm and pulls you under.")
+              sleep(3)
+              print("Something else pulls Nico under too.")
+              print("You never came back up.")
+              print("YOU DIED! THE END!")
+              die(player1)
+            elif e =="3":
+              print("You decide to sneak by the river.")
+              print("A security camera saw you and makes a beeping sound.")
+              sleep(4)
+              print("Grenades rain from the sky and you are blown into bits.")
+              print("YOU DIED! THE END!")
+              die(player1)
+            else:
+              print("You decide to travel through the forest.")
+              sleep(3)
+              print("You reach the forest safely, and start sneaking to the path to the mountains.")
+              print("Nico gestures fo you to stop.")
+              print("You hear a monster walking nearby.")
+              f=input("1.Shoot it. 2.Stealth attack. 3.Sneak away. 4.Stand completely still.")
+              if f =="1":
+                print("You try to shoot the monster, but you missed your shot. They quickly turn around and shoot you back.")
+                print("YOU DIED! THE END!")
+                die(player1)
+              elif f =="2":
+                print("You decide to do a stealth attack.")
+                sleep(3)
+                print("You slit the monster's throat. They died.")
+                sleep(4)
+                print("You see the mountains up ahead.")
+                print("Nico takes a deep breath and gestures to the path ahead of you. 'Let's go.'")
+                player1.newSkill()
+                nextChapter(player1)###########################
+              elif f =="3":
+                print("You decide to sneak away, but the monster sees you sneaking away. They shot you in the back of the head.")
+                print("YOU DIED! THE END!")
+                die(player1)
+              else:
+                print("You stand completely still.")
+                sleep(5)
+                print("The monster looks around and leaves, allowing you and Nico to escape towards the path to the mountains.")
+                print("'Here we go.' You say.")
+                player1.newSkill()
+                nextChapter(player1)###########################
+          elif d =="3":
+            print("You decide to look for something to distract the center's guards with.")
+            sleep(4)
+            e=input("1.Use an apple. 2.Use a molotov. 3.Use a smoke grenade. 4.Trigger the fire alarm.")
+            if e=="1":
+              print("You decide to throw an apple out onto the field. One of the guards come out to investigate it. There are still two guards at the center.")
+              f=input("1.Throw another apple. 2.Attack the guard. 3.Sneak around the guard. 4.Stand still.")
+              if f =="1":
+                print("You throw another apple, but this time the guard sees you and lunges at you. He shoots you in the foot, and the other guards shoot Nico, too.")
+                print("You are unable to fight back. YOU DIED! THE END!")
+                die(player1)
+              elif f =="2":
+                print("You decide to attack the guard, but he was prepared and shot you in the head.")
+                print("YOU DIED! THE END!")
+                die(player1)
+              elif f =="3":
+                print("You decide to sneak around the guard. However, they detected your movement, and shot you in the back of the head. YOU DIED! THE END!")
+                die(player1)
+              else:
+                print("You stand completely still, and the guard goes deeper into the village. The other two guards are worried about him, so they, too, leave the center and follow him into the village.")
+                sleep(4)
+                print("You and Nico sneak right by and make it through the center unscathed.")
+                print("You see the path to the mountains up ahead. 'Here we go.'")
+                player1.newSkill()
+                nextChapter(player1)###########################
+            elif e =="2":
+              print("You decide to throw a molotov out as a distraction. Unfortunately, someone saw where the molotov emerged from and headed straight towards your location with a gun.")
+              sleep(3)
+              print("You didn't expect a surprise attack. YOU DIED! THE END!")
+              die(player1)
+            elif e =="3":
+              print("You decide to throw a smoke grenade. The guards at the checking center seem to be confused by it and two guards emerge form the center to check on it. There is one guard left at the center.")
+              f=input("1.Sneak past both guards. 2.Take out both guards in the smoke. 3.Throw another smoke grenade. 4.Do nothing.")
+              if f =="1":
+                print("You sneak right past the two guards, and you and Nico reach the center. You take out the single guard before they could hit the alarms, and you make it through the center unscathed.")
+                print("You smile at the mountains that lie ahead.")
+                player1.newSkill()
+                nextChapter(player1)###########################
+              elif f =="2":
+                print("You and Nico each tackle a guard in the smoke, and you choke both of them to sleep.")
+                sleep(3)
+                print("You head towards the center and take out the final guard before they could activate the alarms.")
+                print("You smile at the mountains ahead.")
+                player1.newSkill()
+                nextChapter(player1)###########################
+              elif f =="3":
+                print("You try to throw another smoke grenade, but the guards saw the trajectory of where it came from and blindly shot into the smoke, connecting their bullets into you and Nico's bodies. You drop to the ground, and the last thing you remember are the guards' faces hovering over you.")
+                print("YOU DIED! THE END!")
+                die(player1)
+              else:
+                print("You stay still in the smoke, and you fail to realize that the guards have wrapped around the smoke and arrived behind you. You were both shot in the back of the head.")
+                print("YOU DIED! THE END!")
+                die(player1)
+            else:
+              print("You decide to trigger the fire alarm, but it causes a mass panic to all the inhabitants of the village. A panicking monster saw you and raised a shotgun.")
+              print("YOU DIED! THE END!")
+              die(player1)
+          else:
+            print("You decide to visit the nearby buildings for some strong explosives.")
+            sleep(7)
+            print("You come across an armory, but the monsters will be back soon. You have to make a quick choice.")
+            st=time.time()
+            e=input("1.Grab grenades. 2.Grab C4. 3.Grab the steel box. 4.Grab the black wooden box.")
+            rt = time.time()-st
+            if rt<6:
+              if e =="1":
+                print("You grab the grenades and make a run for it. You were not seen.")
+              elif e =="2":
+                print("You quickly grab a load of C4 and make a run for it. No one saw you.")
+              elif e =="3":
+                print("You take the steel box and make a run for it. No one saw you running away.")
+                print("You realize that grenades are inside.")
+              else:
+                print("You grab the black wooden box and make a run for the door. You managed to escape before anyone saw you.")
+                print("You discover that it's just C4 inside.")
+              sleep(5)
+              print("You and Nico arrive at a safe distance away from the checking center.")
+              print("But the question is, where do you throw the explosives?")
+              f=input("1.At the front door. 2.Above the center. 3.In the core of the village. 4.At the farmhouse.")
+              if f =="1":
+                print("You lob your explosives at the front door, and blow the whole place up.")
+                print("Amongst the chaos, the police are deployed and they spotted you and Nico trying to escape.")
+                sleep(3)
+                print("You were sniped in the back of the head.")
+                print("YOU DIED! THE END!")
+                die(player1)
+              elif f =="2":
+                print("You decide to bomb the roof of the center, causing it to collapse on the guards inside.")
+                print("You and Nico capitalize on the chaos and make it through to the other side unseen.")
+                sleep(4)
+                print("You see the path striaght to the mountains up ahead.")
+                player1.newSkill()
+                nextChapter(player1)###########################
+              elif f =="3":
+                print("You decide to bomb the core of the village.")
+                print("The guards tracked where the explosives came from, and found your hiding spot.")
+                print("You were shot before you could react.")
+                print("YOU DIED! THE END!")
+                die(player1)
+              else:
+                print("You decide to bomb the farmhouse.")
+                sleep(3)
+                print("The farmhouse bursts into flames, causing the citizens to panic.")
+                print("Amongst the chaos, the guards are distracted, allowing you and Nico to pass right through the center without them realizing.")
+                sleep(4)
+                print("You reached the path to the mountains unseen. You take a deep breath.")
+                player1.newSkill()
+                nextChapter(player1)###########################
+            else:
+              print("You were caught by the monsters! You had nowhere to run.")
+              print("YOU DIED! THE END!")
+              die(player1)
+        else:
+          print("They sniffed you out and shoots you in the face with a shotgun before you could react. YOU DIED! THE END!")
+          die(player1)
+      elif c =="3":
+        print("You decide to quickly jump into the lake to hide.")
+        sleep(4)
+        print("Moments later, a monster turns around the corner and starts walking down the path you were just on. Just as they are about to see your location, you and Nico dip your heads under the water.")
+        sleep(6)
+        print("The monster's still there. What are they doing?")
+        sleep(6)
+        print("Your breath is about to run out. How is the monster still there!?")
+        sleep(4)
+        print("The monster turns away and walks off, allowing you and Nico to resurface and breathe once again. You cough your way back onto the path. 'I'm never doing that again.' 'Look!' Nico points ahead.")
+        print("There is a checking station up ahead. It is guarded.")
+        d=input("1.You're not afraid of them. 2.Look for a way around them. 3.Find a distraction. 4.Look for some explosives.")
+        if d =="1":
+          print("You decide to brave it and go right for it.")
+          sleep(3)
+          print("You have been spotted by a security camera and within seconds you are drenched in your own blood.")
+          print("YOU DIED! THE END!")
+          die(player1)
+        elif d=="2":
+          print("You decide to loook for a way to go around them.")
+          sleep(4)
+          print("You see a few ways around the checking center, but you don't know which way is the best.")
+          e=input("1.Jump the wall. 2.Swim through the lake. 3.Sneak by the river. 4.Travel through the forest.")
+          if e =="1":
+            print("You decide to jump the wall.")
+            sleep(5)
+            print("You and Nico manage to jump over the wall without being seen.")
+            print("You start to celebrate, but you hear a single monster nearby.")
+            f=input("1.Shoot it. 2.Stealth attack. 3.Sneak away. 4.Stand completely still.")
+            if f =="1":
+              print("You shoot the monster dead, but the gunfire alerts all the monsters nearby. They surround you within seconds and you have nowhere to run. YOU DIED! THE END!")
+              die(player1)
+            elif f =="2":
+              print("You decide to do a stealth attack.")
+              sleep(3)
+              print("You slit the monster's throat. They died.")
+              sleep(4)
+              print("You see the mountains up ahead.")
+              print("Nico takes a deep breath and gestures to the path ahead of you. 'Let's go.'")
+              player1.newSkill()
+              nextChapter(player1)###########################
+            elif f =="3":
+              print("You decide to sneak away, but the monster sees you sneaking away. They shot you in the back of the head.")
+              print("YOU DIED! THE END!")
+              die(player1)
+            else:
+              print("You stand completely still.")
+              sleep(5)
+              print("The monster looks around and leaves, allowing you and Nico to escape towards the path to the mountains.")
+              print("'Here we go.'")
+              player1.newSkill()
+              nextChapter(player1)###########################
+          elif e == "2":
+            print("You decide to swim through the lake.")
+            sleep(3)
+            print("Something just brushed past your leg.")
+            sleep(2)
+            print("You frown. 'Nico, is that you?'")
+            print("'What's what?'")
+            print("You reach down. Something grabs your arm and pulls you under.")
+            sleep(3)
+            print("Something else pulls Nico under too.")
+            print("You never came back up.")
+            print("YOU DIED! THE END!")
+            die(player1)
+          elif e =="3":
+            print("You decide to sneak by the river.")
+            print("A security camera saw you and makes a beeping sound.")
+            sleep(4)
+            print("Grenades rain from the sky and you are blown into bits.")
+            print("YOU DIED! THE END!")
+            die(player1)
+          else:
+            print("You decide to travel through the forest.")
+            sleep(3)
+            print("You reach the forest safely, and start sneaking to the path to the mountains.")
+            print("Nico gestures fo you to stop.")
+            print("You hear a monster walking nearby.")
+            f=input("1.Shoot it. 2.Stealth attack. 3.Sneak away. 4.Stand completely still.")
+            if f =="1":
+              print("You try to shoot the monster, but you missed your shot. They quickly turn around and shoot you back.")
+              print("YOU DIED! THE END!")
+              die(player1)
+            elif f =="2":
+              print("You decide to do a stealth attack.")
+              sleep(3)
+              print("You slit the monster's throat. They died.")
+              sleep(4)
+              print("You see the mountains up ahead.")
+              print("Nico takes a deep breath and gestures to the path ahead of you. 'Let's go.'")
+              player1.newSkill()
+              nextChapter(player1)###########################
+            elif f =="3":
+              print("You decide to sneak away, but the monster sees you sneaking away. They shot you in the back of the head.")
+              print("YOU DIED! THE END!")
+              die(player1)
+            else:
+              print("You stand completely still.")
+              sleep(5)
+              print("The monster looks around and leaves, allowing you and Nico to escape towards the path to the mountains.")
+              print("'Here we go.' You say.")
+              player1.newSkill()
+              nextChapter(player1)###########################
+        elif d =="3":
+          print("You decide to look for something to distract the center's guards with.")
+          sleep(4)
+          e=input("1.Use an apple. 2.Use a molotov. 3.Use a smoke grenade. 4.Trigger the fire alarm.")
+          if e=="1":
+            print("You decide to throw an apple out onto the field. One of the guards come out to investigate it. There are still two guards at the center.")
+            f=input("1.Throw another apple. 2.Attack the guard. 3.Sneak around the guard. 4.Stand still.")
+            if f =="1":
+              print("You throw another apple, but this time the guard sees you and lunges at you. He shoots you in the foot, and the other guards shoot Nico, too.")
+              print("You are unable to fight back. YOU DIED! THE END!")
+              die(player1)
+            elif f =="2":
+              print("You decide to attack the guard, but he was prepared and shot you in the head.")
+              print("YOU DIED! THE END!")
+              die(player1)
+            elif f =="3":
+              print("You decide to sneak around the guard. However, they detected your movement, and shot you in the back of the head. YOU DIED! THE END!")
+              die(player1)
+            else:
+              print("You stand completely still, and the guard goes deeper into the village. The other two guards are worried about him, so they, too, leave the center and follow him into the village.")
+              sleep(4)
+              print("You and Nico sneak right by and make it through the center unscathed.")
+              print("You see the path to the mountains up ahead. 'Here we go.'")
+              player1.newSkill()
+              nextChapter(player1)###########################
+          elif e =="2":
+            print("You decide to throw a molotov out as a distraction. Unfortunately, someone saw where the molotov emerged from and headed straight towards your location with a gun.")
+            sleep(3)
+            print("You didn't expect a surprise attack. YOU DIED! THE END!")
+            die(player1)
+          elif e =="3":
+            print("You decide to throw a smoke grenade. The guards at the checking center seem to be confused by it and two guards emerge form the center to check on it. There is one guard left at the center.")
+            f=input("1.Sneak past both guards. 2.Take out both guards in the smoke. 3.Throw another smoke grenade. 4.Do nothing.")
+            if f =="1":
+              print("You sneak right past the two guards, and you and Nico reach the center. You take out the single guard before they could hit the alarms, and you make it through the center unscathed.")
+              print("You smile at the mountains that lie ahead.")
+              player1.newSkill()
+              nextChapter(player1)###########################
+            elif f =="2":
+              print("You and Nico each tackle a guard in the smoke, and you choke both of them to sleep.")
+              sleep(3)
+              print("You head towards the center and take out the final guard before they could activate the alarms.")
+              print("You smile at the mountains ahead.")
+              player1.newSkill()
+              nextChapter(player1)###########################
+            elif f =="3":
+              print("You try to throw another smoke grenade, but the guards saw the trajectory of where it came from and blindly shot into the smoke, connecting their bullets into you and Nico's bodies. You drop to the ground, and the last thing you remember are the guards' faces hovering over you.")
+              print("YOU DIED! THE END!")
+              die(player1)
+            else:
+              print("You stay still in the smoke, and you fail to realize that the guards have wrapped around the smoke and arrived behind you. You were both shot in the back of the head.")
+              print("YOU DIED! THE END!")
+              die(player1)
+          else:
+            print("You decide to trigger the fire alarm, but it causes a mass panic to all the inhabitants of the village. A panicking monster saw you and raised a shotgun.")
+            print("YOU DIED! THE END!")
+            die(player1)
+        else:
+          print("You decide to visit the nearby buildings for some strong explosives.")
+          sleep(7)
+          print("You come across an armory, but the monsters will be back soon. You have to make a quick choice.")
+          st=time.time()
+          e=input("1.Grab grenades. 2.Grab C4. 3.Grab the steel box. 4.Grab the black wooden box.")
+          rt = time.time()-st
+          if rt<6:
+            if e =="1":
+              print("You grab the grenades and make a run for it. You were not seen.")
+            elif e =="2":
+              print("You quickly grab a load of C4 and make a run for it. No one saw you.")
+            elif e =="3":
+              print("You take the steel box and make a run for it. No one saw you running away.")
+              print("You realize that grenades are inside.")
+            else:
+              print("You grab the black wooden box and make a run for the door. You managed to escape before anyone saw you.")
+              print("You discover that it's just C4 inside.")
+            sleep(5)
+            print("You and Nico arrive at a safe distance away from the checking center.")
+            print("But the question is, where do you throw the explosives?")
+            f=input("1.At the front door. 2.Above the center. 3.In the core of the village. 4.At the farmhouse.")
+            if f =="1":
+              print("You lob your explosives at the front door, and blow the whole place up.")
+              print("Amongst the chaos, the police are deployed and they spotted you and Nico trying to escape.")
+              sleep(3)
+              print("You were sniped in the back of the head.")
+              print("YOU DIED! THE END!")
+              die(player1)
+            elif f =="2":
+              print("You decide to bomb the roof of the center, causing it to collapse on the guards inside.")
+              print("You and Nico capitalize on the chaos and make it through to the other side unseen.")
+              sleep(4)
+              print("You see the path striaght to the mountains up ahead.")
+              player1.newSkill()
+              nextChapter(player1)###########################
+            elif f =="3":
+              print("You decide to bomb the core of the village.")
+              print("The guards tracked where the explosives came from, and found your hiding spot.")
+              print("You were shot before you could react.")
+              print("YOU DIED! THE END!")
+              die(player1)
+            else:
+              print("You decide to bomb the farmhouse.")
+              sleep(3)
+              print("The farmhouse bursts into flames, causing the citizens to panic.")
+              print("Amongst the chaos, the guards are distracted, allowing you and Nico to pass right through the center without them realizing.")
+              sleep(4)
+              print("You reached the path to the mountains unseen. You take a deep breath.")
+              player1.newSkill()
+              nextChapter(player1)###########################
+          else:
+            print("You were caught by the monsters! You had nowhere to run.")
+            print("YOU DIED! THE END!")
+            die(player1)
+      else:
+        print("You have your guns out and continue walking.")
+        sleep(5)
+        print("A monster turns around a corner and yells out as the bullets bury themselves into their thick hide. More monsters are coming. And you just realized that you have nowhere to run. They are everywhere.")
+        print("YOU DIED! THE END!")
+        die(player1)
+    else:
+      print("You decide to head through the pet store, but the animals sytart staring at you as you walk by.")
+      sleep(5)
+      print("A dog barks and the other monsters are alerted of your presence. They throw knives at you and you are dead within seconds.")
+      print("YOU DIED! THE END!")
+      die(player1)
+  elif a =="2":
+    print("You decide to run straight through the main entrance, but unfortunately you were seen by a security camera, and the guards in the nearby area immediately reached the main entrance and intercepted you.")
+    print("YOU DIED! THE END!")
+    die(player1)
+  elif a =="3":
+    print("You try to sneak through the side entrance, but a security camera turns around just as you two were about to enter the village.")
+    sleep(3)
+    print("'Dammit.' You say.")
+    print("A flurry of bullets fly out from the nearby watch towers and bury them into your body. YOU DIED! THE END!")
+  else:
+    print("You and Nico decide to run through the side entrance, and conveiently for you, you manage to run right by whilst the security camera is turned away. You have managed to make it into the village.")
+    sleep(4)
+    print("Everywhere you look, there are monsters.")
+    print("'How do we approach this?' Nico asks you.")
+    b=input("1.Walk by the hospital. 2.Walk through the restaurants district. 3.Go through the businesses district. 4.Find some disguises.")
+    if b =="1":
+      print("You decide to walk by the hospital. Nothing could go wrong, right?")
+      sleep(4)
+      print("A patient sees you from their room at the third floor, and reported you to the authorities.")
+      print("Before you knew it, you have been surrounded by dozens of monsters.")
+      print("They shot you on the spot.")
+      print("YOU DIED! THE END!")
+      die(player1)
+    elif b =="2":
+      print("You decide to walk through the district with the restaurants.")
+      sleep(6)
+      st=time.time()
+      c=input("PRESS [L] to leap behind cover!").title()
+      rt = time.time() - st
+      if c =="L" and rt<2:
+        print("You leap behind cover just when a monster glanced in your direction. You and Nico make sure the coast is clear before leaving your hiding spot.")
+        sleep(5)
+        print("You carefully made it to the other side of the village. With some extra food in your pack, too.")
+        print("'Look!' Nico points ahead.")
+        print("There is a checking station. It is guarded.")
+        d=input("1.You're not afraid of them. 2.Look for a way around them. 3.Find a distraction. 4.Look for some explosives.")
+        if d =="1":
+          print("You decide to brave it and go right for it.")
+          sleep(3)
+          print("You have been spotted by a security camera and within seconds you are drenched in your own blood.")
+          print("YOU DIED! THE END!")
+          die(player1)
+        elif d=="2":
+          print("You decide to loook for a way to go around them.")
+          sleep(4)
+          print("You see a few ways around the checking center, but you don't know which way is the best.")
+          e=input("1.Jump the wall. 2.Swim through the lake. 3.Sneak by the river. 4.Travel through the forest.")
+          if e =="1":
+            print("You decide to jump the wall.")
+            sleep(5)
+            print("You and Nico manage to jump over the wall without being seen.")
+            print("You start to celebrate, but you hear a single monster nearby.")
+            f=input("1.Shoot it. 2.Stealth attack. 3.Sneak away. 4.Stand completely still.")
+            if f =="1":
+              print("You shoot the monster dead, but the gunfire alerts all the monsters nearby. They surround you within seconds and you have nowhere to run. YOU DIED! THE END!")
+              die(player1)
+            elif f =="2":
+              print("You decide to do a stealth attack.")
+              sleep(3)
+              print("You slit the monster's throat. They died.")
+              sleep(4)
+              print("You see the mountains up ahead.")
+              print("Nico takes a deep breath and gestures to the path ahead of you. 'Let's go.'")
+              player1.newSkill()
+              nextChapter(player1)###########################
+            elif f =="3":
+              print("You decide to sneak away, but the monster sees you sneaking away. They shot you in the back of the head.")
+              print("YOU DIED! THE END!")
+              die(player1)
+            else:
+              print("You stand completely still.")
+              sleep(5)
+              print("The monster looks around and leaves, allowing you and Nico to escape towards the path to the mountains.")
+              print("'Here we go.'")
+              player1.newSkill()
+              nextChapter(player1)###########################
+          elif e == "2":
+            print("You decide to swim through the lake.")
+            sleep(3)
+            print("Something just brushed past your leg.")
+            sleep(2)
+            print("You frown. 'Nico, is that you?'")
+            print("'What's what?'")
+            print("You reach down. Something grabs your arm and pulls you under.")
+            sleep(3)
+            print("Something else pulls Nico under too.")
+            print("You never came back up.")
+            print("YOU DIED! THE END!")
+            die(player1)
+          elif e =="3":
+            print("You decide to sneak by the river.")
+            print("A security camera saw you and makes a beeping sound.")
+            sleep(4)
+            print("Grenades rain from the sky and you are blown into bits.")
+            print("YOU DIED! THE END!")
+            die(player1)
+          else:
+            print("You decide to travel through the forest.")
+            sleep(3)
+            print("You reach the forest safely, and start sneaking to the path to the mountains.")
+            print("Nico gestures fo you to stop.")
+            print("You hear a monster walking nearby.")
+            f=input("1.Shoot it. 2.Stealth attack. 3.Sneak away. 4.Stand completely still.")
+            if f =="1":
+              print("You try to shoot the monster, but you missed your shot. They quickly turn around and shoot you back.")
+              print("YOU DIED! THE END!")
+              die(player1)
+            elif f =="2":
+              print("You decide to do a stealth attack.")
+              sleep(3)
+              print("You slit the monster's throat. They died.")
+              sleep(4)
+              print("You see the mountains up ahead.")
+              print("Nico takes a deep breath and gestures to the path ahead of you. 'Let's go.'")
+              player1.newSkill()
+              nextChapter(player1)###########################
+            elif f =="3":
+              print("You decide to sneak away, but the monster sees you sneaking away. They shot you in the back of the head.")
+              print("YOU DIED! THE END!")
+              die(player1)
+            else:
+              print("You stand completely still.")
+              sleep(5)
+              print("The monster looks around and leaves, allowing you and Nico to escape towards the path to the mountains.")
+              print("'Here we go.' You say.")
+              player1.newSkill()
+              nextChapter(player1)###########################
+        elif d =="3":
+          print("You decide to look for something to distract the center's guards with.")
+          sleep(4)
+          e=input("1.Use an apple. 2.Use a molotov. 3.Use a smoke grenade. 4.Trigger the fire alarm.")
+          if e=="1":
+            print("You decide to throw an apple out onto the field. One of the guards come out to investigate it. There are still two guards at the center.")
+            f=input("1.Throw another apple. 2.Attack the guard. 3.Sneak around the guard. 4.Stand still.")
+            if f =="1":
+              print("You throw another apple, but this time the guard sees you and lunges at you. He shoots you in the foot, and the other guards shoot Nico, too.")
+              print("You are unable to fight back. YOU DIED! THE END!")
+              die(player1)
+            elif f =="2":
+              print("You decide to attack the guard, but he was prepared and shot you in the head.")
+              print("YOU DIED! THE END!")
+              die(player1)
+            elif f =="3":
+              print("You decide to sneak around the guard. However, they detected your movement, and shot you in the back of the head. YOU DIED! THE END!")
+              die(player1)
+            else:
+              print("You stand completely still, and the guard goes deeper into the village. The other two guards are worried about him, so they, too, leave the center and follow him into the village.")
+              sleep(4)
+              print("You and Nico sneak right by and make it through the center unscathed.")
+              print("You see the path to the mountains up ahead. 'Here we go.'")
+              player1.newSkill()
+              nextChapter(player1)###########################
+          elif e =="2":
+            print("You decide to throw a molotov out as a distraction. Unfortunately, someone saw where the molotov emerged from and headed straight towards your location with a gun.")
+            sleep(3)
+            print("You didn't expect a surprise attack. YOU DIED! THE END!")
+            die(player1)
+          elif e =="3":
+            print("You decide to throw a smoke grenade. The guards at the checking center seem to be confused by it and two guards emerge form the center to check on it. There is one guard left at the center.")
+            f=input("1.Sneak past both guards. 2.Take out both guards in the smoke. 3.Throw another smoke grenade. 4.Do nothing.")
+            if f =="1":
+              print("You sneak right past the two guards, and you and Nico reach the center. You take out the single guard before they could hit the alarms, and you make it through the center unscathed.")
+              print("You smile at the mountains that lie ahead.")
+              player1.newSkill()
+              nextChapter(player1)###########################
+            elif f =="2":
+              print("You and Nico each tackle a guard in the smoke, and you choke both of them to sleep.")
+              sleep(3)
+              print("You head towards the center and take out the final guard before they could activate the alarms.")
+              print("You smile at the mountains ahead.")
+              player1.newSkill()
+              nextChapter(player1)###########################
+            elif f =="3":
+              print("You try to throw another smoke grenade, but the guards saw the trajectory of where it came from and blindly shot into the smoke, connecting their bullets into you and Nico's bodies. You drop to the ground, and the last thing you remember are the guards' faces hovering over you.")
+              print("YOU DIED! THE END!")
+              die(player1)
+            else:
+              print("You stay still in the smoke, and you fail to realize that the guards have wrapped around the smoke and arrived behind you. You were both shot in the back of the head.")
+              print("YOU DIED! THE END!")
+              die(player1)
+          else:
+            print("You decide to trigger the fire alarm, but it causes a mass panic to all the inhabitants of the village. A panicking monster saw you and raised a shotgun.")
+            print("YOU DIED! THE END!")
+            die(player1)
+        else:
+          print("You decide to visit the nearby buildings for some strong explosives.")
+          sleep(7)
+          print("You come across an armory, but the monsters will be back soon. You have to make a quick choice.")
+          st=time.time()
+          e=input("1.Grab grenades. 2.Grab C4. 3.Grab the steel box. 4.Grab the black wooden box.")
+          rt = time.time()-st
+          if rt<6:
+            if e =="1":
+              print("You grab the grenades and make a run for it. You were not seen.")
+            elif e =="2":
+              print("You quickly grab a load of C4 and make a run for it. No one saw you.")
+            elif e =="3":
+              print("You take the steel box and make a run for it. No one saw you running away.")
+              print("You realize that grenades are inside.")
+            else:
+              print("You grab the black wooden box and make a run for the door. You managed to escape before anyone saw you.")
+              print("You discover that it's just C4 inside.")
+            sleep(5)
+            print("You and Nico arrive at a safe distance away from the checking center.")
+            print("But the question is, where do you throw the explosives?")
+            f=input("1.At the front door. 2.Above the center. 3.In the core of the village. 4.At the farmhouse.")
+            if f =="1":
+              print("You lob your explosives at the front door, and blow the whole place up.")
+              print("Amongst the chaos, the police are deployed and they spotted you and Nico trying to escape.")
+              sleep(3)
+              print("You were sniped in the back of the head.")
+              print("YOU DIED! THE END!")
+              die(player1)
+            elif f =="2":
+              print("You decide to bomb the roof of the center, causing it to collapse on the guards inside.")
+              print("You and Nico capitalize on the chaos and make it through to the other side unseen.")
+              sleep(4)
+              print("You see the path striaght to the mountains up ahead.")
+              player1.newSkill()
+              nextChapter(player1)###########################
+            elif f =="3":
+              print("You decide to bomb the core of the village.")
+              print("The guards tracked where the explosives came from, and found your hiding spot.")
+              print("You were shot before you could react.")
+              print("YOU DIED! THE END!")
+              die(player1)
+            else:
+              print("You decide to bomb the farmhouse.")
+              sleep(3)
+              print("The farmhouse bursts into flames, causing the citizens to panic.")
+              print("Amongst the chaos, the guards are distracted, allowing you and Nico to pass right through the center without them realizing.")
+              sleep(4)
+              print("You reached the path to the mountains unseen. You take a deep breath.")
+              player1.newSkill()
+              nextChapter(player1)###########################
+          else:
+            print("You were caught by the monsters! You had nowhere to run.")
+            print("YOU DIED! THE END!")
+            die(player1)
+      else:
+        print("A monster saw you and yelled out. All the nearby monsters swarm over you in seconds.")
+        print("YOU DIED! THE END!")
+        die(player1)
+    elif b=="3":
+      print("You head through the business district.")
+      sleep(4)
+      print("A bunch of monsters in suits start heading your way. You and Nico stumble into the nearest building.")
+      sleep(3)
+      print("The monsters walk by you, but you and Nico have just realized the building you have entered.")
+      sleep(3)
+      print("The parliament building.")
+      print("No one's noticed you yet, but someone will if you keep standing there.")
+      print("'Should we get back out that way?' Nico asks. 'There might be more monsters passing by.'")
+      print("You frown.")
+      c=input("1.Go up the stairs. 2.Hide out in one of the rooms. 3.Go back through the door you came from. 4.Cause a distraction and escape out the back door.")
+      if c =="1":
+        print("You decide to go up the stairs. No one notices you.")
+        sleep(4)
+        print("You manage to sneak your way through the upper floor and to the building next door, where you made your way back to street level.")
+        sleep(3)
+        print("'Look!' Nico points ahead. There's some sort of checking center. It is guarded.")
+        d=input("1.You're not afraid of them. 2.Look for a way around them. 3.Find a distraction. 4.Look for some explosives.")
+        if d =="1":
+          print("You decide to brave it and go right for it.")
+          sleep(3)
+          print("You have been spotted by a security camera and within seconds you are drenched in your own blood.")
+          print("YOU DIED! THE END!")
+          die(player1)
+        elif d=="2":
+          print("You decide to loook for a way to go around them.")
+          sleep(4)
+          print("You see a few ways around the checking center, but you don't know which way is the best.")
+          e=input("1.Jump the wall. 2.Swim through the lake. 3.Sneak by the river. 4.Travel through the forest.")
+          if e =="1":
+            print("You decide to jump the wall.")
+            sleep(5)
+            print("You and Nico manage to jump over the wall without being seen.")
+            print("You start to celebrate, but you hear a single monster nearby.")
+            f=input("1.Shoot it. 2.Stealth attack. 3.Sneak away. 4.Stand completely still.")
+            if f =="1":
+              print("You shoot the monster dead, but the gunfire alerts all the monsters nearby. They surround you within seconds and you have nowhere to run. YOU DIED! THE END!")
+              die(player1)
+            elif f =="2":
+              print("You decide to do a stealth attack.")
+              sleep(3)
+              print("You slit the monster's throat. They died.")
+              sleep(4)
+              print("You see the mountains up ahead.")
+              print("Nico takes a deep breath and gestures to the path ahead of you. 'Let's go.'")
+              player1.newSkill()
+              nextChapter(player1)###########################
+            elif f =="3":
+              print("You decide to sneak away, but the monster sees you sneaking away. They shot you in the back of the head.")
+              print("YOU DIED! THE END!")
+              die(player1)
+            else:
+              print("You stand completely still.")
+              sleep(5)
+              print("The monster looks around and leaves, allowing you and Nico to escape towards the path to the mountains.")
+              print("'Here we go.'")
+              player1.newSkill()
+              nextChapter(player1)###########################
+          elif e == "2":
+            print("You decide to swim through the lake.")
+            sleep(3)
+            print("Something just brushed past your leg.")
+            sleep(2)
+            print("You frown. 'Nico, is that you?'")
+            print("'What's what?'")
+            print("You reach down. Something grabs your arm and pulls you under.")
+            sleep(3)
+            print("Something else pulls Nico under too.")
+            print("You never came back up.")
+            print("YOU DIED! THE END!")
+            die(player1)
+          elif e =="3":
+            print("You decide to sneak by the river.")
+            print("A security camera saw you and makes a beeping sound.")
+            sleep(4)
+            print("Grenades rain from the sky and you are blown into bits.")
+            print("YOU DIED! THE END!")
+            die(player1)
+          else:
+            print("You decide to travel through the forest.")
+            sleep(3)
+            print("You reach the forest safely, and start sneaking to the path to the mountains.")
+            print("Nico gestures fo you to stop.")
+            print("You hear a monster walking nearby.")
+            f=input("1.Shoot it. 2.Stealth attack. 3.Sneak away. 4.Stand completely still.")
+            if f =="1":
+              print("You try to shoot the monster, but you missed your shot. They quickly turn around and shoot you back.")
+              print("YOU DIED! THE END!")
+              die(player1)
+            elif f =="2":
+              print("You decide to do a stealth attack.")
+              sleep(3)
+              print("You slit the monster's throat. They died.")
+              sleep(4)
+              print("You see the mountains up ahead.")
+              print("Nico takes a deep breath and gestures to the path ahead of you. 'Let's go.'")
+              player1.newSkill()
+              nextChapter(player1)###########################
+            elif f =="3":
+              print("You decide to sneak away, but the monster sees you sneaking away. They shot you in the back of the head.")
+              print("YOU DIED! THE END!")
+              die(player1)
+            else:
+              print("You stand completely still.")
+              sleep(5)
+              print("The monster looks around and leaves, allowing you and Nico to escape towards the path to the mountains.")
+              print("'Here we go.' You say.")
+              player1.newSkill()
+              nextChapter(player1)###########################
+        elif d =="3":
+          print("You decide to look for something to distract the center's guards with.")
+          sleep(4)
+          e=input("1.Use an apple. 2.Use a molotov. 3.Use a smoke grenade. 4.Trigger the fire alarm.")
+          if e=="1":
+            print("You decide to throw an apple out onto the field. One of the guards come out to investigate it. There are still two guards at the center.")
+            f=input("1.Throw another apple. 2.Attack the guard. 3.Sneak around the guard. 4.Stand still.")
+            if f =="1":
+              print("You throw another apple, but this time the guard sees you and lunges at you. He shoots you in the foot, and the other guards shoot Nico, too.")
+              print("You are unable to fight back. YOU DIED! THE END!")
+              die(player1)
+            elif f =="2":
+              print("You decide to attack the guard, but he was prepared and shot you in the head.")
+              print("YOU DIED! THE END!")
+              die(player1)
+            elif f =="3":
+              print("You decide to sneak around the guard. However, they detected your movement, and shot you in the back of the head. YOU DIED! THE END!")
+              die(player1)
+            else:
+              print("You stand completely still, and the guard goes deeper into the village. The other two guards are worried about him, so they, too, leave the center and follow him into the village.")
+              sleep(4)
+              print("You and Nico sneak right by and make it through the center unscathed.")
+              print("You see the path to the mountains up ahead. 'Here we go.'")
+              player1.newSkill()
+              nextChapter(player1)###########################
+          elif e =="2":
+            print("You decide to throw a molotov out as a distraction. Unfortunately, someone saw where the molotov emerged from and headed straight towards your location with a gun.")
+            sleep(3)
+            print("You didn't expect a surprise attack. YOU DIED! THE END!")
+            die(player1)
+          elif e =="3":
+            print("You decide to throw a smoke grenade. The guards at the checking center seem to be confused by it and two guards emerge form the center to check on it. There is one guard left at the center.")
+            f=input("1.Sneak past both guards. 2.Take out both guards in the smoke. 3.Throw another smoke grenade. 4.Do nothing.")
+            if f =="1":
+              print("You sneak right past the two guards, and you and Nico reach the center. You take out the single guard before they could hit the alarms, and you make it through the center unscathed.")
+              print("You smile at the mountains that lie ahead.")
+              player1.newSkill()
+              nextChapter(player1)###########################
+            elif f =="2":
+              print("You and Nico each tackle a guard in the smoke, and you choke both of them to sleep.")
+              sleep(3)
+              print("You head towards the center and take out the final guard before they could activate the alarms.")
+              print("You smile at the mountains ahead.")
+              player1.newSkill()
+              nextChapter(player1)###########################
+            elif f =="3":
+              print("You try to throw another smoke grenade, but the guards saw the trajectory of where it came from and blindly shot into the smoke, connecting their bullets into you and Nico's bodies. You drop to the ground, and the last thing you remember are the guards' faces hovering over you.")
+              print("YOU DIED! THE END!")
+              die(player1)
+            else:
+              print("You stay still in the smoke, and you fail to realize that the guards have wrapped around the smoke and arrived behind you. You were both shot in the back of the head.")
+              print("YOU DIED! THE END!")
+              die(player1)
+          else:
+            print("You decide to trigger the fire alarm, but it causes a mass panic to all the inhabitants of the village. A panicking monster saw you and raised a shotgun.")
+            print("YOU DIED! THE END!")
+            die(player1)
+        else:
+          print("You decide to visit the nearby buildings for some strong explosives.")
+          sleep(7)
+          print("You come across an armory, but the monsters will be back soon. You have to make a quick choice.")
+          st=time.time()
+          e=input("1.Grab grenades. 2.Grab C4. 3.Grab the steel box. 4.Grab the black wooden box.")
+          rt = time.time()-st
+          if rt<6:
+            if e =="1":
+              print("You grab the grenades and make a run for it. You were not seen.")
+            elif e =="2":
+              print("You quickly grab a load of C4 and make a run for it. No one saw you.")
+            elif e =="3":
+              print("You take the steel box and make a run for it. No one saw you running away.")
+              print("You realize that grenades are inside.")
+            else:
+              print("You grab the black wooden box and make a run for the door. You managed to escape before anyone saw you.")
+              print("You discover that it's just C4 inside.")
+            sleep(5)
+            print("You and Nico arrive at a safe distance away from the checking center.")
+            print("But the question is, where do you throw the explosives?")
+            f=input("1.At the front door. 2.Above the center. 3.In the core of the village. 4.At the farmhouse.")
+            if f =="1":
+              print("You lob your explosives at the front door, and blow the whole place up.")
+              print("Amongst the chaos, the police are deployed and they spotted you and Nico trying to escape.")
+              sleep(3)
+              print("You were sniped in the back of the head.")
+              print("YOU DIED! THE END!")
+              die(player1)
+            elif f =="2":
+              print("You decide to bomb the roof of the center, causing it to collapse on the guards inside.")
+              print("You and Nico capitalize on the chaos and make it through to the other side unseen.")
+              sleep(4)
+              print("You see the path striaght to the mountains up ahead.")
+              player1.newSkill()
+              nextChapter(player1)###########################
+            elif f =="3":
+              print("You decide to bomb the core of the village.")
+              print("The guards tracked where the explosives came from, and found your hiding spot.")
+              print("You were shot before you could react.")
+              print("YOU DIED! THE END!")
+              die(player1)
+            else:
+              print("You decide to bomb the farmhouse.")
+              sleep(3)
+              print("The farmhouse bursts into flames, causing the citizens to panic.")
+              print("Amongst the chaos, the guards are distracted, allowing you and Nico to pass right through the center without them realizing.")
+              sleep(4)
+              print("You reached the path to the mountains unseen. You take a deep breath.")
+              player1.newSkill()
+              nextChapter(player1)###########################
+          else:
+            print("You were caught by the monsters! You had nowhere to run.")
+            print("YOU DIED! THE END!")
+            die(player1)
+      elif c =="2":
+        print("You decide to hide in one of the nearby rooms.")
+        print("Conveniently, the room you hid in had a back door exit, so you didn't have to hide in it at all actually.")
+        sleep(3)
+        print("You made your way down the street.")
+        print("Up ahead, you see some sort of checking center.")
+        d=input("1.You're not afraid of them. 2.Look for a way around them. 3.Find a distraction. 4.Look for some explosives.")
+        if d =="1":
+          print("You decide to brave it and go right for it.")
+          sleep(3)
+          print("You have been spotted by a security camera and within seconds you are drenched in your own blood.")
+          print("YOU DIED! THE END!")
+          die(player1)
+        elif d=="2":
+          print("You decide to loook for a way to go around them.")
+          sleep(4)
+          print("You see a few ways around the checking center, but you don't know which way is the best.")
+          e=input("1.Jump the wall. 2.Swim through the lake. 3.Sneak by the river. 4.Travel through the forest.")
+          if e =="1":
+            print("You decide to jump the wall.")
+            sleep(5)
+            print("You and Nico manage to jump over the wall without being seen.")
+            print("You start to celebrate, but you hear a single monster nearby.")
+            f=input("1.Shoot it. 2.Stealth attack. 3.Sneak away. 4.Stand completely still.")
+            if f =="1":
+              print("You shoot the monster dead, but the gunfire alerts all the monsters nearby. They surround you within seconds and you have nowhere to run. YOU DIED! THE END!")
+              die(player1)
+            elif f =="2":
+              print("You decide to do a stealth attack.")
+              sleep(3)
+              print("You slit the monster's throat. They died.")
+              sleep(4)
+              print("You see the mountains up ahead.")
+              print("Nico takes a deep breath and gestures to the path ahead of you. 'Let's go.'")
+              player1.newSkill()
+              nextChapter(player1)###########################
+            elif f =="3":
+              print("You decide to sneak away, but the monster sees you sneaking away. They shot you in the back of the head.")
+              print("YOU DIED! THE END!")
+              die(player1)
+            else:
+              print("You stand completely still.")
+              sleep(5)
+              print("The monster looks around and leaves, allowing you and Nico to escape towards the path to the mountains.")
+              print("'Here we go.'")
+              player1.newSkill()
+              nextChapter(player1)###########################
+          elif e == "2":
+            print("You decide to swim through the lake.")
+            sleep(3)
+            print("Something just brushed past your leg.")
+            sleep(2)
+            print("You frown. 'Nico, is that you?'")
+            print("'What's what?'")
+            print("You reach down. Something grabs your arm and pulls you under.")
+            sleep(3)
+            print("Something else pulls Nico under too.")
+            print("You never came back up.")
+            print("YOU DIED! THE END!")
+            die(player1)
+          elif e =="3":
+            print("You decide to sneak by the river.")
+            print("A security camera saw you and makes a beeping sound.")
+            sleep(4)
+            print("Grenades rain from the sky and you are blown into bits.")
+            print("YOU DIED! THE END!")
+            die(player1)
+          else:
+            print("You decide to travel through the forest.")
+            sleep(3)
+            print("You reach the forest safely, and start sneaking to the path to the mountains.")
+            print("Nico gestures fo you to stop.")
+            print("You hear a monster walking nearby.")
+            f=input("1.Shoot it. 2.Stealth attack. 3.Sneak away. 4.Stand completely still.")
+            if f =="1":
+              print("You try to shoot the monster, but you missed your shot. They quickly turn around and shoot you back.")
+              print("YOU DIED! THE END!")
+              die(player1)
+            elif f =="2":
+              print("You decide to do a stealth attack.")
+              sleep(3)
+              print("You slit the monster's throat. They died.")
+              sleep(4)
+              print("You see the mountains up ahead.")
+              print("Nico takes a deep breath and gestures to the path ahead of you. 'Let's go.'")
+              player1.newSkill()
+              nextChapter(player1)###########################
+            elif f =="3":
+              print("You decide to sneak away, but the monster sees you sneaking away. They shot you in the back of the head.")
+              print("YOU DIED! THE END!")
+              die(player1)
+            else:
+              print("You stand completely still.")
+              sleep(5)
+              print("The monster looks around and leaves, allowing you and Nico to escape towards the path to the mountains.")
+              print("'Here we go.' You say.")
+              player1.newSkill()
+              nextChapter(player1)###########################
+        elif d =="3":
+          print("You decide to look for something to distract the center's guards with.")
+          sleep(4)
+          e=input("1.Use an apple. 2.Use a molotov. 3.Use a smoke grenade. 4.Trigger the fire alarm.")
+          if e=="1":
+            print("You decide to throw an apple out onto the field. One of the guards come out to investigate it. There are still two guards at the center.")
+            f=input("1.Throw another apple. 2.Attack the guard. 3.Sneak around the guard. 4.Stand still.")
+            if f =="1":
+              print("You throw another apple, but this time the guard sees you and lunges at you. He shoots you in the foot, and the other guards shoot Nico, too.")
+              print("You are unable to fight back. YOU DIED! THE END!")
+              die(player1)
+            elif f =="2":
+              print("You decide to attack the guard, but he was prepared and shot you in the head.")
+              print("YOU DIED! THE END!")
+              die(player1)
+            elif f =="3":
+              print("You decide to sneak around the guard. However, they detected your movement, and shot you in the back of the head. YOU DIED! THE END!")
+              die(player1)
+            else:
+              print("You stand completely still, and the guard goes deeper into the village. The other two guards are worried about him, so they, too, leave the center and follow him into the village.")
+              sleep(4)
+              print("You and Nico sneak right by and make it through the center unscathed.")
+              print("You see the path to the mountains up ahead. 'Here we go.'")
+              player1.newSkill()
+              nextChapter(player1)###########################
+          elif e =="2":
+            print("You decide to throw a molotov out as a distraction. Unfortunately, someone saw where the molotov emerged from and headed straight towards your location with a gun.")
+            sleep(3)
+            print("You didn't expect a surprise attack. YOU DIED! THE END!")
+            die(player1)
+          elif e =="3":
+            print("You decide to throw a smoke grenade. The guards at the checking center seem to be confused by it and two guards emerge form the center to check on it. There is one guard left at the center.")
+            f=input("1.Sneak past both guards. 2.Take out both guards in the smoke. 3.Throw another smoke grenade. 4.Do nothing.")
+            if f =="1":
+              print("You sneak right past the two guards, and you and Nico reach the center. You take out the single guard before they could hit the alarms, and you make it through the center unscathed.")
+              print("You smile at the mountains that lie ahead.")
+              player1.newSkill()
+              nextChapter(player1)###########################
+            elif f =="2":
+              print("You and Nico each tackle a guard in the smoke, and you choke both of them to sleep.")
+              sleep(3)
+              print("You head towards the center and take out the final guard before they could activate the alarms.")
+              print("You smile at the mountains ahead.")
+              player1.newSkill()
+              nextChapter(player1)###########################
+            elif f =="3":
+              print("You try to throw another smoke grenade, but the guards saw the trajectory of where it came from and blindly shot into the smoke, connecting their bullets into you and Nico's bodies. You drop to the ground, and the last thing you remember are the guards' faces hovering over you.")
+              print("YOU DIED! THE END!")
+              die(player1)
+            else:
+              print("You stay still in the smoke, and you fail to realize that the guards have wrapped around the smoke and arrived behind you. You were both shot in the back of the head.")
+              print("YOU DIED! THE END!")
+              die(player1)
+          else:
+            print("You decide to trigger the fire alarm, but it causes a mass panic to all the inhabitants of the village. A panicking monster saw you and raised a shotgun.")
+            print("YOU DIED! THE END!")
+            die(player1)
+        else:
+          print("You decide to visit the nearby buildings for some strong explosives.")
+          sleep(7)
+          print("You come across an armory, but the monsters will be back soon. You have to make a quick choice.")
+          st=time.time()
+          e=input("1.Grab grenades. 2.Grab C4. 3.Grab the steel box. 4.Grab the black wooden box.")
+          rt = time.time()-st
+          if rt<6:
+            if e =="1":
+              print("You grab the grenades and make a run for it. You were not seen.")
+            elif e =="2":
+              print("You quickly grab a load of C4 and make a run for it. No one saw you.")
+            elif e =="3":
+              print("You take the steel box and make a run for it. No one saw you running away.")
+              print("You realize that grenades are inside.")
+            else:
+              print("You grab the black wooden box and make a run for the door. You managed to escape before anyone saw you.")
+              print("You discover that it's just C4 inside.")
+            sleep(5)
+            print("You and Nico arrive at a safe distance away from the checking center.")
+            print("But the question is, where do you throw the explosives?")
+            f=input("1.At the front door. 2.Above the center. 3.In the core of the village. 4.At the farmhouse.")
+            if f =="1":
+              print("You lob your explosives at the front door, and blow the whole place up.")
+              print("Amongst the chaos, the police are deployed and they spotted you and Nico trying to escape.")
+              sleep(3)
+              print("You were sniped in the back of the head.")
+              print("YOU DIED! THE END!")
+              die(player1)
+            elif f =="2":
+              print("You decide to bomb the roof of the center, causing it to collapse on the guards inside.")
+              print("You and Nico capitalize on the chaos and make it through to the other side unseen.")
+              sleep(4)
+              print("You see the path striaght to the mountains up ahead.")
+              player1.newSkill()
+              nextChapter(player1)###########################
+            elif f =="3":
+              print("You decide to bomb the core of the village.")
+              print("The guards tracked where the explosives came from, and found your hiding spot.")
+              print("You were shot before you could react.")
+              print("YOU DIED! THE END!")
+              die(player1)
+            else:
+              print("You decide to bomb the farmhouse.")
+              sleep(3)
+              print("The farmhouse bursts into flames, causing the citizens to panic.")
+              print("Amongst the chaos, the guards are distracted, allowing you and Nico to pass right through the center without them realizing.")
+              sleep(4)
+              print("You reached the path to the mountains unseen. You take a deep breath.")
+              player1.newSkill()
+              nextChapter(player1)###########################
+          else:
+            print("You were caught by the monsters! You had nowhere to run.")
+            print("YOU DIED! THE END!")
+            die(player1)
+      elif c =="3":
+        print("You decide to go back the way you came.")
+        sleep(3)
+        print("As Nico expected, the street is now bustling with monsters, and inevitably, one of them saw you and alerted the others.")
+        print("They took turns stabbing you. YOU DIED! THE END!")
+        die(player1)
+      else:
+        print("You rummage through your pack to find something to cause a distraction with, but it distracted you from the fact that you are in plain sight. The monsters pull out their guns and kill you immediately. YOU DIED! THE END!")
+        die(player1)
+    else:
+      print("You decide to look for some disguises. However, a security camera catches you and Nico.")
+      sleep(3)
+      print("Within seconds, you are surrounded by monsters. 'Uh oh.' You manage to say before your body is torn up.")
+      print("YOU DIED! THE END!")
+      die(player1)

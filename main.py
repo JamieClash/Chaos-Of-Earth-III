@@ -125,7 +125,9 @@ def skill():
     player1 = player("combat")
   player1.newSkill()
 
-print("Welcome to Chaos of Earth III, the final game in the Chaos of Earth trilogy.\n")
+player.startGame()
+time.sleep(1)
+print("Welcome to Chaos of Earth III, the third game in the Chaos of Earth franchise.\n")
 tut = input("Would you like to run the quick time event tutorial? [Yes/No]").title()
 if tut == "No":
   setup()

@@ -14,16 +14,16 @@ def brokenOcean(player1):
 
 #SKILL TIER 2
   
-def caves1(player1):
+def caves1(player1):#Used for Alone Caves
   pass
 
-def caves2(player1):
+def caves2(player1):#Used for DreamTeam/Stranger caves
   pass
 
-def caves3(player1):
+def caves3(player1):#Used for Ranger Caves
   pass
 
-def caves4(player1):
+def cavesVillage(player1):
   pass
 
 def mountains1(player1):
