@@ -5,7 +5,7 @@ from player import *
 
 '''
 player1.newSkill()
-nextChapter(player1)##############
+nextChapter(player1)#############
 '''
 
 def die(player1):
