@@ -20,15 +20,3 @@ def snowyMountains3(player1):
 
 def snowyMountains4(player1):
   pass
-
-def iceCaverns1(player1):
-  pass
-
-def iceCaverns2(player1):
-  pass
-
-def iceCaverns3(player1):
-  pass
-
-def iceCaverns4(player1):
-  pass
