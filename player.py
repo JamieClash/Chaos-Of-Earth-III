@@ -57,8 +57,8 @@ class player():
           else:
             print("You haven't unlocked stage one yet!")
       elif self.path == "survival":
-        print("1.Climb mountains - "+str(self.s2))
-        print("2.[Climb icy mountains] - "+str(self.s22))
+        print("1.Climb mountains efficiently - "+str(self.s2))
+        print("2.[Climb icy mountains efficiently] - "+str(self.s22))
         print("3.Temperature endurance - "+str(self.s3))
         print("4.[Quick traversal speed] - "+str(self.s32))
         upgrade = input(">")

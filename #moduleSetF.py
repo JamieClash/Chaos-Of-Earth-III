@@ -3,6 +3,9 @@ import time
 from time import sleep
 from player import *
 
+#player1.newSkill()
+#nextChapter(player1)##############
+
 def die(player1):
   pass
 
